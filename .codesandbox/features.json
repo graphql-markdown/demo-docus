@@ -1,0 +1,6 @@
+{
+    "vue": {
+        "takeOverMode": false,
+        "inspector": true
+    }
+}

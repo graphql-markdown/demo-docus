@@ -1,0 +1,23 @@
+{
+  "name": "demo-docus",
+  "private": true,
+  "version": "1.36.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "npx serve .output/public",
+    "doc": "gqlmd graphql-to-doc",
+    "gqlmd": "gqlmd"
+  },
+  "dependencies": {
+    "@graphql-markdown/cli": "^1.0.2",
+    "@graphql-markdown/formatters": "^1.1.0",
+    "@graphql-tools/url-loader": "^9.0.4",
+    "better-sqlite3": "^12.11.1",
+    "docus": "^5.13.0",
+    "graphql": "^16.13.2",
+    "nuxt": "^4.4.8"
+  }
+}
