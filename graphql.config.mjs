@@ -14,6 +14,7 @@ export default {
       printTypeOptions: {
         typeBadges: true,
       },
+      formatter: `${__dirname}/lib/docus-formatter.mjs`,
       docOptions: {
         sectionHeaderId: false,
       },
