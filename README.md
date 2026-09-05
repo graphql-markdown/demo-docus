@@ -29,7 +29,9 @@ Inside your GraphQL-Markdown + [Docus](https://docus.dev/) project, you'll see t
 
 The GraphQL schema documentation is generated into `content/docs`, which [Nuxt Content](https://content.nuxt.com/) picks up as the `/docs` section of the site. `content/index.md` is the landing page.
 
-`lib/docus-formatter.mjs` is a small formatter add-on: it writes a [`.navigation.yml`](https://docus.dev/en/concepts/customization#custom-icons) beside each generated category so the sidebar sections get a title and an icon. Everything else uses the GraphQL-Markdown defaults, styled for Docus in `app/app.css`.
+`lib/docus-formatter.mjs` is a small formatter add-on: it writes a [`.navigation.yml`](https://docus.dev/en/concepts/customization#custom-icons) beside each generated category so the sidebar sections get a title and an icon. Everything else uses the GraphQL-Markdown defaults, whose HTML output is styled for Docus in `app/app.css`.
+
+`nuxt.config.ts` adds `graphql` to the Shiki languages Docus preloads — without it the schema code blocks render unhighlighted — and reads the site base URL from `NUXT_APP_BASE_URL`.
 
 ## 🧞 Commands
 
@@ -41,8 +43,9 @@ All commands are run from the root of the project, from a terminal:
 | `npx gqlmd graphql-to-doc` | Generate documentation from GraphQL schema          |
 | `npm run doc`              | Alias of `npx gqlmd graphql-to-doc`                 |
 | `npm run dev`              | Starts local dev server at `localhost:3000`         |
+| `npm run build`            | Build the Nuxt server bundle to `./.output`         |
 | `npm run generate`         | Build your static site to `./.output/public`        |
-| `npm run preview`          | Preview the built site locally                      |
+| `npm run preview`          | Serve the static site from `./.output/public`       |
 
 ## 🏎️ Quick start
 
@@ -55,6 +58,10 @@ npm run dev
 ```
 
 > 🧑‍🚀 **Edit `graphql.config.mjs` to try with your own GraphQL schema.**
+
+## 🚢 Deployment
+
+The `Deploy to GitHub Pages` workflow generates the documentation, builds the static site and publishes `./.output/public` to the `gh-pages` branch. It is run manually from the Actions tab, and sets `NUXT_APP_BASE_URL=/demo-docus/` so assets and links resolve under the Pages subpath — leave it unset to build for the root.
 
 ## 👀 Want to learn more?
 
