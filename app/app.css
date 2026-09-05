@@ -13,18 +13,34 @@
   vertical-align: middle;
 }
 
+/*
+ * The entity heading links to `#`: with `sectionHeaderId` off there is no
+ * anchor to jump to, so it is a label rather than a link and must not react to
+ * the pointer. Restores what Nuxt UI's `hover:[&>code]:*` prose-link rules
+ * change, and leaves the type links beside it — which do navigate — alone.
+ */
+a[href="#"] {
+  cursor: default;
+}
+
+/* Dashed borders are the theme's marker for a code link; these do not link. */
+a[href="#"] > code {
+  border-style: solid;
+}
+
+a[href="#"]:hover {
+  border-bottom-color: transparent;
+}
+
+a[href="#"]:hover > code {
+  border-color: var(--ui-border-muted);
+  color: var(--ui-text-highlighted);
+}
+
 .gqlmd-mdx-bullet {
   color: var(--ui-text-dimmed);
   font-size: 0.6rem;
   vertical-align: middle;
-}
-
-.gqlmd-mdx-entity-parent {
-  color: var(--ui-text-muted);
-}
-
-.gqlmd-mdx-entity-name {
-  color: var(--ui-text-highlighted);
 }
 
 .gqlmd-mdx-admonition-fieldset {
