@@ -29,7 +29,7 @@ Inside your GraphQL-Markdown + [Docus](https://docus.dev/) project, you'll see t
 
 The GraphQL schema documentation is generated into `content/docs`, which [Nuxt Content](https://content.nuxt.com/) picks up as the `/docs` section of the site. `content/index.md` is the landing page.
 
-`lib/docus-formatter.mjs` is a small formatter add-on: it writes a [`.navigation.yml`](https://docus.dev/en/concepts/customization#custom-icons) beside each generated category so the sidebar sections get a title and an icon. Everything else uses the GraphQL-Markdown defaults, whose HTML output is styled for Docus in `app/app.css`.
+`lib/docus-formatter.mjs` is a small formatter add-on. It writes a [`.navigation.yml`](https://docus.dev/en/concepts/customization#custom-icons) beside each generated category so the sidebar sections get a title and an icon, and renders type badges and deprecation notices as [Nuxt UI components](https://docus.dev/en/essentials/components) — a `Badge` and a collapsed `Accordion` — instead of the plain HTML the defaults emit. What is left of that HTML is styled for Docus in `app/app.css`.
 
 `nuxt.config.ts` adds `graphql` to the Shiki languages Docus preloads — without it the schema code blocks render unhighlighted — and reads the site base URL from `NUXT_APP_BASE_URL`.
 
