@@ -30,6 +30,9 @@ jobs:
       - name: Build
         run: npm run generate
         env:
+          # The site is served from a subpath on GitHub Pages, so assets and
+          # internal links need the prefix. Unset locally, where it serves
+          # from the root.
           NUXT_APP_BASE_URL: /demo-docus/
 
       - name: Configure git
