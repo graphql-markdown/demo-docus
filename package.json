@@ -12,12 +12,12 @@
     "gqlmd": "gqlmd"
   },
   "dependencies": {
-    "@graphql-markdown/cli": "^1.0.2",
-    "@graphql-markdown/formatters": "^1.1.0",
-    "@graphql-tools/url-loader": "^9.0.4",
+    "@graphql-markdown/cli": "^1.1.0",
+    "@graphql-markdown/formatters": "^1.1.1",
+    "@graphql-tools/url-loader": "^9.1.10",
     "better-sqlite3": "^12.11.1",
     "docus": "^5.13.0",
-    "graphql": "^16.13.2",
-    "nuxt": "^4.4.8"
+    "graphql": "^16.14.2",
+    "nuxt": "^4.5.2"
   }
 }
