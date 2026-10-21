@@ -16,8 +16,8 @@
     "@graphql-markdown/formatters": "^1.2.0",
     "@graphql-tools/url-loader": "^9.1.12",
     "better-sqlite3": "^13.0.3",
-    "docus": "^5.14.0",
+    "docus": "^5.15.0",
     "graphql": "^16.14.2",
-    "nuxt": "^4.6.1"
+    "nuxt": "^4.6.2"
   }
 }
