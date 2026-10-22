@@ -17,7 +17,7 @@
     "@graphql-tools/url-loader": "^9.1.14",
     "better-sqlite3": "^13.0.3",
     "docus": "^5.15.0",
-    "graphql": "^16.14.2",
+    "graphql": "^17.0.2",
     "nuxt": "^4.6.2"
   }
 }
