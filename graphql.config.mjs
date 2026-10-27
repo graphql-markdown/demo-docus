@@ -19,6 +19,7 @@ export default {
         sectionHeaderId: false,
       },
       homepage: "./assets/index.md",
+      telemetry: false,
     },
   },
 };
