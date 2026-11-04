@@ -12,9 +12,9 @@
     "gqlmd": "gqlmd"
   },
   "dependencies": {
-    "@graphql-markdown/cli": "^1.2.0",
+    "@graphql-markdown/cli": "^1.2.1",
     "@graphql-markdown/formatters": "^1.2.0",
-    "@graphql-tools/url-loader": "^10.0.6",
+    "@graphql-tools/url-loader": "^10.0.8",
     "better-sqlite3": "^13.0.3",
     "docus": "^5.15.0",
     "graphql": "^17.0.2",
