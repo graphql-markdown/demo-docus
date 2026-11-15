@@ -1,3 +1,8 @@
+---
+title: "StudioSort"
+description: "Studio sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/studio-sort"
+---
 # StudioSort
 
 > Studio sort enums
@@ -34,8 +39,13 @@ enum StudioSort {
 
 ### Member Of
 
-[`Studio`](/docs/operations/queries/studio)  <badge color="neutral" size="sm" variant="subtle">
+[`Studio`](https://graphql-markdown.dev/docs/operations/queries/studio)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

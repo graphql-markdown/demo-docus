@@ -1,3 +1,8 @@
+---
+title: "Favourites"
+description: "User's favourite anime, manga, characters, staff & studios"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/favourites"
+---
 # Favourites
 
 > User's favourite anime, manga, characters, staff & studios
@@ -31,69 +36,69 @@ type Favourites {
 
 ### Fields
 
-#### [`Favourites`.`anime`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaConnection`](/docs/types/objects/media-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Favourites`.`anime`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaConnection`](https://graphql-markdown.dev/docs/types/objects/media-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Favourite anime
 
-##### [`Favourites.anime`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.anime`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The page number
 
-##### [`Favourites.anime`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.anime`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of entries per page, max 25
 
-#### [`Favourites`.`manga`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaConnection`](/docs/types/objects/media-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Favourites`.`manga`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaConnection`](https://graphql-markdown.dev/docs/types/objects/media-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Favourite manga
 
-##### [`Favourites.manga`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.manga`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The page number
 
-##### [`Favourites.manga`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.manga`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of entries per page, max 25
 
-#### [`Favourites`.`characters`](#)<span className="gqlmd-mdx-bullet">●</span>[`CharacterConnection`](/docs/types/objects/character-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Favourites`.`characters`](#)<span className="gqlmd-mdx-bullet">●</span>[`CharacterConnection`](https://graphql-markdown.dev/docs/types/objects/character-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Favourite characters
 
-##### [`Favourites.characters`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.characters`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The page number
 
-##### [`Favourites.characters`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.characters`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of entries per page, max 25
 
-#### [`Favourites`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`StaffConnection`](/docs/types/objects/staff-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Favourites`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`StaffConnection`](https://graphql-markdown.dev/docs/types/objects/staff-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Favourite staff
 
-##### [`Favourites.staff`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.staff`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The page number
 
-##### [`Favourites.staff`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.staff`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of entries per page, max 25
 
-#### [`Favourites`.`studios`](#)<span className="gqlmd-mdx-bullet">●</span>[`StudioConnection`](/docs/types/objects/studio-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Favourites`.`studios`](#)<span className="gqlmd-mdx-bullet">●</span>[`StudioConnection`](https://graphql-markdown.dev/docs/types/objects/studio-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Favourite studios
 
-##### [`Favourites.studios`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.studios`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The page number
 
-##### [`Favourites.studios`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Favourites.studios`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of entries per page, max 25
 
 ### Returned By
 
-[`ToggleFavourite`](/docs/operations/mutations/toggle-favourite)  <badge color="neutral" size="sm" variant="subtle">
+[`ToggleFavourite`](https://graphql-markdown.dev/docs/operations/mutations/toggle-favourite)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -105,7 +110,7 @@ mutation
 
 </span>
 
-[`UpdateFavouriteOrder`](/docs/operations/mutations/update-favourite-order)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateFavouriteOrder`](https://graphql-markdown.dev/docs/operations/mutations/update-favourite-order)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -115,8 +120,13 @@ mutation
 
 ### Member Of
 
-[`User`](/docs/types/objects/user)  <badge color="neutral" size="sm" variant="subtle">
+[`User`](https://graphql-markdown.dev/docs/types/objects/user)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

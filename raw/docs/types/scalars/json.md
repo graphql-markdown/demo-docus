@@ -1,6 +1,8 @@
+---
+title: "Json"
+canonical_url: "https://graphql-markdown.dev/docs/types/scalars/json"
+---
 # Json
-
-> 
 
 ```graphql
 scalar Json
@@ -8,7 +10,7 @@ scalar Json
 
 ### Returned By
 
-[`UpdateAniChartHighlights`](/docs/operations/mutations/update-ani-chart-highlights)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateAniChartHighlights`](https://graphql-markdown.dev/docs/operations/mutations/update-ani-chart-highlights)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -20,7 +22,7 @@ mutation
 
 </span>
 
-[`UpdateAniChartSettings`](/docs/operations/mutations/update-ani-chart-settings)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateAniChartSettings`](https://graphql-markdown.dev/docs/operations/mutations/update-ani-chart-settings)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -30,7 +32,7 @@ mutation
 
 ### Member Of
 
-[`AniChartUser`](/docs/types/objects/ani-chart-user)  <badge color="neutral" size="sm" variant="subtle">
+[`AniChartUser`](https://graphql-markdown.dev/docs/types/objects/ani-chart-user)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -42,7 +44,7 @@ object
 
 </span>
 
-[`MediaList`](/docs/types/objects/media-list)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaList`](https://graphql-markdown.dev/docs/types/objects/media-list)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -54,7 +56,7 @@ object
 
 </span>
 
-[`MediaListOptions`](/docs/types/objects/media-list-options)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListOptions`](https://graphql-markdown.dev/docs/types/objects/media-list-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -66,7 +68,7 @@ object
 
 </span>
 
-[`MediaListTypeOptions`](/docs/types/objects/media-list-type-options)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListTypeOptions`](https://graphql-markdown.dev/docs/types/objects/media-list-type-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -78,7 +80,7 @@ object
 
 </span>
 
-[`MediaSubmission`](/docs/types/objects/media-submission)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmission`](https://graphql-markdown.dev/docs/types/objects/media-submission)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -90,7 +92,7 @@ object
 
 </span>
 
-[`RevisionHistory`](/docs/types/objects/revision-history)  <badge color="neutral" size="sm" variant="subtle">
+[`RevisionHistory`](https://graphql-markdown.dev/docs/types/objects/revision-history)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -102,7 +104,7 @@ object
 
 </span>
 
-[`ThreadComment`](/docs/types/objects/thread-comment)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadComment`](https://graphql-markdown.dev/docs/types/objects/thread-comment)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -114,7 +116,7 @@ object
 
 </span>
 
-[`User`](/docs/types/objects/user)  <badge color="neutral" size="sm" variant="subtle">
+[`User`](https://graphql-markdown.dev/docs/types/objects/user)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -126,8 +128,13 @@ object
 
 </span>
 
-[`UserModData`](/docs/types/objects/user-mod-data)  <badge color="neutral" size="sm" variant="subtle">
+[`UserModData`](https://graphql-markdown.dev/docs/types/objects/user-mod-data)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "ModRole"
+description: "Mod role enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/mod-role"
+---
 # ModRole
 
 > Mod role enums
@@ -88,8 +93,13 @@ A staff data moderator
 
 ### Member Of
 
-[`User`](/docs/types/objects/user)  <badge color="neutral" size="sm" variant="subtle">
+[`User`](https://graphql-markdown.dev/docs/types/objects/user)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

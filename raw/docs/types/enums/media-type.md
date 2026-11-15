@@ -1,3 +1,8 @@
+---
+title: "MediaType"
+description: "Media type enum, anime or manga."
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-type"
+---
 # MediaType
 
 > Media type enum, anime or manga.
@@ -23,7 +28,7 @@ Asian comic
 
 ### Member Of
 
-[`DeleteCustomList`](/docs/operations/mutations/delete-custom-list)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteCustomList`](https://graphql-markdown.dev/docs/operations/mutations/delete-custom-list)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -35,7 +40,7 @@ mutation
 
 </span>
 
-[`Media`](/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -47,7 +52,7 @@ query
 
 </span>
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -59,7 +64,7 @@ object
 
 </span>
 
-[`MediaList`](/docs/operations/queries/media-list)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaList`](https://graphql-markdown.dev/docs/operations/queries/media-list)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -71,7 +76,7 @@ query
 
 </span>
 
-[`MediaListCollection`](/docs/operations/queries/media-list-collection)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListCollection`](https://graphql-markdown.dev/docs/operations/queries/media-list-collection)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -83,7 +88,7 @@ query
 
 </span>
 
-[`Review`](/docs/operations/queries/review)  <badge color="neutral" size="sm" variant="subtle">
+[`Review`](https://graphql-markdown.dev/docs/operations/queries/review)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -95,8 +100,13 @@ query
 
 </span>
 
-[`Review`](/docs/types/objects/review)  <badge color="neutral" size="sm" variant="subtle">
+[`Review`](https://graphql-markdown.dev/docs/types/objects/review)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

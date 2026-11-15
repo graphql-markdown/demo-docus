@@ -1,3 +1,8 @@
+---
+title: "ModActionType"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/mod-action-type"
+---
 # ModActionType
 
 > No description
@@ -37,8 +42,13 @@ enum ModActionType {
 
 ### Member Of
 
-[`ModAction`](/docs/types/objects/mod-action)  <badge color="neutral" size="sm" variant="subtle">
+[`ModAction`](https://graphql-markdown.dev/docs/types/objects/mod-action)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

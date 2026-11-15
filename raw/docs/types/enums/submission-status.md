@@ -1,3 +1,8 @@
+---
+title: "SubmissionStatus"
+description: "Submission status"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/submission-status"
+---
 # SubmissionStatus
 
 > Submission status
@@ -25,7 +30,7 @@ enum SubmissionStatus {
 
 ### Member Of
 
-[`CharacterSubmission`](/docs/types/objects/character-submission)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterSubmission`](https://graphql-markdown.dev/docs/types/objects/character-submission)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -37,7 +42,7 @@ object
 
 </span>
 
-[`MediaSubmission`](/docs/types/objects/media-submission)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmission`](https://graphql-markdown.dev/docs/types/objects/media-submission)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -49,8 +54,13 @@ object
 
 </span>
 
-[`StaffSubmission`](/docs/types/objects/staff-submission)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffSubmission`](https://graphql-markdown.dev/docs/types/objects/staff-submission)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

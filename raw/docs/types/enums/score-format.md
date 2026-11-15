@@ -1,3 +1,8 @@
+---
+title: "ScoreFormat"
+description: "Media list scoring type"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/score-format"
+---
 # ScoreFormat
 
 > Media list scoring type
@@ -38,7 +43,7 @@ An integer from 0-3. Should be represented in Smileys. 0 => No Score, 1 => :(, 2
 
 ### Member Of
 
-[`MediaListOptions`](/docs/types/objects/media-list-options)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListOptions`](https://graphql-markdown.dev/docs/types/objects/media-list-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -50,8 +55,13 @@ object
 
 </span>
 
-[`UpdateUser`](/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateUser`](https://graphql-markdown.dev/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

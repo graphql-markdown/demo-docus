@@ -1,3 +1,8 @@
+---
+title: "RecommendationRating"
+description: "Recommendation rating enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/recommendation-rating"
+---
 # RecommendationRating
 
 > Recommendation rating enums
@@ -22,7 +27,7 @@ enum RecommendationRating {
 
 ### Member Of
 
-[`Recommendation`](/docs/types/objects/recommendation)  <badge color="neutral" size="sm" variant="subtle">
+[`Recommendation`](https://graphql-markdown.dev/docs/types/objects/recommendation)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -34,8 +39,13 @@ object
 
 </span>
 
-[`SaveRecommendation`](/docs/operations/mutations/save-recommendation)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveRecommendation`](https://graphql-markdown.dev/docs/operations/mutations/save-recommendation)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

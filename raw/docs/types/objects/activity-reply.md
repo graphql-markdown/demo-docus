@@ -1,3 +1,8 @@
+---
+title: "ActivityReply"
+description: "Replay to an activity item"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/activity-reply"
+---
 # ActivityReply
 
 > Replay to an activity item
@@ -22,49 +27,49 @@ type ActivityReply {
 
 ### Fields
 
-#### [`ActivityReply`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ActivityReply`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the reply
 
-#### [`ActivityReply`.`userId`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ActivityReply`.`userId`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the replies creator
 
-#### [`ActivityReply`.`activityId`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ActivityReply`.`activityId`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the parent activity
 
-#### [`ActivityReply`.`text`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ActivityReply`.`text`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The reply text
 
-##### [`ActivityReply.text`.`asHtml`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`ActivityReply.text`.`asHtml`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Return the string in pre-parsed html instead of markdown
 
-#### [`ActivityReply`.`likeCount`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ActivityReply`.`likeCount`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of likes the reply has
 
-#### [`ActivityReply`.`isLiked`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ActivityReply`.`isLiked`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 If the currently authenticated user liked the reply
 
-#### [`ActivityReply`.`createdAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ActivityReply`.`createdAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The time the reply was created at
 
-#### [`ActivityReply`.`user`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`ActivityReply`.`user`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](https://graphql-markdown.dev/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The user who created reply
 
-#### [`ActivityReply`.`likes`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`ActivityReply`.`likes`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](https://graphql-markdown.dev/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The users who liked the reply
 
 ### Returned By
 
-[`ActivityReply`](/docs/operations/queries/activity-reply)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReply`](https://graphql-markdown.dev/docs/operations/queries/activity-reply)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -76,7 +81,7 @@ query
 
 </span>
 
-[`SaveActivityReply`](/docs/operations/mutations/save-activity-reply)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveActivityReply`](https://graphql-markdown.dev/docs/operations/mutations/save-activity-reply)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -86,7 +91,7 @@ mutation
 
 ### Member Of
 
-[`InternalPage`](/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
+[`InternalPage`](https://graphql-markdown.dev/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -98,7 +103,7 @@ object
 
 </span>
 
-[`ListActivity`](/docs/types/objects/list-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`ListActivity`](https://graphql-markdown.dev/docs/types/objects/list-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -110,7 +115,7 @@ object
 
 </span>
 
-[`MessageActivity`](/docs/types/objects/message-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`MessageActivity`](https://graphql-markdown.dev/docs/types/objects/message-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -122,7 +127,7 @@ object
 
 </span>
 
-[`Page`](/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
+[`Page`](https://graphql-markdown.dev/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -134,7 +139,7 @@ object
 
 </span>
 
-[`TextActivity`](/docs/types/objects/text-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`TextActivity`](https://graphql-markdown.dev/docs/types/objects/text-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -144,8 +149,13 @@ object
 
 ### Implemented By
 
-[`LikeableUnion`](/docs/types/unions/likeable-union)  <badge color="neutral" size="sm" variant="subtle">
+[`LikeableUnion`](https://graphql-markdown.dev/docs/types/unions/likeable-union)  <badge color="neutral" size="sm" variant="subtle">
 
 union
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

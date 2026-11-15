@@ -1,3 +1,8 @@
+---
+title: "UserStatistics"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/user-statistics"
+---
 # UserStatistics
 
 > No description
@@ -66,96 +71,101 @@ type UserStatistics {
 
 ### Fields
 
-#### [`UserStatistics`.`count`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserStatistics`.`count`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserStatistics`.`meanScore`](#)<span className="gqlmd-mdx-bullet">●</span>[`Float!`](/docs/types/scalars/float) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserStatistics`.`meanScore`](#)<span className="gqlmd-mdx-bullet">●</span>[`Float!`](https://graphql-markdown.dev/docs/types/scalars/float) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserStatistics`.`standardDeviation`](#)<span className="gqlmd-mdx-bullet">●</span>[`Float!`](/docs/types/scalars/float) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserStatistics`.`standardDeviation`](#)<span className="gqlmd-mdx-bullet">●</span>[`Float!`](https://graphql-markdown.dev/docs/types/scalars/float) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserStatistics`.`minutesWatched`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserStatistics`.`minutesWatched`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserStatistics`.`episodesWatched`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserStatistics`.`episodesWatched`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserStatistics`.`chaptersRead`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserStatistics`.`chaptersRead`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserStatistics`.`volumesRead`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserStatistics`.`volumesRead`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserStatistics`.`formats`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserFormatStatistic`](/docs/types/objects/user-format-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`formats`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserFormatStatistic`](https://graphql-markdown.dev/docs/types/objects/user-format-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.formats`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.formats`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.formats`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.formats`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`statuses`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatusStatistic`](/docs/types/objects/user-status-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`statuses`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatusStatistic`](https://graphql-markdown.dev/docs/types/objects/user-status-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.statuses`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.statuses`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.statuses`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.statuses`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`scores`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserScoreStatistic`](/docs/types/objects/user-score-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`scores`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserScoreStatistic`](https://graphql-markdown.dev/docs/types/objects/user-score-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.scores`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.scores`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.scores`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.scores`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`lengths`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserLengthStatistic`](/docs/types/objects/user-length-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`lengths`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserLengthStatistic`](https://graphql-markdown.dev/docs/types/objects/user-length-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.lengths`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.lengths`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.lengths`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.lengths`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`releaseYears`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserReleaseYearStatistic`](/docs/types/objects/user-release-year-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`releaseYears`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserReleaseYearStatistic`](https://graphql-markdown.dev/docs/types/objects/user-release-year-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.releaseYears`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.releaseYears`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.releaseYears`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.releaseYears`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`startYears`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStartYearStatistic`](/docs/types/objects/user-start-year-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`startYears`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStartYearStatistic`](https://graphql-markdown.dev/docs/types/objects/user-start-year-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.startYears`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.startYears`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.startYears`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.startYears`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`genres`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserGenreStatistic`](/docs/types/objects/user-genre-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`genres`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserGenreStatistic`](https://graphql-markdown.dev/docs/types/objects/user-genre-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.genres`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.genres`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.genres`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.genres`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`tags`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserTagStatistic`](/docs/types/objects/user-tag-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`tags`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserTagStatistic`](https://graphql-markdown.dev/docs/types/objects/user-tag-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.tags`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.tags`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.tags`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.tags`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`countries`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserCountryStatistic`](/docs/types/objects/user-country-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`countries`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserCountryStatistic`](https://graphql-markdown.dev/docs/types/objects/user-country-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.countries`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.countries`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.countries`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.countries`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`voiceActors`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserVoiceActorStatistic`](/docs/types/objects/user-voice-actor-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`voiceActors`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserVoiceActorStatistic`](https://graphql-markdown.dev/docs/types/objects/user-voice-actor-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.voiceActors`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.voiceActors`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.voiceActors`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.voiceActors`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStaffStatistic`](/docs/types/objects/user-staff-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStaffStatistic`](https://graphql-markdown.dev/docs/types/objects/user-staff-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.staff`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.staff`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.staff`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.staff`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-#### [`UserStatistics`.`studios`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStudioStatistic`](/docs/types/objects/user-studio-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`UserStatistics`.`studios`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStudioStatistic`](https://graphql-markdown.dev/docs/types/objects/user-studio-statistic) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-##### [`UserStatistics.studios`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`UserStatistics.studios`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`UserStatistics.studios`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`UserStatistics.studios`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStatisticsSort`](https://graphql-markdown.dev/docs/types/enums/user-statistics-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 ### Member Of
 
-[`UserStatisticTypes`](/docs/types/objects/user-statistic-types)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStatisticTypes`](https://graphql-markdown.dev/docs/types/objects/user-statistic-types)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

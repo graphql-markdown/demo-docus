@@ -1,3 +1,8 @@
+---
+title: "String"
+description: "The String scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+canonical_url: "https://graphql-markdown.dev/docs/types/scalars/string"
+---
 # String
 
 > The String scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.
@@ -10,7 +15,7 @@ scalar String
 
 ### Returned By
 
-[`GenreCollection`](/docs/operations/queries/genre-collection)  <badge color="neutral" size="sm" variant="subtle">
+[`GenreCollection`](https://graphql-markdown.dev/docs/operations/queries/genre-collection)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -20,7 +25,7 @@ query
 
 ### Member Of
 
-[`ActivityLikeNotification`](/docs/types/objects/activity-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityLikeNotification`](https://graphql-markdown.dev/docs/types/objects/activity-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -32,7 +37,7 @@ object
 
 </span>
 
-[`ActivityMentionNotification`](/docs/types/objects/activity-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityMentionNotification`](https://graphql-markdown.dev/docs/types/objects/activity-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -44,7 +49,7 @@ object
 
 </span>
 
-[`ActivityMessageNotification`](/docs/types/objects/activity-message-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityMessageNotification`](https://graphql-markdown.dev/docs/types/objects/activity-message-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -56,7 +61,7 @@ object
 
 </span>
 
-[`ActivityReply`](/docs/types/objects/activity-reply)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReply`](https://graphql-markdown.dev/docs/types/objects/activity-reply)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -68,7 +73,7 @@ object
 
 </span>
 
-[`ActivityReplyLikeNotification`](/docs/types/objects/activity-reply-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplyLikeNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -80,7 +85,7 @@ object
 
 </span>
 
-[`ActivityReplyNotification`](/docs/types/objects/activity-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplyNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -92,7 +97,7 @@ object
 
 </span>
 
-[`ActivityReplySubscribedNotification`](/docs/types/objects/activity-reply-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplySubscribedNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -104,7 +109,7 @@ object
 
 </span>
 
-[`AiringNotification`](/docs/types/objects/airing-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringNotification`](https://graphql-markdown.dev/docs/types/objects/airing-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -116,7 +121,7 @@ object
 
 </span>
 
-[`AniChartHighlightInput`](/docs/types/inputs/ani-chart-highlight-input)  <badge color="neutral" size="sm" variant="subtle">
+[`AniChartHighlightInput`](https://graphql-markdown.dev/docs/types/inputs/ani-chart-highlight-input)  <badge color="neutral" size="sm" variant="subtle">
 
 input
 
@@ -128,7 +133,7 @@ input
 
 </span>
 
-[`Character`](/docs/operations/queries/character)  <badge color="neutral" size="sm" variant="subtle">
+[`Character`](https://graphql-markdown.dev/docs/operations/queries/character)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -140,7 +145,7 @@ query
 
 </span>
 
-[`Character`](/docs/types/objects/character)  <badge color="neutral" size="sm" variant="subtle">
+[`Character`](https://graphql-markdown.dev/docs/types/objects/character)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -152,7 +157,7 @@ object
 
 </span>
 
-[`CharacterEdge`](/docs/types/objects/character-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterEdge`](https://graphql-markdown.dev/docs/types/objects/character-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -164,7 +169,7 @@ object
 
 </span>
 
-[`CharacterImage`](/docs/types/objects/character-image)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterImage`](https://graphql-markdown.dev/docs/types/objects/character-image)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -176,7 +181,7 @@ object
 
 </span>
 
-[`CharacterName`](/docs/types/objects/character-name)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterName`](https://graphql-markdown.dev/docs/types/objects/character-name)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -188,7 +193,7 @@ object
 
 </span>
 
-[`CharacterNameInput`](/docs/types/inputs/character-name-input)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterNameInput`](https://graphql-markdown.dev/docs/types/inputs/character-name-input)  <badge color="neutral" size="sm" variant="subtle">
 
 input
 
@@ -200,7 +205,7 @@ input
 
 </span>
 
-[`CharacterSubmission`](/docs/types/objects/character-submission)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterSubmission`](https://graphql-markdown.dev/docs/types/objects/character-submission)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -212,7 +217,7 @@ object
 
 </span>
 
-[`CharacterSubmissionUpdateNotification`](/docs/types/objects/character-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterSubmissionUpdateNotification`](https://graphql-markdown.dev/docs/types/objects/character-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -224,7 +229,7 @@ object
 
 </span>
 
-[`DeleteCustomList`](/docs/operations/mutations/delete-custom-list)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteCustomList`](https://graphql-markdown.dev/docs/operations/mutations/delete-custom-list)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -236,7 +241,7 @@ mutation
 
 </span>
 
-[`deprecated`](/docs/types/directives/deprecated)  <badge color="neutral" size="sm" variant="subtle">
+[`deprecated`](https://graphql-markdown.dev/docs/types/directives/deprecated)  <badge color="neutral" size="sm" variant="subtle">
 
 directive
 
@@ -248,7 +253,7 @@ directive
 
 </span>
 
-[`FollowingNotification`](/docs/types/objects/following-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`FollowingNotification`](https://graphql-markdown.dev/docs/types/objects/following-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -260,7 +265,7 @@ object
 
 </span>
 
-[`GenreStats`](/docs/types/objects/genre-stats)  <badge color="neutral" size="sm" variant="subtle">
+[`GenreStats`](https://graphql-markdown.dev/docs/types/objects/genre-stats)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -272,7 +277,7 @@ object
 
 </span>
 
-[`ListActivity`](/docs/types/objects/list-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`ListActivity`](https://graphql-markdown.dev/docs/types/objects/list-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -284,7 +289,7 @@ object
 
 </span>
 
-[`Markdown`](/docs/operations/queries/markdown)  <badge color="neutral" size="sm" variant="subtle">
+[`Markdown`](https://graphql-markdown.dev/docs/operations/queries/markdown)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -296,7 +301,7 @@ query
 
 </span>
 
-[`Media`](/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -308,7 +313,7 @@ query
 
 </span>
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -320,7 +325,7 @@ object
 
 </span>
 
-[`MediaCharacter`](/docs/types/objects/media-character)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaCharacter`](https://graphql-markdown.dev/docs/types/objects/media-character)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -332,7 +337,7 @@ object
 
 </span>
 
-[`MediaCoverImage`](/docs/types/objects/media-cover-image)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaCoverImage`](https://graphql-markdown.dev/docs/types/objects/media-cover-image)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -344,7 +349,7 @@ object
 
 </span>
 
-[`MediaDataChangeNotification`](/docs/types/objects/media-data-change-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaDataChangeNotification`](https://graphql-markdown.dev/docs/types/objects/media-data-change-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -356,7 +361,7 @@ object
 
 </span>
 
-[`MediaDeletionNotification`](/docs/types/objects/media-deletion-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaDeletionNotification`](https://graphql-markdown.dev/docs/types/objects/media-deletion-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -368,7 +373,7 @@ object
 
 </span>
 
-[`MediaEdge`](/docs/types/objects/media-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaEdge`](https://graphql-markdown.dev/docs/types/objects/media-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -380,7 +385,7 @@ object
 
 </span>
 
-[`MediaExternalLink`](/docs/types/objects/media-external-link)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaExternalLink`](https://graphql-markdown.dev/docs/types/objects/media-external-link)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -392,7 +397,7 @@ object
 
 </span>
 
-[`MediaExternalLinkInput`](/docs/types/inputs/media-external-link-input)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaExternalLinkInput`](https://graphql-markdown.dev/docs/types/inputs/media-external-link-input)  <badge color="neutral" size="sm" variant="subtle">
 
 input
 
@@ -404,7 +409,7 @@ input
 
 </span>
 
-[`MediaList`](/docs/operations/queries/media-list)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaList`](https://graphql-markdown.dev/docs/operations/queries/media-list)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -416,7 +421,7 @@ query
 
 </span>
 
-[`MediaList`](/docs/types/objects/media-list)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaList`](https://graphql-markdown.dev/docs/types/objects/media-list)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -428,7 +433,7 @@ object
 
 </span>
 
-[`MediaListCollection`](/docs/operations/queries/media-list-collection)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListCollection`](https://graphql-markdown.dev/docs/operations/queries/media-list-collection)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -440,7 +445,7 @@ query
 
 </span>
 
-[`MediaListGroup`](/docs/types/objects/media-list-group)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListGroup`](https://graphql-markdown.dev/docs/types/objects/media-list-group)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -452,7 +457,7 @@ object
 
 </span>
 
-[`MediaListOptions`](/docs/types/objects/media-list-options)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListOptions`](https://graphql-markdown.dev/docs/types/objects/media-list-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -464,7 +469,7 @@ object
 
 </span>
 
-[`MediaListOptionsInput`](/docs/types/inputs/media-list-options-input)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListOptionsInput`](https://graphql-markdown.dev/docs/types/inputs/media-list-options-input)  <badge color="neutral" size="sm" variant="subtle">
 
 input
 
@@ -476,7 +481,7 @@ input
 
 </span>
 
-[`MediaListTypeOptions`](/docs/types/objects/media-list-type-options)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListTypeOptions`](https://graphql-markdown.dev/docs/types/objects/media-list-type-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -488,7 +493,7 @@ object
 
 </span>
 
-[`MediaMergeNotification`](/docs/types/objects/media-merge-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaMergeNotification`](https://graphql-markdown.dev/docs/types/objects/media-merge-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -500,7 +505,7 @@ object
 
 </span>
 
-[`MediaRank`](/docs/types/objects/media-rank)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaRank`](https://graphql-markdown.dev/docs/types/objects/media-rank)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -512,7 +517,7 @@ object
 
 </span>
 
-[`MediaStreamingEpisode`](/docs/types/objects/media-streaming-episode)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaStreamingEpisode`](https://graphql-markdown.dev/docs/types/objects/media-streaming-episode)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -524,7 +529,7 @@ object
 
 </span>
 
-[`MediaSubmission`](/docs/types/objects/media-submission)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmission`](https://graphql-markdown.dev/docs/types/objects/media-submission)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -536,7 +541,7 @@ object
 
 </span>
 
-[`MediaSubmissionEdge`](/docs/types/objects/media-submission-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmissionEdge`](https://graphql-markdown.dev/docs/types/objects/media-submission-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -548,7 +553,7 @@ object
 
 </span>
 
-[`MediaSubmissionUpdateNotification`](/docs/types/objects/media-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmissionUpdateNotification`](https://graphql-markdown.dev/docs/types/objects/media-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -560,7 +565,7 @@ object
 
 </span>
 
-[`MediaTag`](/docs/types/objects/media-tag)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaTag`](https://graphql-markdown.dev/docs/types/objects/media-tag)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -572,7 +577,7 @@ object
 
 </span>
 
-[`MediaTitle`](/docs/types/objects/media-title)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaTitle`](https://graphql-markdown.dev/docs/types/objects/media-title)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -584,7 +589,7 @@ object
 
 </span>
 
-[`MediaTitleInput`](/docs/types/inputs/media-title-input)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaTitleInput`](https://graphql-markdown.dev/docs/types/inputs/media-title-input)  <badge color="neutral" size="sm" variant="subtle">
 
 input
 
@@ -596,7 +601,7 @@ input
 
 </span>
 
-[`MediaTrailer`](/docs/types/objects/media-trailer)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaTrailer`](https://graphql-markdown.dev/docs/types/objects/media-trailer)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -608,7 +613,7 @@ object
 
 </span>
 
-[`MessageActivity`](/docs/types/objects/message-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`MessageActivity`](https://graphql-markdown.dev/docs/types/objects/message-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -620,7 +625,7 @@ object
 
 </span>
 
-[`ModAction`](/docs/types/objects/mod-action)  <badge color="neutral" size="sm" variant="subtle">
+[`ModAction`](https://graphql-markdown.dev/docs/types/objects/mod-action)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -632,7 +637,7 @@ object
 
 </span>
 
-[`ParsedMarkdown`](/docs/types/objects/parsed-markdown)  <badge color="neutral" size="sm" variant="subtle">
+[`ParsedMarkdown`](https://graphql-markdown.dev/docs/types/objects/parsed-markdown)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -644,7 +649,7 @@ object
 
 </span>
 
-[`RelatedMediaAdditionNotification`](/docs/types/objects/related-media-addition-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`RelatedMediaAdditionNotification`](https://graphql-markdown.dev/docs/types/objects/related-media-addition-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -656,7 +661,7 @@ object
 
 </span>
 
-[`Report`](/docs/types/objects/report)  <badge color="neutral" size="sm" variant="subtle">
+[`Report`](https://graphql-markdown.dev/docs/types/objects/report)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -668,7 +673,7 @@ object
 
 </span>
 
-[`Review`](/docs/types/objects/review)  <badge color="neutral" size="sm" variant="subtle">
+[`Review`](https://graphql-markdown.dev/docs/types/objects/review)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -680,7 +685,7 @@ object
 
 </span>
 
-[`SaveActivityReply`](/docs/operations/mutations/save-activity-reply)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveActivityReply`](https://graphql-markdown.dev/docs/operations/mutations/save-activity-reply)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -692,7 +697,7 @@ mutation
 
 </span>
 
-[`SaveMediaListEntry`](/docs/operations/mutations/save-media-list-entry)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveMediaListEntry`](https://graphql-markdown.dev/docs/operations/mutations/save-media-list-entry)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -704,7 +709,7 @@ mutation
 
 </span>
 
-[`SaveMessageActivity`](/docs/operations/mutations/save-message-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveMessageActivity`](https://graphql-markdown.dev/docs/operations/mutations/save-message-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -716,7 +721,7 @@ mutation
 
 </span>
 
-[`SaveReview`](/docs/operations/mutations/save-review)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveReview`](https://graphql-markdown.dev/docs/operations/mutations/save-review)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -728,7 +733,7 @@ mutation
 
 </span>
 
-[`SaveTextActivity`](/docs/operations/mutations/save-text-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveTextActivity`](https://graphql-markdown.dev/docs/operations/mutations/save-text-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -740,7 +745,7 @@ mutation
 
 </span>
 
-[`SaveThread`](/docs/operations/mutations/save-thread)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveThread`](https://graphql-markdown.dev/docs/operations/mutations/save-thread)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -752,7 +757,7 @@ mutation
 
 </span>
 
-[`SaveThreadComment`](/docs/operations/mutations/save-thread-comment)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveThreadComment`](https://graphql-markdown.dev/docs/operations/mutations/save-thread-comment)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -764,7 +769,7 @@ mutation
 
 </span>
 
-[`Staff`](/docs/operations/queries/staff)  <badge color="neutral" size="sm" variant="subtle">
+[`Staff`](https://graphql-markdown.dev/docs/operations/queries/staff)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -776,7 +781,7 @@ query
 
 </span>
 
-[`Staff`](/docs/types/objects/staff)  <badge color="neutral" size="sm" variant="subtle">
+[`Staff`](https://graphql-markdown.dev/docs/types/objects/staff)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -788,7 +793,7 @@ object
 
 </span>
 
-[`StaffEdge`](/docs/types/objects/staff-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffEdge`](https://graphql-markdown.dev/docs/types/objects/staff-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -800,7 +805,7 @@ object
 
 </span>
 
-[`StaffImage`](/docs/types/objects/staff-image)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffImage`](https://graphql-markdown.dev/docs/types/objects/staff-image)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -812,7 +817,7 @@ object
 
 </span>
 
-[`StaffName`](/docs/types/objects/staff-name)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffName`](https://graphql-markdown.dev/docs/types/objects/staff-name)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -824,7 +829,7 @@ object
 
 </span>
 
-[`StaffNameInput`](/docs/types/inputs/staff-name-input)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffNameInput`](https://graphql-markdown.dev/docs/types/inputs/staff-name-input)  <badge color="neutral" size="sm" variant="subtle">
 
 input
 
@@ -836,7 +841,7 @@ input
 
 </span>
 
-[`StaffRoleType`](/docs/types/objects/staff-role-type)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffRoleType`](https://graphql-markdown.dev/docs/types/objects/staff-role-type)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -848,7 +853,7 @@ object
 
 </span>
 
-[`StaffSubmission`](/docs/types/objects/staff-submission)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffSubmission`](https://graphql-markdown.dev/docs/types/objects/staff-submission)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -860,7 +865,7 @@ object
 
 </span>
 
-[`StaffSubmissionUpdateNotification`](/docs/types/objects/staff-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffSubmissionUpdateNotification`](https://graphql-markdown.dev/docs/types/objects/staff-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -872,7 +877,7 @@ object
 
 </span>
 
-[`Studio`](/docs/operations/queries/studio)  <badge color="neutral" size="sm" variant="subtle">
+[`Studio`](https://graphql-markdown.dev/docs/operations/queries/studio)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -884,7 +889,7 @@ query
 
 </span>
 
-[`Studio`](/docs/types/objects/studio)  <badge color="neutral" size="sm" variant="subtle">
+[`Studio`](https://graphql-markdown.dev/docs/types/objects/studio)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -896,7 +901,7 @@ object
 
 </span>
 
-[`TextActivity`](/docs/types/objects/text-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`TextActivity`](https://graphql-markdown.dev/docs/types/objects/text-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -908,7 +913,7 @@ object
 
 </span>
 
-[`Thread`](/docs/operations/queries/thread)  <badge color="neutral" size="sm" variant="subtle">
+[`Thread`](https://graphql-markdown.dev/docs/operations/queries/thread)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -920,7 +925,7 @@ query
 
 </span>
 
-[`Thread`](/docs/types/objects/thread)  <badge color="neutral" size="sm" variant="subtle">
+[`Thread`](https://graphql-markdown.dev/docs/types/objects/thread)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -932,7 +937,7 @@ object
 
 </span>
 
-[`ThreadCategory`](/docs/types/objects/thread-category)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCategory`](https://graphql-markdown.dev/docs/types/objects/thread-category)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -944,7 +949,7 @@ object
 
 </span>
 
-[`ThreadComment`](/docs/types/objects/thread-comment)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadComment`](https://graphql-markdown.dev/docs/types/objects/thread-comment)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -956,7 +961,7 @@ object
 
 </span>
 
-[`ThreadCommentLikeNotification`](/docs/types/objects/thread-comment-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCommentLikeNotification`](https://graphql-markdown.dev/docs/types/objects/thread-comment-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -968,7 +973,7 @@ object
 
 </span>
 
-[`ThreadCommentMentionNotification`](/docs/types/objects/thread-comment-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCommentMentionNotification`](https://graphql-markdown.dev/docs/types/objects/thread-comment-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -980,7 +985,7 @@ object
 
 </span>
 
-[`ThreadCommentReplyNotification`](/docs/types/objects/thread-comment-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCommentReplyNotification`](https://graphql-markdown.dev/docs/types/objects/thread-comment-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -992,7 +997,7 @@ object
 
 </span>
 
-[`ThreadCommentSubscribedNotification`](/docs/types/objects/thread-comment-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCommentSubscribedNotification`](https://graphql-markdown.dev/docs/types/objects/thread-comment-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -1004,7 +1009,7 @@ object
 
 </span>
 
-[`ThreadLikeNotification`](/docs/types/objects/thread-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadLikeNotification`](https://graphql-markdown.dev/docs/types/objects/thread-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -1016,7 +1021,7 @@ object
 
 </span>
 
-[`UpdateAniChartSettings`](/docs/operations/mutations/update-ani-chart-settings)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateAniChartSettings`](https://graphql-markdown.dev/docs/operations/mutations/update-ani-chart-settings)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -1028,7 +1033,7 @@ mutation
 
 </span>
 
-[`UpdateMediaListEntries`](/docs/operations/mutations/update-media-list-entries)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateMediaListEntries`](https://graphql-markdown.dev/docs/operations/mutations/update-media-list-entries)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -1040,7 +1045,7 @@ mutation
 
 </span>
 
-[`UpdateUser`](/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateUser`](https://graphql-markdown.dev/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -1052,7 +1057,7 @@ mutation
 
 </span>
 
-[`User`](/docs/operations/queries/user)  <badge color="neutral" size="sm" variant="subtle">
+[`User`](https://graphql-markdown.dev/docs/operations/queries/user)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -1064,7 +1069,7 @@ query
 
 </span>
 
-[`User`](/docs/types/objects/user)  <badge color="neutral" size="sm" variant="subtle">
+[`User`](https://graphql-markdown.dev/docs/types/objects/user)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -1076,7 +1081,7 @@ object
 
 </span>
 
-[`UserAvatar`](/docs/types/objects/user-avatar)  <badge color="neutral" size="sm" variant="subtle">
+[`UserAvatar`](https://graphql-markdown.dev/docs/types/objects/user-avatar)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -1088,7 +1093,7 @@ object
 
 </span>
 
-[`UserGenreStatistic`](/docs/types/objects/user-genre-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserGenreStatistic`](https://graphql-markdown.dev/docs/types/objects/user-genre-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -1100,7 +1105,7 @@ object
 
 </span>
 
-[`UserLengthStatistic`](/docs/types/objects/user-length-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserLengthStatistic`](https://graphql-markdown.dev/docs/types/objects/user-length-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -1112,7 +1117,7 @@ object
 
 </span>
 
-[`UserModData`](/docs/types/objects/user-mod-data)  <badge color="neutral" size="sm" variant="subtle">
+[`UserModData`](https://graphql-markdown.dev/docs/types/objects/user-mod-data)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -1124,7 +1129,7 @@ object
 
 </span>
 
-[`UserOptions`](/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
+[`UserOptions`](https://graphql-markdown.dev/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -1136,8 +1141,13 @@ object
 
 </span>
 
-[`UserPreviousName`](/docs/types/objects/user-previous-name)  <badge color="neutral" size="sm" variant="subtle">
+[`UserPreviousName`](https://graphql-markdown.dev/docs/types/objects/user-previous-name)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

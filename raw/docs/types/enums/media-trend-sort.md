@@ -1,3 +1,8 @@
+---
+title: "MediaTrendSort"
+description: "Media trend sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-trend-sort"
+---
 # MediaTrendSort
 
 > Media trend sort enums
@@ -55,8 +60,13 @@ enum MediaTrendSort {
 
 ### Member Of
 
-[`MediaTrend`](/docs/operations/queries/media-trend)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaTrend`](https://graphql-markdown.dev/docs/operations/queries/media-trend)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

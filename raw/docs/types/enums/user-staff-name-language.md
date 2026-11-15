@@ -1,3 +1,8 @@
+---
+title: "UserStaffNameLanguage"
+description: "The language the user wants to see staff and character names in"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/user-staff-name-language"
+---
 # UserStaffNameLanguage
 
 > The language the user wants to see staff and character names in
@@ -28,7 +33,7 @@ The staff or character's name in their native language
 
 ### Member Of
 
-[`UpdateUser`](/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateUser`](https://graphql-markdown.dev/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -40,8 +45,13 @@ mutation
 
 </span>
 
-[`UserOptions`](/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
+[`UserOptions`](https://graphql-markdown.dev/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

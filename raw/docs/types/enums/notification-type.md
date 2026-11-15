@@ -1,3 +1,8 @@
+---
+title: "NotificationType"
+description: "Notification type enum"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/notification-type"
+---
 # NotificationType
 
 > Notification type enum
@@ -113,7 +118,7 @@ A user's character submission has been accepted, partially accepted, or rejected
 
 ### Member Of
 
-[`ActivityLikeNotification`](/docs/types/objects/activity-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityLikeNotification`](https://graphql-markdown.dev/docs/types/objects/activity-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -125,7 +130,7 @@ object
 
 </span>
 
-[`ActivityMentionNotification`](/docs/types/objects/activity-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityMentionNotification`](https://graphql-markdown.dev/docs/types/objects/activity-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -137,7 +142,7 @@ object
 
 </span>
 
-[`ActivityMessageNotification`](/docs/types/objects/activity-message-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityMessageNotification`](https://graphql-markdown.dev/docs/types/objects/activity-message-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -149,7 +154,7 @@ object
 
 </span>
 
-[`ActivityReplyLikeNotification`](/docs/types/objects/activity-reply-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplyLikeNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -161,7 +166,7 @@ object
 
 </span>
 
-[`ActivityReplyNotification`](/docs/types/objects/activity-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplyNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -173,7 +178,7 @@ object
 
 </span>
 
-[`ActivityReplySubscribedNotification`](/docs/types/objects/activity-reply-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplySubscribedNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -185,7 +190,7 @@ object
 
 </span>
 
-[`AiringNotification`](/docs/types/objects/airing-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringNotification`](https://graphql-markdown.dev/docs/types/objects/airing-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -197,7 +202,7 @@ object
 
 </span>
 
-[`CharacterSubmissionUpdateNotification`](/docs/types/objects/character-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterSubmissionUpdateNotification`](https://graphql-markdown.dev/docs/types/objects/character-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -209,7 +214,7 @@ object
 
 </span>
 
-[`FollowingNotification`](/docs/types/objects/following-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`FollowingNotification`](https://graphql-markdown.dev/docs/types/objects/following-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -221,7 +226,7 @@ object
 
 </span>
 
-[`MediaDataChangeNotification`](/docs/types/objects/media-data-change-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaDataChangeNotification`](https://graphql-markdown.dev/docs/types/objects/media-data-change-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -233,7 +238,7 @@ object
 
 </span>
 
-[`MediaDeletionNotification`](/docs/types/objects/media-deletion-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaDeletionNotification`](https://graphql-markdown.dev/docs/types/objects/media-deletion-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -245,7 +250,7 @@ object
 
 </span>
 
-[`MediaMergeNotification`](/docs/types/objects/media-merge-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaMergeNotification`](https://graphql-markdown.dev/docs/types/objects/media-merge-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -257,7 +262,7 @@ object
 
 </span>
 
-[`MediaSubmissionUpdateNotification`](/docs/types/objects/media-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmissionUpdateNotification`](https://graphql-markdown.dev/docs/types/objects/media-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -269,7 +274,7 @@ object
 
 </span>
 
-[`Notification`](/docs/operations/queries/notification)  <badge color="neutral" size="sm" variant="subtle">
+[`Notification`](https://graphql-markdown.dev/docs/operations/queries/notification)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -281,7 +286,7 @@ query
 
 </span>
 
-[`NotificationOption`](/docs/types/objects/notification-option)  <badge color="neutral" size="sm" variant="subtle">
+[`NotificationOption`](https://graphql-markdown.dev/docs/types/objects/notification-option)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -293,7 +298,7 @@ object
 
 </span>
 
-[`NotificationOptionInput`](/docs/types/inputs/notification-option-input)  <badge color="neutral" size="sm" variant="subtle">
+[`NotificationOptionInput`](https://graphql-markdown.dev/docs/types/inputs/notification-option-input)  <badge color="neutral" size="sm" variant="subtle">
 
 input
 
@@ -305,7 +310,7 @@ input
 
 </span>
 
-[`RelatedMediaAdditionNotification`](/docs/types/objects/related-media-addition-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`RelatedMediaAdditionNotification`](https://graphql-markdown.dev/docs/types/objects/related-media-addition-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -317,7 +322,7 @@ object
 
 </span>
 
-[`StaffSubmissionUpdateNotification`](/docs/types/objects/staff-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffSubmissionUpdateNotification`](https://graphql-markdown.dev/docs/types/objects/staff-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -329,7 +334,7 @@ object
 
 </span>
 
-[`ThreadCommentLikeNotification`](/docs/types/objects/thread-comment-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCommentLikeNotification`](https://graphql-markdown.dev/docs/types/objects/thread-comment-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -341,7 +346,7 @@ object
 
 </span>
 
-[`ThreadCommentMentionNotification`](/docs/types/objects/thread-comment-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCommentMentionNotification`](https://graphql-markdown.dev/docs/types/objects/thread-comment-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -353,7 +358,7 @@ object
 
 </span>
 
-[`ThreadCommentReplyNotification`](/docs/types/objects/thread-comment-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCommentReplyNotification`](https://graphql-markdown.dev/docs/types/objects/thread-comment-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -365,7 +370,7 @@ object
 
 </span>
 
-[`ThreadCommentSubscribedNotification`](/docs/types/objects/thread-comment-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadCommentSubscribedNotification`](https://graphql-markdown.dev/docs/types/objects/thread-comment-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -377,8 +382,13 @@ object
 
 </span>
 
-[`ThreadLikeNotification`](/docs/types/objects/thread-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadLikeNotification`](https://graphql-markdown.dev/docs/types/objects/thread-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

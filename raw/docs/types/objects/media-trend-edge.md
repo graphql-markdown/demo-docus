@@ -1,3 +1,8 @@
+---
+title: "MediaTrendEdge"
+description: "Media trend connection edge"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/media-trend-edge"
+---
 # MediaTrendEdge
 
 > Media trend connection edge
@@ -12,12 +17,17 @@ type MediaTrendEdge {
 
 ### Fields
 
-#### [`MediaTrendEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaTrend`](/docs/types/objects/media-trend) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaTrendEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaTrend`](https://graphql-markdown.dev/docs/types/objects/media-trend) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 ### Member Of
 
-[`MediaTrendConnection`](/docs/types/objects/media-trend-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaTrendConnection`](https://graphql-markdown.dev/docs/types/objects/media-trend-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

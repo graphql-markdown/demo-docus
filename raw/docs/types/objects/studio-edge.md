@@ -1,3 +1,8 @@
+---
+title: "StudioEdge"
+description: "Studio connection edge"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/studio-edge"
+---
 # StudioEdge
 
 > Studio connection edge
@@ -15,23 +20,23 @@ type StudioEdge {
 
 ### Fields
 
-#### [`StudioEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`Studio`](/docs/types/objects/studio) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`StudioEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`Studio`](https://graphql-markdown.dev/docs/types/objects/studio) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`StudioEdge`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`StudioEdge`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the connection
 
-#### [`StudioEdge`.`isMain`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`StudioEdge`.`isMain`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 If the studio is the main animation studio of the anime
 
-#### [`StudioEdge`.`favouriteOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`StudioEdge`.`favouriteOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The order the character should be displayed from the users favourites
 
 ### Member Of
 
-[`MediaSubmissionComparison`](/docs/types/objects/media-submission-comparison)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmissionComparison`](https://graphql-markdown.dev/docs/types/objects/media-submission-comparison)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -43,8 +48,13 @@ object
 
 </span>
 
-[`StudioConnection`](/docs/types/objects/studio-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`StudioConnection`](https://graphql-markdown.dev/docs/types/objects/studio-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

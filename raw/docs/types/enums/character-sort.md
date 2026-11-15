@@ -1,3 +1,8 @@
+---
+title: "CharacterSort"
+description: "Character sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/character-sort"
+---
 # CharacterSort
 
 > Character sort enums
@@ -39,8 +44,13 @@ Order manually decided by moderators
 
 ### Member Of
 
-[`Character`](/docs/operations/queries/character)  <badge color="neutral" size="sm" variant="subtle">
+[`Character`](https://graphql-markdown.dev/docs/operations/queries/character)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

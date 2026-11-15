@@ -1,3 +1,8 @@
+---
+title: "ReviewEdge"
+description: "Review connection edge"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/review-edge"
+---
 # ReviewEdge
 
 > Review connection edge
@@ -12,12 +17,17 @@ type ReviewEdge {
 
 ### Fields
 
-#### [`ReviewEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`Review`](/docs/types/objects/review) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`ReviewEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`Review`](https://graphql-markdown.dev/docs/types/objects/review) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 ### Member Of
 
-[`ReviewConnection`](/docs/types/objects/review-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`ReviewConnection`](https://graphql-markdown.dev/docs/types/objects/review-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

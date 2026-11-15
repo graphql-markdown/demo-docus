@@ -1,3 +1,8 @@
+---
+title: "RevisionHistory"
+description: "Feed of mod edit activity"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/revision-history"
+---
 # RevisionHistory
 
 > Feed of mod edit activity
@@ -21,50 +26,55 @@ type RevisionHistory {
 
 ### Fields
 
-#### [`RevisionHistory`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`RevisionHistory`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the media
 
-#### [`RevisionHistory`.`action`](#)<span className="gqlmd-mdx-bullet">●</span>[`RevisionHistoryAction`](/docs/types/enums/revision-history-action) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`RevisionHistory`.`action`](#)<span className="gqlmd-mdx-bullet">●</span>[`RevisionHistoryAction`](https://graphql-markdown.dev/docs/types/enums/revision-history-action) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 The action taken on the objects
 
-#### [`RevisionHistory`.`changes`](#)<span className="gqlmd-mdx-bullet">●</span>[`Json`](/docs/types/scalars/json) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`RevisionHistory`.`changes`](#)<span className="gqlmd-mdx-bullet">●</span>[`Json`](https://graphql-markdown.dev/docs/types/scalars/json) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 A JSON object of the fields that changed
 
-#### [`RevisionHistory`.`user`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`RevisionHistory`.`user`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](https://graphql-markdown.dev/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The user who made the edit to the object
 
-#### [`RevisionHistory`.`media`](#)<span className="gqlmd-mdx-bullet">●</span>[`Media`](/docs/types/objects/media) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`RevisionHistory`.`media`](#)<span className="gqlmd-mdx-bullet">●</span>[`Media`](https://graphql-markdown.dev/docs/types/objects/media) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The media the mod feed entry references
 
-#### [`RevisionHistory`.`character`](#)<span className="gqlmd-mdx-bullet">●</span>[`Character`](/docs/types/objects/character) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`RevisionHistory`.`character`](#)<span className="gqlmd-mdx-bullet">●</span>[`Character`](https://graphql-markdown.dev/docs/types/objects/character) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The character the mod feed entry references
 
-#### [`RevisionHistory`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`Staff`](/docs/types/objects/staff) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`RevisionHistory`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`Staff`](https://graphql-markdown.dev/docs/types/objects/staff) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The staff member the mod feed entry references
 
-#### [`RevisionHistory`.`studio`](#)<span className="gqlmd-mdx-bullet">●</span>[`Studio`](/docs/types/objects/studio) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`RevisionHistory`.`studio`](#)<span className="gqlmd-mdx-bullet">●</span>[`Studio`](https://graphql-markdown.dev/docs/types/objects/studio) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The studio the mod feed entry references
 
-#### [`RevisionHistory`.`externalLink`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaExternalLink`](/docs/types/objects/media-external-link) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`RevisionHistory`.`externalLink`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaExternalLink`](https://graphql-markdown.dev/docs/types/objects/media-external-link) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The external link source the mod feed entry references
 
-#### [`RevisionHistory`.`createdAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`RevisionHistory`.`createdAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 When the mod feed entry was created
 
 ### Member Of
 
-[`InternalPage`](/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
+[`InternalPage`](https://graphql-markdown.dev/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "ActivityType"
+description: "Activity type enum."
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/activity-type"
+---
 # ActivityType
 
 > Activity type enum.
@@ -38,7 +43,7 @@ Anime & Manga list update, only used in query arguments
 
 ### Member Of
 
-[`Activity`](/docs/operations/queries/activity)  <badge color="neutral" size="sm" variant="subtle">
+[`Activity`](https://graphql-markdown.dev/docs/operations/queries/activity)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -50,7 +55,7 @@ query
 
 </span>
 
-[`ListActivity`](/docs/types/objects/list-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`ListActivity`](https://graphql-markdown.dev/docs/types/objects/list-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -62,7 +67,7 @@ object
 
 </span>
 
-[`MessageActivity`](/docs/types/objects/message-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`MessageActivity`](https://graphql-markdown.dev/docs/types/objects/message-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -74,8 +79,13 @@ object
 
 </span>
 
-[`TextActivity`](/docs/types/objects/text-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`TextActivity`](https://graphql-markdown.dev/docs/types/objects/text-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

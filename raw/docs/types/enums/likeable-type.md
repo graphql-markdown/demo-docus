@@ -1,3 +1,8 @@
+---
+title: "LikeableType"
+description: "Types that can be liked"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/likeable-type"
+---
 # LikeableType
 
 > Types that can be liked
@@ -25,7 +30,7 @@ enum LikeableType {
 
 ### Member Of
 
-[`Like`](/docs/operations/queries/like)  <badge color="neutral" size="sm" variant="subtle">
+[`Like`](https://graphql-markdown.dev/docs/operations/queries/like)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -37,7 +42,7 @@ query
 
 </span>
 
-[`ToggleLike`](/docs/operations/mutations/toggle-like)  <badge color="neutral" size="sm" variant="subtle">
+[`ToggleLike`](https://graphql-markdown.dev/docs/operations/mutations/toggle-like)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -49,8 +54,13 @@ mutation
 
 </span>
 
-[`ToggleLikeV2`](/docs/operations/mutations/toggle-like-v2)  <badge color="neutral" size="sm" variant="subtle">
+[`ToggleLikeV2`](https://graphql-markdown.dev/docs/operations/mutations/toggle-like-v2)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

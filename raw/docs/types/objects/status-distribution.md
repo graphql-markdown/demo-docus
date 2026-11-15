@@ -1,3 +1,8 @@
+---
+title: "StatusDistribution"
+description: "The distribution of the watching/reading status of media or a user's list"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/status-distribution"
+---
 # StatusDistribution
 
 > The distribution of the watching/reading status of media or a user's list
@@ -13,17 +18,17 @@ type StatusDistribution {
 
 ### Fields
 
-#### [`StatusDistribution`.`status`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListStatus`](/docs/types/enums/media-list-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`StatusDistribution`.`status`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListStatus`](https://graphql-markdown.dev/docs/types/enums/media-list-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 The day the activity took place (Unix timestamp)
 
-#### [`StatusDistribution`.`amount`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`StatusDistribution`.`amount`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of entries with this status
 
 ### Member Of
 
-[`MediaStats`](/docs/types/objects/media-stats)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaStats`](https://graphql-markdown.dev/docs/types/objects/media-stats)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -35,8 +40,13 @@ object
 
 </span>
 
-[`UserStats`](/docs/types/objects/user-stats)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStats`](https://graphql-markdown.dev/docs/types/objects/user-stats)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

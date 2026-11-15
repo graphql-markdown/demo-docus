@@ -1,3 +1,8 @@
+---
+title: "SubmissionSort"
+description: "Submission sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/submission-sort"
+---
 # SubmissionSort
 
 > Submission sort enums
@@ -16,3 +21,8 @@ enum SubmissionSort {
 #### [`SubmissionSort`.`ID`](#)
 
 #### [`SubmissionSort`.`ID_DESC`](#)
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

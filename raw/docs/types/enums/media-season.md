@@ -1,3 +1,8 @@
+---
+title: "MediaSeason"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-season"
+---
 # MediaSeason
 
 > No description
@@ -33,7 +38,7 @@ Predominantly started airing between October and November
 
 ### Member Of
 
-[`Media`](/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -45,7 +50,7 @@ query
 
 </span>
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -57,8 +62,13 @@ object
 
 </span>
 
-[`MediaRank`](/docs/types/objects/media-rank)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaRank`](https://graphql-markdown.dev/docs/types/objects/media-rank)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "NotificationOption"
+description: "Notification option"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/notification-option"
+---
 # NotificationOption
 
 > Notification option
@@ -13,18 +18,23 @@ type NotificationOption {
 
 ### Fields
 
-#### [`NotificationOption`.`type`](#)<span className="gqlmd-mdx-bullet">●</span>[`NotificationType`](/docs/types/enums/notification-type) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`NotificationOption`.`type`](#)<span className="gqlmd-mdx-bullet">●</span>[`NotificationType`](https://graphql-markdown.dev/docs/types/enums/notification-type) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 The type of notification
 
-#### [`NotificationOption`.`enabled`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`NotificationOption`.`enabled`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Whether this type of notification is enabled
 
 ### Member Of
 
-[`UserOptions`](/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
+[`UserOptions`](https://graphql-markdown.dev/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

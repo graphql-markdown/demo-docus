@@ -1,3 +1,8 @@
+---
+title: "UpdateAniChartSettings"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/operations/mutations/update-ani-chart-settings"
+---
 # UpdateAniChartSettings
 
 > No description
@@ -15,14 +20,19 @@ UpdateAniChartSettings(
 
 ### Arguments
 
-#### [`UpdateAniChartSettings`.`titleLanguage`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateAniChartSettings`.`titleLanguage`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UpdateAniChartSettings`.`outgoingLinkProvider`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateAniChartSettings`.`outgoingLinkProvider`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UpdateAniChartSettings`.`theme`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateAniChartSettings`.`theme`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UpdateAniChartSettings`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateAniChartSettings`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 ### Type
 
-#### [`Json`](/docs/types/scalars/json) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Json`](https://graphql-markdown.dev/docs/types/scalars/json) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

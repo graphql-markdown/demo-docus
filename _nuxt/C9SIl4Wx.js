@@ -1,0 +1,1 @@
+import{n as e}from"./fl-HDN4K.js";import{t}from"./Ob7TwdTF.js";import{d as n}from"./COlnRzsE.js";function r(r,i){let a=t(r),o=i?e(i):{};return n(()=>({...a.value,...o}))}export{r as t};

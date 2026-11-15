@@ -1,3 +1,8 @@
+---
+title: "MediaSource"
+description: "Source type the media was adapted from"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-source"
+---
 # MediaSource
 
 > Source type the media was adapted from
@@ -88,7 +93,7 @@ Version 3 only. Picture book
 
 ### Member Of
 
-[`Media`](/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -100,8 +105,13 @@ query
 
 </span>
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "AiringSort"
+description: "Airing schedule sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/airing-sort"
+---
 # AiringSort
 
 > Airing schedule sort enums
@@ -37,8 +42,13 @@ enum AiringSort {
 
 ### Member Of
 
-[`AiringSchedule`](/docs/operations/queries/airing-schedule)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringSchedule`](https://graphql-markdown.dev/docs/operations/queries/airing-schedule)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

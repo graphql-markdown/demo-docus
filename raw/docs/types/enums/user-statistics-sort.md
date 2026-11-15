@@ -1,3 +1,8 @@
+---
+title: "UserStatisticsSort"
+description: "User statistics sort enum"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/user-statistics-sort"
+---
 # UserStatisticsSort
 
 > User statistics sort enum
@@ -34,3 +39,8 @@ enum UserStatisticsSort {
 #### [`UserStatisticsSort`.`MEAN_SCORE`](#)
 
 #### [`UserStatisticsSort`.`MEAN_SCORE_DESC`](#)
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "MediaStreamingEpisode"
+description: "Data and links to legal streaming episodes on external sites"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/media-streaming-episode"
+---
 # MediaStreamingEpisode
 
 > Data and links to legal streaming episodes on external sites
@@ -15,26 +20,31 @@ type MediaStreamingEpisode {
 
 ### Fields
 
-#### [`MediaStreamingEpisode`.`title`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaStreamingEpisode`.`title`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Title of the episode
 
-#### [`MediaStreamingEpisode`.`thumbnail`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaStreamingEpisode`.`thumbnail`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Url of episode image thumbnail
 
-#### [`MediaStreamingEpisode`.`url`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaStreamingEpisode`.`url`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The url of the episode
 
-#### [`MediaStreamingEpisode`.`site`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaStreamingEpisode`.`site`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The site location of the streaming episodes
 
 ### Member Of
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

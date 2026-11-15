@@ -1,3 +1,8 @@
+---
+title: "MediaListSort"
+description: "Media list sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-list-sort"
+---
 # MediaListSort
 
 > Media list sort enums
@@ -103,7 +108,7 @@ enum MediaListSort {
 
 ### Member Of
 
-[`MediaList`](/docs/operations/queries/media-list)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaList`](https://graphql-markdown.dev/docs/operations/queries/media-list)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -115,8 +120,13 @@ query
 
 </span>
 
-[`MediaListCollection`](/docs/operations/queries/media-list-collection)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListCollection`](https://graphql-markdown.dev/docs/operations/queries/media-list-collection)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

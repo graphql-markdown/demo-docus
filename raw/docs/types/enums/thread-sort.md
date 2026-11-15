@@ -1,3 +1,8 @@
+---
+title: "ThreadSort"
+description: "Thread sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/thread-sort"
+---
 # ThreadSort
 
 > Thread sort enums
@@ -77,8 +82,13 @@ Use ID_DESC instead
 
 ### Member Of
 
-[`Thread`](/docs/operations/queries/thread)  <badge color="neutral" size="sm" variant="subtle">
+[`Thread`](https://graphql-markdown.dev/docs/operations/queries/thread)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

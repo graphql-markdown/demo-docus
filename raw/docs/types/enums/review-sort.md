@@ -1,3 +1,8 @@
+---
+title: "ReviewSort"
+description: "Review sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/review-sort"
+---
 # ReviewSort
 
 > Review sort enums
@@ -59,8 +64,13 @@ Use ID_DESC instead
 
 ### Member Of
 
-[`Review`](/docs/operations/queries/review)  <badge color="neutral" size="sm" variant="subtle">
+[`Review`](https://graphql-markdown.dev/docs/operations/queries/review)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

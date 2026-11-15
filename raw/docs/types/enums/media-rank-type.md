@@ -1,3 +1,8 @@
+---
+title: "MediaRankType"
+description: "The type of ranking"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-rank-type"
+---
 # MediaRankType
 
 > The type of ranking
@@ -23,8 +28,13 @@ Ranking is based on the media's popularity
 
 ### Member Of
 
-[`MediaRank`](/docs/types/objects/media-rank)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaRank`](https://graphql-markdown.dev/docs/types/objects/media-rank)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

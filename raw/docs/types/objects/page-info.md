@@ -1,3 +1,8 @@
+---
+title: "PageInfo"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/page-info"
+---
 # PageInfo
 
 > No description
@@ -16,29 +21,29 @@ type PageInfo {
 
 ### Fields
 
-#### [`PageInfo`.`total`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`PageInfo`.`total`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The total number of items. Note: This value is not guaranteed to be accurate, do not rely on this for logic
 
-#### [`PageInfo`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`PageInfo`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The count on a page
 
-#### [`PageInfo`.`currentPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`PageInfo`.`currentPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The current page
 
-#### [`PageInfo`.`lastPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`PageInfo`.`lastPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The last page
 
-#### [`PageInfo`.`hasNextPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`PageInfo`.`hasNextPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 If there is another page
 
 ### Member Of
 
-[`AiringScheduleConnection`](/docs/types/objects/airing-schedule-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringScheduleConnection`](https://graphql-markdown.dev/docs/types/objects/airing-schedule-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -50,7 +55,7 @@ object
 
 </span>
 
-[`CharacterConnection`](/docs/types/objects/character-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterConnection`](https://graphql-markdown.dev/docs/types/objects/character-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -62,7 +67,7 @@ object
 
 </span>
 
-[`CharacterSubmissionConnection`](/docs/types/objects/character-submission-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterSubmissionConnection`](https://graphql-markdown.dev/docs/types/objects/character-submission-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -74,7 +79,7 @@ object
 
 </span>
 
-[`InternalPage`](/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
+[`InternalPage`](https://graphql-markdown.dev/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -86,7 +91,7 @@ object
 
 </span>
 
-[`MediaConnection`](/docs/types/objects/media-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaConnection`](https://graphql-markdown.dev/docs/types/objects/media-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -98,7 +103,7 @@ object
 
 </span>
 
-[`MediaTrendConnection`](/docs/types/objects/media-trend-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaTrendConnection`](https://graphql-markdown.dev/docs/types/objects/media-trend-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -110,7 +115,7 @@ object
 
 </span>
 
-[`Page`](/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
+[`Page`](https://graphql-markdown.dev/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -122,7 +127,7 @@ object
 
 </span>
 
-[`RecommendationConnection`](/docs/types/objects/recommendation-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`RecommendationConnection`](https://graphql-markdown.dev/docs/types/objects/recommendation-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -134,7 +139,7 @@ object
 
 </span>
 
-[`ReviewConnection`](/docs/types/objects/review-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`ReviewConnection`](https://graphql-markdown.dev/docs/types/objects/review-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -146,7 +151,7 @@ object
 
 </span>
 
-[`SiteTrendConnection`](/docs/types/objects/site-trend-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`SiteTrendConnection`](https://graphql-markdown.dev/docs/types/objects/site-trend-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -158,7 +163,7 @@ object
 
 </span>
 
-[`StaffConnection`](/docs/types/objects/staff-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`StaffConnection`](https://graphql-markdown.dev/docs/types/objects/staff-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -170,8 +175,13 @@ object
 
 </span>
 
-[`StudioConnection`](/docs/types/objects/studio-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`StudioConnection`](https://graphql-markdown.dev/docs/types/objects/studio-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

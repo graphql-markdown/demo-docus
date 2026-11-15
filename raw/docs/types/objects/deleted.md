@@ -1,3 +1,8 @@
+---
+title: "Deleted"
+description: "Deleted data type"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/deleted"
+---
 # Deleted
 
 > Deleted data type
@@ -12,13 +17,13 @@ type Deleted {
 
 ### Fields
 
-#### [`Deleted`.`deleted`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Deleted`.`deleted`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 If an item has been successfully deleted
 
 ### Returned By
 
-[`DeleteActivity`](/docs/operations/mutations/delete-activity)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteActivity`](https://graphql-markdown.dev/docs/operations/mutations/delete-activity)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -30,7 +35,7 @@ mutation
 
 </span>
 
-[`DeleteActivityReply`](/docs/operations/mutations/delete-activity-reply)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteActivityReply`](https://graphql-markdown.dev/docs/operations/mutations/delete-activity-reply)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -42,7 +47,7 @@ mutation
 
 </span>
 
-[`DeleteCustomList`](/docs/operations/mutations/delete-custom-list)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteCustomList`](https://graphql-markdown.dev/docs/operations/mutations/delete-custom-list)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -54,7 +59,7 @@ mutation
 
 </span>
 
-[`DeleteMediaListEntry`](/docs/operations/mutations/delete-media-list-entry)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteMediaListEntry`](https://graphql-markdown.dev/docs/operations/mutations/delete-media-list-entry)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -66,7 +71,7 @@ mutation
 
 </span>
 
-[`DeleteReview`](/docs/operations/mutations/delete-review)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteReview`](https://graphql-markdown.dev/docs/operations/mutations/delete-review)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -78,7 +83,7 @@ mutation
 
 </span>
 
-[`DeleteThread`](/docs/operations/mutations/delete-thread)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteThread`](https://graphql-markdown.dev/docs/operations/mutations/delete-thread)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -90,8 +95,13 @@ mutation
 
 </span>
 
-[`DeleteThreadComment`](/docs/operations/mutations/delete-thread-comment)  <badge color="neutral" size="sm" variant="subtle">
+[`DeleteThreadComment`](https://graphql-markdown.dev/docs/operations/mutations/delete-thread-comment)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

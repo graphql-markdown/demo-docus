@@ -1,3 +1,8 @@
+---
+title: "ListActivityOption"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/list-activity-option"
+---
 # ListActivityOption
 
 > No description
@@ -13,14 +18,19 @@ type ListActivityOption {
 
 ### Fields
 
-#### [`ListActivityOption`.`disabled`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ListActivityOption`.`disabled`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`ListActivityOption`.`type`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListStatus`](/docs/types/enums/media-list-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`ListActivityOption`.`type`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListStatus`](https://graphql-markdown.dev/docs/types/enums/media-list-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 ### Member Of
 
-[`UserOptions`](/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
+[`UserOptions`](https://graphql-markdown.dev/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

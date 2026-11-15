@@ -1,3 +1,8 @@
+---
+title: "ActivityUnion"
+description: "Activity union type"
+canonical_url: "https://graphql-markdown.dev/docs/types/unions/activity-union"
+---
 # ActivityUnion
 
 > Activity union type
@@ -10,21 +15,21 @@ union ActivityUnion = TextActivity | ListActivity | MessageActivity
 
 ### Possible types
 
-#### [`ActivityUnion`.`TextActivity`](/docs/types/objects/text-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`ActivityUnion`.`TextActivity`](https://graphql-markdown.dev/docs/types/objects/text-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 User text activity
 
-#### [`ActivityUnion`.`ListActivity`](/docs/types/objects/list-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`ActivityUnion`.`ListActivity`](https://graphql-markdown.dev/docs/types/objects/list-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 User list activity (anime & manga updates)
 
-#### [`ActivityUnion`.`MessageActivity`](/docs/types/objects/message-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`ActivityUnion`.`MessageActivity`](https://graphql-markdown.dev/docs/types/objects/message-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 User message activity
 
 ### Returned By
 
-[`Activity`](/docs/operations/queries/activity)  <badge color="neutral" size="sm" variant="subtle">
+[`Activity`](https://graphql-markdown.dev/docs/operations/queries/activity)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -36,7 +41,7 @@ query
 
 </span>
 
-[`ToggleActivityPin`](/docs/operations/mutations/toggle-activity-pin)  <badge color="neutral" size="sm" variant="subtle">
+[`ToggleActivityPin`](https://graphql-markdown.dev/docs/operations/mutations/toggle-activity-pin)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -48,7 +53,7 @@ mutation
 
 </span>
 
-[`ToggleActivitySubscription`](/docs/operations/mutations/toggle-activity-subscription)  <badge color="neutral" size="sm" variant="subtle">
+[`ToggleActivitySubscription`](https://graphql-markdown.dev/docs/operations/mutations/toggle-activity-subscription)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -58,7 +63,7 @@ mutation
 
 ### Member Of
 
-[`ActivityLikeNotification`](/docs/types/objects/activity-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityLikeNotification`](https://graphql-markdown.dev/docs/types/objects/activity-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -70,7 +75,7 @@ object
 
 </span>
 
-[`ActivityMentionNotification`](/docs/types/objects/activity-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityMentionNotification`](https://graphql-markdown.dev/docs/types/objects/activity-mention-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -82,7 +87,7 @@ object
 
 </span>
 
-[`ActivityReplyLikeNotification`](/docs/types/objects/activity-reply-like-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplyLikeNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-like-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -94,7 +99,7 @@ object
 
 </span>
 
-[`ActivityReplyNotification`](/docs/types/objects/activity-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplyNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -106,7 +111,7 @@ object
 
 </span>
 
-[`ActivityReplySubscribedNotification`](/docs/types/objects/activity-reply-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`ActivityReplySubscribedNotification`](https://graphql-markdown.dev/docs/types/objects/activity-reply-subscribed-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -118,7 +123,7 @@ object
 
 </span>
 
-[`InternalPage`](/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
+[`InternalPage`](https://graphql-markdown.dev/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -130,8 +135,13 @@ object
 
 </span>
 
-[`Page`](/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
+[`Page`](https://graphql-markdown.dev/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

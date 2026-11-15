@@ -1,3 +1,8 @@
+---
+title: "skip"
+description: "Directs the executor to skip this field or fragment when the if argument is true."
+canonical_url: "https://graphql-markdown.dev/docs/operations/directives/skip"
+---
 # skip
 
 > Directs the executor to skip this field or fragment when the if argument is true.
@@ -15,6 +20,11 @@ directive @skip(
 
 ### Arguments
 
-#### [`skip`.`if`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`skip`.`if`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Skipped when true.
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

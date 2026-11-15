@@ -1,3 +1,8 @@
+---
+title: "UserFormatStatistic"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/user-format-statistic"
+---
 # UserFormatStatistic
 
 > No description
@@ -17,22 +22,27 @@ type UserFormatStatistic {
 
 ### Fields
 
-#### [`UserFormatStatistic`.`count`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserFormatStatistic`.`count`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserFormatStatistic`.`meanScore`](#)<span className="gqlmd-mdx-bullet">●</span>[`Float!`](/docs/types/scalars/float) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserFormatStatistic`.`meanScore`](#)<span className="gqlmd-mdx-bullet">●</span>[`Float!`](https://graphql-markdown.dev/docs/types/scalars/float) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserFormatStatistic`.`minutesWatched`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserFormatStatistic`.`minutesWatched`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserFormatStatistic`.`chaptersRead`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserFormatStatistic`.`chaptersRead`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserFormatStatistic`.`mediaIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserFormatStatistic`.`mediaIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`UserFormatStatistic`.`format`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaFormat`](/docs/types/enums/media-format) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`UserFormatStatistic`.`format`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaFormat`](https://graphql-markdown.dev/docs/types/enums/media-format) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 ### Member Of
 
-[`UserStatistics`](/docs/types/objects/user-statistics)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStatistics`](https://graphql-markdown.dev/docs/types/objects/user-statistics)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

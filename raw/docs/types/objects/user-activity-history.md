@@ -1,3 +1,8 @@
+---
+title: "UserActivityHistory"
+description: "A user's activity history stats for the previous 6 months. Refreshes only periodically"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/user-activity-history"
+---
 # UserActivityHistory
 
 > A user's activity history stats for the previous 6 months. Refreshes only periodically
@@ -14,22 +19,27 @@ type UserActivityHistory {
 
 ### Fields
 
-#### [`UserActivityHistory`.`date`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserActivityHistory`.`date`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The day the activity took place (Unix timestamp)
 
-#### [`UserActivityHistory`.`amount`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserActivityHistory`.`amount`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of activity on the day
 
-#### [`UserActivityHistory`.`level`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UserActivityHistory`.`level`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The level of activity represented on a 1-10 scale
 
 ### Member Of
 
-[`UserStats`](/docs/types/objects/user-stats)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStats`](https://graphql-markdown.dev/docs/types/objects/user-stats)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

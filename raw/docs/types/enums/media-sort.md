@@ -1,3 +1,8 @@
+---
+title: "MediaSort"
+description: "Media sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-sort"
+---
 # MediaSort
 
 > Media sort enums
@@ -124,8 +129,13 @@ enum MediaSort {
 
 ### Member Of
 
-[`Media`](/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

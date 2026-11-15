@@ -1,3 +1,8 @@
+---
+title: "UserSort"
+description: "User sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/user-sort"
+---
 # UserSort
 
 > User sort enums
@@ -40,7 +45,7 @@ enum UserSort {
 
 ### Member Of
 
-[`Follower`](/docs/operations/queries/follower)  <badge color="neutral" size="sm" variant="subtle">
+[`Follower`](https://graphql-markdown.dev/docs/operations/queries/follower)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -52,7 +57,7 @@ query
 
 </span>
 
-[`Following`](/docs/operations/queries/following)  <badge color="neutral" size="sm" variant="subtle">
+[`Following`](https://graphql-markdown.dev/docs/operations/queries/following)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -64,8 +69,25 @@ query
 
 </span>
 
-[`User`](/docs/operations/queries/user)  <badge color="neutral" size="sm" variant="subtle">
+[`MutualFollower`](https://graphql-markdown.dev/docs/operations/queries/mutual-follower)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+<span className="gqlmd-mdx-bullet">
+
+●
+
+</span>
+
+[`User`](https://graphql-markdown.dev/docs/operations/queries/user)  <badge color="neutral" size="sm" variant="subtle">
+
+query
+
+</badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

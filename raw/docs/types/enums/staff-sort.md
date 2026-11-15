@@ -1,3 +1,8 @@
+---
+title: "StaffSort"
+description: "Staff sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/staff-sort"
+---
 # StaffSort
 
 > Staff sort enums
@@ -45,8 +50,13 @@ Order manually decided by moderators
 
 ### Member Of
 
-[`Staff`](/docs/operations/queries/staff)  <badge color="neutral" size="sm" variant="subtle">
+[`Staff`](https://graphql-markdown.dev/docs/operations/queries/staff)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

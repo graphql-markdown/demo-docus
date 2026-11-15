@@ -1,3 +1,8 @@
+---
+title: "include"
+description: "Directs the executor to include this field or fragment only when the if argument is true."
+canonical_url: "https://graphql-markdown.dev/docs/operations/directives/include"
+---
 # include
 
 > Directs the executor to include this field or fragment only when the if argument is true.
@@ -15,6 +20,11 @@ directive @include(
 
 ### Arguments
 
-#### [`include`.`if`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`include`.`if`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Included when true.
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

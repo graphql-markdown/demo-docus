@@ -1,3 +1,8 @@
+---
+title: "MediaFormat"
+description: "The format the media was released in"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-format"
+---
 # MediaFormat
 
 > The format the media was released in
@@ -63,7 +68,7 @@ Manga with just one chapter
 
 ### Member Of
 
-[`FormatStats`](/docs/types/objects/format-stats)  <badge color="neutral" size="sm" variant="subtle">
+[`FormatStats`](https://graphql-markdown.dev/docs/types/objects/format-stats)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -75,7 +80,7 @@ object
 
 </span>
 
-[`Media`](/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -87,7 +92,7 @@ query
 
 </span>
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -99,7 +104,7 @@ object
 
 </span>
 
-[`MediaRank`](/docs/types/objects/media-rank)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaRank`](https://graphql-markdown.dev/docs/types/objects/media-rank)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -111,8 +116,13 @@ object
 
 </span>
 
-[`UserFormatStatistic`](/docs/types/objects/user-format-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserFormatStatistic`](https://graphql-markdown.dev/docs/types/objects/user-format-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "Float"
+description: "The Float scalar type represents signed double-precision fractional values as specified by IEEE 754."
+canonical_url: "https://graphql-markdown.dev/docs/types/scalars/float"
+---
 # Float
 
 > The Float scalar type represents signed double-precision fractional values as specified by IEEE 754.
@@ -10,7 +15,7 @@ scalar Float
 
 ### Member Of
 
-[`AiringProgression`](/docs/types/objects/airing-progression)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringProgression`](https://graphql-markdown.dev/docs/types/objects/airing-progression)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -22,7 +27,7 @@ object
 
 </span>
 
-[`MediaList`](/docs/types/objects/media-list)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaList`](https://graphql-markdown.dev/docs/types/objects/media-list)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -34,7 +39,7 @@ object
 
 </span>
 
-[`SaveMediaListEntry`](/docs/operations/mutations/save-media-list-entry)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveMediaListEntry`](https://graphql-markdown.dev/docs/operations/mutations/save-media-list-entry)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -46,7 +51,7 @@ mutation
 
 </span>
 
-[`UpdateMediaListEntries`](/docs/operations/mutations/update-media-list-entries)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateMediaListEntries`](https://graphql-markdown.dev/docs/operations/mutations/update-media-list-entries)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -58,7 +63,7 @@ mutation
 
 </span>
 
-[`UserCountryStatistic`](/docs/types/objects/user-country-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserCountryStatistic`](https://graphql-markdown.dev/docs/types/objects/user-country-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -70,7 +75,7 @@ object
 
 </span>
 
-[`UserFormatStatistic`](/docs/types/objects/user-format-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserFormatStatistic`](https://graphql-markdown.dev/docs/types/objects/user-format-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -82,7 +87,7 @@ object
 
 </span>
 
-[`UserGenreStatistic`](/docs/types/objects/user-genre-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserGenreStatistic`](https://graphql-markdown.dev/docs/types/objects/user-genre-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -94,7 +99,7 @@ object
 
 </span>
 
-[`UserLengthStatistic`](/docs/types/objects/user-length-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserLengthStatistic`](https://graphql-markdown.dev/docs/types/objects/user-length-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -106,7 +111,7 @@ object
 
 </span>
 
-[`UserReleaseYearStatistic`](/docs/types/objects/user-release-year-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserReleaseYearStatistic`](https://graphql-markdown.dev/docs/types/objects/user-release-year-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -118,7 +123,7 @@ object
 
 </span>
 
-[`UserScoreStatistic`](/docs/types/objects/user-score-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserScoreStatistic`](https://graphql-markdown.dev/docs/types/objects/user-score-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -130,7 +135,7 @@ object
 
 </span>
 
-[`UserStaffStatistic`](/docs/types/objects/user-staff-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStaffStatistic`](https://graphql-markdown.dev/docs/types/objects/user-staff-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -142,7 +147,7 @@ object
 
 </span>
 
-[`UserStartYearStatistic`](/docs/types/objects/user-start-year-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStartYearStatistic`](https://graphql-markdown.dev/docs/types/objects/user-start-year-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -154,7 +159,7 @@ object
 
 </span>
 
-[`UserStatistics`](/docs/types/objects/user-statistics)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStatistics`](https://graphql-markdown.dev/docs/types/objects/user-statistics)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -166,7 +171,7 @@ object
 
 </span>
 
-[`UserStatusStatistic`](/docs/types/objects/user-status-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStatusStatistic`](https://graphql-markdown.dev/docs/types/objects/user-status-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -178,7 +183,7 @@ object
 
 </span>
 
-[`UserStudioStatistic`](/docs/types/objects/user-studio-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStudioStatistic`](https://graphql-markdown.dev/docs/types/objects/user-studio-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -190,7 +195,7 @@ object
 
 </span>
 
-[`UserTagStatistic`](/docs/types/objects/user-tag-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserTagStatistic`](https://graphql-markdown.dev/docs/types/objects/user-tag-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -202,8 +207,13 @@ object
 
 </span>
 
-[`UserVoiceActorStatistic`](/docs/types/objects/user-voice-actor-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserVoiceActorStatistic`](https://graphql-markdown.dev/docs/types/objects/user-voice-actor-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

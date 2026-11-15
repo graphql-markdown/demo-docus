@@ -1,0 +1,265 @@
+# demo-docus
+
+## Documentation Sets
+
+- [demo-docus](https://graphql-markdown.dev/llms-full.txt)
+
+## Docs
+
+Every page below is available as raw markdown.
+
+- [Schema Documentation](https://graphql-markdown.dev/raw/docs.md): GraphQL schema reference generated with GraphQL-Markdown.
+- [include](https://graphql-markdown.dev/raw/docs/operations/directives/include.md): Directs the executor to include this field or fragment only when the if argument is true.
+- [skip](https://graphql-markdown.dev/raw/docs/operations/directives/skip.md): Directs the executor to skip this field or fragment when the if argument is true.
+- [DeleteActivity](https://graphql-markdown.dev/raw/docs/operations/mutations/delete-activity.md): Delete an activity item of the authenticated users
+- [DeleteActivityReply](https://graphql-markdown.dev/raw/docs/operations/mutations/delete-activity-reply.md): Delete an activity reply of the authenticated users
+- [DeleteCustomList](https://graphql-markdown.dev/raw/docs/operations/mutations/delete-custom-list.md): Delete a custom list and remove the list entries from it
+- [DeleteFollower](https://graphql-markdown.dev/raw/docs/operations/mutations/delete-follower.md): Removes a follower
+- [DeleteMediaListEntry](https://graphql-markdown.dev/raw/docs/operations/mutations/delete-media-list-entry.md): Delete a media list entry
+- [DeleteReview](https://graphql-markdown.dev/raw/docs/operations/mutations/delete-review.md): Delete a review
+- [DeleteThread](https://graphql-markdown.dev/raw/docs/operations/mutations/delete-thread.md): Delete a thread
+- [DeleteThreadComment](https://graphql-markdown.dev/raw/docs/operations/mutations/delete-thread-comment.md): Delete a thread comment
+- [RateReview](https://graphql-markdown.dev/raw/docs/operations/mutations/rate-review.md): Rate a review
+- [SaveActivityReply](https://graphql-markdown.dev/raw/docs/operations/mutations/save-activity-reply.md): Create or update an activity reply
+- [SaveListActivity](https://graphql-markdown.dev/raw/docs/operations/mutations/save-list-activity.md): Update list activity (Mod Only)
+- [SaveMediaListEntry](https://graphql-markdown.dev/raw/docs/operations/mutations/save-media-list-entry.md): Create or update a media list entry
+- [SaveMessageActivity](https://graphql-markdown.dev/raw/docs/operations/mutations/save-message-activity.md): Create or update message activity for the currently authenticated user
+- [SaveRecommendation](https://graphql-markdown.dev/raw/docs/operations/mutations/save-recommendation.md): Recommendation a media
+- [SaveReview](https://graphql-markdown.dev/raw/docs/operations/mutations/save-review.md): Create or update a review
+- [SaveTextActivity](https://graphql-markdown.dev/raw/docs/operations/mutations/save-text-activity.md): Create or update text activity for the currently authenticated user
+- [SaveThread](https://graphql-markdown.dev/raw/docs/operations/mutations/save-thread.md): Create or update a forum thread
+- [SaveThreadComment](https://graphql-markdown.dev/raw/docs/operations/mutations/save-thread-comment.md): Create or update a thread comment
+- [ToggleActivityPin](https://graphql-markdown.dev/raw/docs/operations/mutations/toggle-activity-pin.md): Toggle activity to be pinned to the top of the user's activity feed
+- [ToggleActivitySubscription](https://graphql-markdown.dev/raw/docs/operations/mutations/toggle-activity-subscription.md): Toggle the subscription of an activity item
+- [ToggleFavourite](https://graphql-markdown.dev/raw/docs/operations/mutations/toggle-favourite.md): Favourite or unfavourite an anime, manga, character, staff member, or studio
+- [ToggleFollow](https://graphql-markdown.dev/raw/docs/operations/mutations/toggle-follow.md): Toggle the un/following of a user
+- [ToggleLike](https://graphql-markdown.dev/raw/docs/operations/mutations/toggle-like.md): Add or remove a like from a likeable type.
+Returns all the users who liked the same model
+- [ToggleLikeV2](https://graphql-markdown.dev/raw/docs/operations/mutations/toggle-like-v2.md): Add or remove a like from a likeable type.
+- [ToggleThreadSubscription](https://graphql-markdown.dev/raw/docs/operations/mutations/toggle-thread-subscription.md): Toggle the subscription of a forum thread
+- [UpdateAniChartHighlights](https://graphql-markdown.dev/raw/docs/operations/mutations/update-ani-chart-highlights.md): No description
+- [UpdateAniChartSettings](https://graphql-markdown.dev/raw/docs/operations/mutations/update-ani-chart-settings.md): No description
+- [UpdateFavouriteOrder](https://graphql-markdown.dev/raw/docs/operations/mutations/update-favourite-order.md): Update the order favourites are displayed in
+- [UpdateMediaListEntries](https://graphql-markdown.dev/raw/docs/operations/mutations/update-media-list-entries.md): Update multiple media list entries to the same values
+- [UpdateUser](https://graphql-markdown.dev/raw/docs/operations/mutations/update-user.md): No description
+- [Activity](https://graphql-markdown.dev/raw/docs/operations/queries/activity.md): Activity query
+- [ActivityReply](https://graphql-markdown.dev/raw/docs/operations/queries/activity-reply.md): Activity reply query
+- [AiringSchedule](https://graphql-markdown.dev/raw/docs/operations/queries/airing-schedule.md): Airing schedule query
+- [AniChartUser](https://graphql-markdown.dev/raw/docs/operations/queries/ani-chart-user.md): No description
+- [Character](https://graphql-markdown.dev/raw/docs/operations/queries/character.md): Character query
+- [ExternalLinkSourceCollection](https://graphql-markdown.dev/raw/docs/operations/queries/external-link-source-collection.md): ExternalLinkSource collection query
+- [Follower](https://graphql-markdown.dev/raw/docs/operations/queries/follower.md): Follower query
+- [Following](https://graphql-markdown.dev/raw/docs/operations/queries/following.md): Following query
+- [GenreCollection](https://graphql-markdown.dev/raw/docs/operations/queries/genre-collection.md): Collection of all the possible media genres
+- [Like](https://graphql-markdown.dev/raw/docs/operations/queries/like.md): Like query
+- [Markdown](https://graphql-markdown.dev/raw/docs/operations/queries/markdown.md): Provide AniList markdown to be converted to html (Requires auth)
+- [Media](https://graphql-markdown.dev/raw/docs/operations/queries/media.md): Media query
+- [MediaList](https://graphql-markdown.dev/raw/docs/operations/queries/media-list.md): Media list query
+- [MediaListCollection](https://graphql-markdown.dev/raw/docs/operations/queries/media-list-collection.md): Media list collection query, provides list pre-grouped by status & custom lists. User ID and Media Type arguments required.
+- [MediaTagCollection](https://graphql-markdown.dev/raw/docs/operations/queries/media-tag-collection.md): Collection of all the possible media tags
+- [MediaTrend](https://graphql-markdown.dev/raw/docs/operations/queries/media-trend.md): Media Trend query
+- [MutualFollower](https://graphql-markdown.dev/raw/docs/operations/queries/mutual-follower.md): Mutual follower query
+- [Notification](https://graphql-markdown.dev/raw/docs/operations/queries/notification.md): Notification query
+- [Page](https://graphql-markdown.dev/raw/docs/operations/queries/page.md): No description
+- [Recommendation](https://graphql-markdown.dev/raw/docs/operations/queries/recommendation.md): Recommendation query
+- [Review](https://graphql-markdown.dev/raw/docs/operations/queries/review.md): Review query
+- [SiteStatistics](https://graphql-markdown.dev/raw/docs/operations/queries/site-statistics.md): Site statistics query
+- [Staff](https://graphql-markdown.dev/raw/docs/operations/queries/staff.md): Staff query
+- [Studio](https://graphql-markdown.dev/raw/docs/operations/queries/studio.md): Studio query
+- [Thread](https://graphql-markdown.dev/raw/docs/operations/queries/thread.md): Thread query
+- [ThreadComment](https://graphql-markdown.dev/raw/docs/operations/queries/thread-comment.md): Comment query
+- [User](https://graphql-markdown.dev/raw/docs/operations/queries/user.md): User query
+- [Viewer](https://graphql-markdown.dev/raw/docs/operations/queries/viewer.md): Get the currently authenticated user
+- [deprecated](https://graphql-markdown.dev/raw/docs/types/directives/deprecated.md): Marks an element of a GraphQL schema as no longer supported.
+- [ActivitySort](https://graphql-markdown.dev/raw/docs/types/enums/activity-sort.md): Activity sort enums
+- [ActivityType](https://graphql-markdown.dev/raw/docs/types/enums/activity-type.md): Activity type enum.
+- [AiringSort](https://graphql-markdown.dev/raw/docs/types/enums/airing-sort.md): Airing schedule sort enums
+- [CharacterRole](https://graphql-markdown.dev/raw/docs/types/enums/character-role.md): The role the character plays in the media
+- [CharacterSort](https://graphql-markdown.dev/raw/docs/types/enums/character-sort.md): Character sort enums
+- [ExternalLinkMediaType](https://graphql-markdown.dev/raw/docs/types/enums/external-link-media-type.md): No description
+- [ExternalLinkType](https://graphql-markdown.dev/raw/docs/types/enums/external-link-type.md): No description
+- [LikeableType](https://graphql-markdown.dev/raw/docs/types/enums/likeable-type.md): Types that can be liked
+- [MediaFormat](https://graphql-markdown.dev/raw/docs/types/enums/media-format.md): The format the media was released in
+- [MediaListSort](https://graphql-markdown.dev/raw/docs/types/enums/media-list-sort.md): Media list sort enums
+- [MediaListStatus](https://graphql-markdown.dev/raw/docs/types/enums/media-list-status.md): Media list watching/reading status enum.
+- [MediaRankType](https://graphql-markdown.dev/raw/docs/types/enums/media-rank-type.md): The type of ranking
+- [MediaRelation](https://graphql-markdown.dev/raw/docs/types/enums/media-relation.md): Type of relation media has to its parent.
+- [MediaSeason](https://graphql-markdown.dev/raw/docs/types/enums/media-season.md): No description
+- [MediaSort](https://graphql-markdown.dev/raw/docs/types/enums/media-sort.md): Media sort enums
+- [MediaSource](https://graphql-markdown.dev/raw/docs/types/enums/media-source.md): Source type the media was adapted from
+- [MediaStatus](https://graphql-markdown.dev/raw/docs/types/enums/media-status.md): The current releasing status of the media
+- [MediaTrendSort](https://graphql-markdown.dev/raw/docs/types/enums/media-trend-sort.md): Media trend sort enums
+- [MediaType](https://graphql-markdown.dev/raw/docs/types/enums/media-type.md): Media type enum, anime or manga.
+- [ModActionType](https://graphql-markdown.dev/raw/docs/types/enums/mod-action-type.md): No description
+- [ModRole](https://graphql-markdown.dev/raw/docs/types/enums/mod-role.md): Mod role enums
+- [NotificationType](https://graphql-markdown.dev/raw/docs/types/enums/notification-type.md): Notification type enum
+- [RecommendationRating](https://graphql-markdown.dev/raw/docs/types/enums/recommendation-rating.md): Recommendation rating enums
+- [RecommendationSort](https://graphql-markdown.dev/raw/docs/types/enums/recommendation-sort.md): Recommendation sort enums
+- [ReviewRating](https://graphql-markdown.dev/raw/docs/types/enums/review-rating.md): Review rating enums
+- [ReviewSort](https://graphql-markdown.dev/raw/docs/types/enums/review-sort.md): Review sort enums
+- [RevisionHistoryAction](https://graphql-markdown.dev/raw/docs/types/enums/revision-history-action.md): Revision history actions
+- [ScoreFormat](https://graphql-markdown.dev/raw/docs/types/enums/score-format.md): Media list scoring type
+- [SiteTrendSort](https://graphql-markdown.dev/raw/docs/types/enums/site-trend-sort.md): Site trend sort enums
+- [StaffLanguage](https://graphql-markdown.dev/raw/docs/types/enums/staff-language.md): The primary language of the voice actor
+- [StaffSort](https://graphql-markdown.dev/raw/docs/types/enums/staff-sort.md): Staff sort enums
+- [StudioSort](https://graphql-markdown.dev/raw/docs/types/enums/studio-sort.md): Studio sort enums
+- [SubmissionSort](https://graphql-markdown.dev/raw/docs/types/enums/submission-sort.md): Submission sort enums
+- [SubmissionStatus](https://graphql-markdown.dev/raw/docs/types/enums/submission-status.md): Submission status
+- [ThreadCommentSort](https://graphql-markdown.dev/raw/docs/types/enums/thread-comment-sort.md): Thread comments sort enums
+- [ThreadSort](https://graphql-markdown.dev/raw/docs/types/enums/thread-sort.md): Thread sort enums
+- [UserPrivacy](https://graphql-markdown.dev/raw/docs/types/enums/user-privacy.md): User's account privacy setting
+- [UserSort](https://graphql-markdown.dev/raw/docs/types/enums/user-sort.md): User sort enums
+- [UserStaffNameLanguage](https://graphql-markdown.dev/raw/docs/types/enums/user-staff-name-language.md): The language the user wants to see staff and character names in
+- [UserStatisticsSort](https://graphql-markdown.dev/raw/docs/types/enums/user-statistics-sort.md): User statistics sort enum
+- [UserTitleLanguage](https://graphql-markdown.dev/raw/docs/types/enums/user-title-language.md): The language the user wants to see media titles in
+- [AiringScheduleInput](https://graphql-markdown.dev/raw/docs/types/inputs/airing-schedule-input.md): No description
+- [AniChartHighlightInput](https://graphql-markdown.dev/raw/docs/types/inputs/ani-chart-highlight-input.md): No description
+- [CharacterNameInput](https://graphql-markdown.dev/raw/docs/types/inputs/character-name-input.md): The names of the character
+- [FuzzyDateInput](https://graphql-markdown.dev/raw/docs/types/inputs/fuzzy-date-input.md): Date object that allows for incomplete date values (fuzzy)
+- [ListActivityOptionInput](https://graphql-markdown.dev/raw/docs/types/inputs/list-activity-option-input.md): No description
+- [MediaExternalLinkInput](https://graphql-markdown.dev/raw/docs/types/inputs/media-external-link-input.md): An external link to another site related to the media
+- [MediaListOptionsInput](https://graphql-markdown.dev/raw/docs/types/inputs/media-list-options-input.md): A user's list options for anime or manga lists
+- [MediaTitleInput](https://graphql-markdown.dev/raw/docs/types/inputs/media-title-input.md): The official titles of the media in various languages
+- [NotificationOptionInput](https://graphql-markdown.dev/raw/docs/types/inputs/notification-option-input.md): Notification option input
+- [StaffNameInput](https://graphql-markdown.dev/raw/docs/types/inputs/staff-name-input.md): The names of the staff member
+- [ActivityLikeNotification](https://graphql-markdown.dev/raw/docs/types/objects/activity-like-notification.md): Notification for when a activity is liked
+- [ActivityMentionNotification](https://graphql-markdown.dev/raw/docs/types/objects/activity-mention-notification.md): Notification for when authenticated user is @ mentioned in activity or reply
+- [ActivityMessageNotification](https://graphql-markdown.dev/raw/docs/types/objects/activity-message-notification.md): Notification for when a user is send an activity message
+- [ActivityReply](https://graphql-markdown.dev/raw/docs/types/objects/activity-reply.md): Replay to an activity item
+- [ActivityReplyLikeNotification](https://graphql-markdown.dev/raw/docs/types/objects/activity-reply-like-notification.md): Notification for when a activity reply is liked
+- [ActivityReplyNotification](https://graphql-markdown.dev/raw/docs/types/objects/activity-reply-notification.md): Notification for when a user replies to the authenticated users activity
+- [ActivityReplySubscribedNotification](https://graphql-markdown.dev/raw/docs/types/objects/activity-reply-subscribed-notification.md): Notification for when a user replies to activity the authenticated user has replied to
+- [AiringNotification](https://graphql-markdown.dev/raw/docs/types/objects/airing-notification.md): Notification for when an episode of anime airs
+- [AiringProgression](https://graphql-markdown.dev/raw/docs/types/objects/airing-progression.md): Score & Watcher stats for airing anime by episode and mid-week
+- [AiringSchedule](https://graphql-markdown.dev/raw/docs/types/objects/airing-schedule.md): Media Airing Schedule. NOTE: We only aim to guarantee that FUTURE airing data is present and accurate.
+- [AiringScheduleConnection](https://graphql-markdown.dev/raw/docs/types/objects/airing-schedule-connection.md): No description
+- [AiringScheduleEdge](https://graphql-markdown.dev/raw/docs/types/objects/airing-schedule-edge.md): AiringSchedule connection edge
+- [AniChartUser](https://graphql-markdown.dev/raw/docs/types/objects/ani-chart-user.md): No description
+- [Character](https://graphql-markdown.dev/raw/docs/types/objects/character.md): A character that features in an anime or manga
+- [CharacterConnection](https://graphql-markdown.dev/raw/docs/types/objects/character-connection.md): No description
+- [CharacterEdge](https://graphql-markdown.dev/raw/docs/types/objects/character-edge.md): Character connection edge
+- [CharacterImage](https://graphql-markdown.dev/raw/docs/types/objects/character-image.md): No description
+- [CharacterName](https://graphql-markdown.dev/raw/docs/types/objects/character-name.md): The names of the character
+- [CharacterSubmission](https://graphql-markdown.dev/raw/docs/types/objects/character-submission.md): A submission for a character that features in an anime or manga
+- [CharacterSubmissionConnection](https://graphql-markdown.dev/raw/docs/types/objects/character-submission-connection.md): No description
+- [CharacterSubmissionEdge](https://graphql-markdown.dev/raw/docs/types/objects/character-submission-edge.md): CharacterSubmission connection edge
+- [CharacterSubmissionUpdateNotification](https://graphql-markdown.dev/raw/docs/types/objects/character-submission-update-notification.md): Notification for when a character submission is accepted, partially accepted, or rejected
+- [Deleted](https://graphql-markdown.dev/raw/docs/types/objects/deleted.md): Deleted data type
+- [Favourites](https://graphql-markdown.dev/raw/docs/types/objects/favourites.md): User's favourite anime, manga, characters, staff & studios
+- [FollowingNotification](https://graphql-markdown.dev/raw/docs/types/objects/following-notification.md): Notification for when the authenticated user is followed by another user
+- [FormatStats](https://graphql-markdown.dev/raw/docs/types/objects/format-stats.md): User's format statistics
+- [FuzzyDate](https://graphql-markdown.dev/raw/docs/types/objects/fuzzy-date.md): Date object that allows for incomplete date values (fuzzy)
+- [GenreStats](https://graphql-markdown.dev/raw/docs/types/objects/genre-stats.md): User's genre statistics
+- [InternalPage](https://graphql-markdown.dev/raw/docs/types/objects/internal-page.md): Page of data. Limited to a max depth of 5000 entries. This is calculated as the page parameter multiplied by the perPage parameter.
+- [ListActivity](https://graphql-markdown.dev/raw/docs/types/objects/list-activity.md): User list activity (anime & manga updates)
+- [ListActivityOption](https://graphql-markdown.dev/raw/docs/types/objects/list-activity-option.md): No description
+- [ListScoreStats](https://graphql-markdown.dev/raw/docs/types/objects/list-score-stats.md): User's list score statistics
+- [Media](https://graphql-markdown.dev/raw/docs/types/objects/media.md): Anime or Manga
+- [MediaCharacter](https://graphql-markdown.dev/raw/docs/types/objects/media-character.md): Internal - Media characters separated
+- [MediaConnection](https://graphql-markdown.dev/raw/docs/types/objects/media-connection.md): No description
+- [MediaCoverImage](https://graphql-markdown.dev/raw/docs/types/objects/media-cover-image.md): No description
+- [MediaDataChangeNotification](https://graphql-markdown.dev/raw/docs/types/objects/media-data-change-notification.md): Notification for when a media entry's data was changed in a significant way impacting users' list tracking
+- [MediaDeletionNotification](https://graphql-markdown.dev/raw/docs/types/objects/media-deletion-notification.md): Notification for when a media tracked in a user's list is deleted from the site
+- [MediaEdge](https://graphql-markdown.dev/raw/docs/types/objects/media-edge.md): Media connection edge
+- [MediaExternalLink](https://graphql-markdown.dev/raw/docs/types/objects/media-external-link.md): An external link to another site related to the media or staff member
+- [MediaList](https://graphql-markdown.dev/raw/docs/types/objects/media-list.md): List of anime or manga
+- [MediaListCollection](https://graphql-markdown.dev/raw/docs/types/objects/media-list-collection.md): List of anime or manga
+- [MediaListGroup](https://graphql-markdown.dev/raw/docs/types/objects/media-list-group.md): List group of anime or manga entries
+- [MediaListOptions](https://graphql-markdown.dev/raw/docs/types/objects/media-list-options.md): A user's list options
+- [MediaListTypeOptions](https://graphql-markdown.dev/raw/docs/types/objects/media-list-type-options.md): A user's list options for anime or manga lists
+- [MediaMergeNotification](https://graphql-markdown.dev/raw/docs/types/objects/media-merge-notification.md): Notification for when a media entry is merged into another for a user who had it on their list
+- [MediaRank](https://graphql-markdown.dev/raw/docs/types/objects/media-rank.md): The ranking of a media in a particular time span and format compared to other media
+- [MediaStats](https://graphql-markdown.dev/raw/docs/types/objects/media-stats.md): A media's statistics
+- [MediaStreamingEpisode](https://graphql-markdown.dev/raw/docs/types/objects/media-streaming-episode.md): Data and links to legal streaming episodes on external sites
+- [MediaSubmission](https://graphql-markdown.dev/raw/docs/types/objects/media-submission.md): Media submission
+- [MediaSubmissionComparison](https://graphql-markdown.dev/raw/docs/types/objects/media-submission-comparison.md): Media submission with comparison to current data
+- [MediaSubmissionEdge](https://graphql-markdown.dev/raw/docs/types/objects/media-submission-edge.md): No description
+- [MediaSubmissionUpdateNotification](https://graphql-markdown.dev/raw/docs/types/objects/media-submission-update-notification.md): Notification for when a media submission is accepted, partially accepted, or rejected
+- [MediaTag](https://graphql-markdown.dev/raw/docs/types/objects/media-tag.md): A tag that describes a theme or element of the media
+- [MediaTitle](https://graphql-markdown.dev/raw/docs/types/objects/media-title.md): The official titles of the media in various languages
+- [MediaTrailer](https://graphql-markdown.dev/raw/docs/types/objects/media-trailer.md): Media trailer or advertisement
+- [MediaTrend](https://graphql-markdown.dev/raw/docs/types/objects/media-trend.md): Daily media statistics
+- [MediaTrendConnection](https://graphql-markdown.dev/raw/docs/types/objects/media-trend-connection.md): No description
+- [MediaTrendEdge](https://graphql-markdown.dev/raw/docs/types/objects/media-trend-edge.md): Media trend connection edge
+- [MessageActivity](https://graphql-markdown.dev/raw/docs/types/objects/message-activity.md): User message activity
+- [ModAction](https://graphql-markdown.dev/raw/docs/types/objects/mod-action.md): No description
+- [NotificationOption](https://graphql-markdown.dev/raw/docs/types/objects/notification-option.md): Notification option
+- [Page](https://graphql-markdown.dev/raw/docs/types/objects/page.md): Page of data. Limited to a max depth of 5000 entries. This is calculated as the page parameter multiplied by the perPage parameter.
+- [PageInfo](https://graphql-markdown.dev/raw/docs/types/objects/page-info.md): No description
+- [ParsedMarkdown](https://graphql-markdown.dev/raw/docs/types/objects/parsed-markdown.md): Provides the parsed markdown as html
+- [Recommendation](https://graphql-markdown.dev/raw/docs/types/objects/recommendation.md): Media recommendation
+- [RecommendationConnection](https://graphql-markdown.dev/raw/docs/types/objects/recommendation-connection.md): No description
+- [RecommendationEdge](https://graphql-markdown.dev/raw/docs/types/objects/recommendation-edge.md): Recommendation connection edge
+- [RelatedMediaAdditionNotification](https://graphql-markdown.dev/raw/docs/types/objects/related-media-addition-notification.md): Notification for when new media is added to the site
+- [Report](https://graphql-markdown.dev/raw/docs/types/objects/report.md): No description
+- [Review](https://graphql-markdown.dev/raw/docs/types/objects/review.md): A Review that features in an anime or manga
+- [ReviewConnection](https://graphql-markdown.dev/raw/docs/types/objects/review-connection.md): No description
+- [ReviewEdge](https://graphql-markdown.dev/raw/docs/types/objects/review-edge.md): Review connection edge
+- [RevisionHistory](https://graphql-markdown.dev/raw/docs/types/objects/revision-history.md): Feed of mod edit activity
+- [ScoreDistribution](https://graphql-markdown.dev/raw/docs/types/objects/score-distribution.md): A user's list score distribution.
+- [SiteStatistics](https://graphql-markdown.dev/raw/docs/types/objects/site-statistics.md): No description
+- [SiteTrend](https://graphql-markdown.dev/raw/docs/types/objects/site-trend.md): Daily site statistics
+- [SiteTrendConnection](https://graphql-markdown.dev/raw/docs/types/objects/site-trend-connection.md): No description
+- [SiteTrendEdge](https://graphql-markdown.dev/raw/docs/types/objects/site-trend-edge.md): Site trend connection edge
+- [Staff](https://graphql-markdown.dev/raw/docs/types/objects/staff.md): Voice actors or production staff
+- [StaffConnection](https://graphql-markdown.dev/raw/docs/types/objects/staff-connection.md): No description
+- [StaffEdge](https://graphql-markdown.dev/raw/docs/types/objects/staff-edge.md): Staff connection edge
+- [StaffImage](https://graphql-markdown.dev/raw/docs/types/objects/staff-image.md): No description
+- [StaffName](https://graphql-markdown.dev/raw/docs/types/objects/staff-name.md): The names of the staff member
+- [StaffRoleType](https://graphql-markdown.dev/raw/docs/types/objects/staff-role-type.md): Voice actor role for a character
+- [StaffStats](https://graphql-markdown.dev/raw/docs/types/objects/staff-stats.md): User's staff statistics
+- [StaffSubmission](https://graphql-markdown.dev/raw/docs/types/objects/staff-submission.md): A submission for a staff that features in an anime or manga
+- [StaffSubmissionUpdateNotification](https://graphql-markdown.dev/raw/docs/types/objects/staff-submission-update-notification.md): Notification for when a staff submission is accepted, partially accepted, or rejected
+- [StatusDistribution](https://graphql-markdown.dev/raw/docs/types/objects/status-distribution.md): The distribution of the watching/reading status of media or a user's list
+- [Studio](https://graphql-markdown.dev/raw/docs/types/objects/studio.md): Animation or production company
+- [StudioConnection](https://graphql-markdown.dev/raw/docs/types/objects/studio-connection.md): No description
+- [StudioEdge](https://graphql-markdown.dev/raw/docs/types/objects/studio-edge.md): Studio connection edge
+- [StudioStats](https://graphql-markdown.dev/raw/docs/types/objects/studio-stats.md): User's studio statistics
+- [TagStats](https://graphql-markdown.dev/raw/docs/types/objects/tag-stats.md): User's tag statistics
+- [TextActivity](https://graphql-markdown.dev/raw/docs/types/objects/text-activity.md): User text activity
+- [Thread](https://graphql-markdown.dev/raw/docs/types/objects/thread.md): Forum Thread
+- [ThreadCategory](https://graphql-markdown.dev/raw/docs/types/objects/thread-category.md): A forum thread category
+- [ThreadComment](https://graphql-markdown.dev/raw/docs/types/objects/thread-comment.md): Forum Thread Comment
+- [ThreadCommentLikeNotification](https://graphql-markdown.dev/raw/docs/types/objects/thread-comment-like-notification.md): Notification for when a thread comment is liked
+- [ThreadCommentMentionNotification](https://graphql-markdown.dev/raw/docs/types/objects/thread-comment-mention-notification.md): Notification for when authenticated user is @ mentioned in a forum thread comment
+- [ThreadCommentReplyNotification](https://graphql-markdown.dev/raw/docs/types/objects/thread-comment-reply-notification.md): Notification for when a user replies to your forum thread comment
+- [ThreadCommentSubscribedNotification](https://graphql-markdown.dev/raw/docs/types/objects/thread-comment-subscribed-notification.md): Notification for when a user replies to a subscribed forum thread
+- [ThreadLikeNotification](https://graphql-markdown.dev/raw/docs/types/objects/thread-like-notification.md): Notification for when a thread is liked
+- [User](https://graphql-markdown.dev/raw/docs/types/objects/user.md): A user
+- [UserActivityHistory](https://graphql-markdown.dev/raw/docs/types/objects/user-activity-history.md): A user's activity history stats for the previous 6 months. Refreshes only periodically
+- [UserAvatar](https://graphql-markdown.dev/raw/docs/types/objects/user-avatar.md): A user's avatars
+- [UserCountryStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-country-statistic.md): No description
+- [UserFormatStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-format-statistic.md): No description
+- [UserGenreStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-genre-statistic.md): No description
+- [UserLengthStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-length-statistic.md): No description
+- [UserModData](https://graphql-markdown.dev/raw/docs/types/objects/user-mod-data.md): User data for moderators
+- [UserOptions](https://graphql-markdown.dev/raw/docs/types/objects/user-options.md): A user's general options
+- [UserPreviousName](https://graphql-markdown.dev/raw/docs/types/objects/user-previous-name.md): A user's previous name
+- [UserReleaseYearStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-release-year-statistic.md): No description
+- [UserScoreStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-score-statistic.md): No description
+- [UserStaffStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-staff-statistic.md): No description
+- [UserStartYearStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-start-year-statistic.md): No description
+- [UserStatisticTypes](https://graphql-markdown.dev/raw/docs/types/objects/user-statistic-types.md): No description
+- [UserStatistics](https://graphql-markdown.dev/raw/docs/types/objects/user-statistics.md): No description
+- [UserStats](https://graphql-markdown.dev/raw/docs/types/objects/user-stats.md): A user's statistics
+- [UserStatusStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-status-statistic.md): No description
+- [UserStudioStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-studio-statistic.md): No description
+- [UserTagStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-tag-statistic.md): No description
+- [UserVoiceActorStatistic](https://graphql-markdown.dev/raw/docs/types/objects/user-voice-actor-statistic.md): No description
+- [YearStats](https://graphql-markdown.dev/raw/docs/types/objects/year-stats.md): User's year statistics
+- [Boolean](https://graphql-markdown.dev/raw/docs/types/scalars/boolean.md): The Boolean scalar type represents true or false.
+- [CountryCode](https://graphql-markdown.dev/raw/docs/types/scalars/country-code.md): ISO 3166-1 alpha-2 country code
+- [Float](https://graphql-markdown.dev/raw/docs/types/scalars/float.md): The Float scalar type represents signed double-precision fractional values as specified by IEEE 754.
+- [FuzzyDateInt](https://graphql-markdown.dev/raw/docs/types/scalars/fuzzy-date-int.md): 8 digit long date integer (YYYYMMDD). Unknown dates represented by 0. E.g. 2016: 20160000, May 1976: 19760500
+- [Int](https://graphql-markdown.dev/raw/docs/types/scalars/int.md): The Int scalar type represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1.
+- [Json](https://graphql-markdown.dev/raw/docs/types/scalars/json.md)
+- [String](https://graphql-markdown.dev/raw/docs/types/scalars/string.md): The String scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.
+- [ActivityUnion](https://graphql-markdown.dev/raw/docs/types/unions/activity-union.md): Activity union type
+- [LikeableUnion](https://graphql-markdown.dev/raw/docs/types/unions/likeable-union.md): Likeable union type
+- [NotificationUnion](https://graphql-markdown.dev/raw/docs/types/unions/notification-union.md): Notification union type
+
+## Landing
+
+Every page below is available as raw markdown.
+
+- [/](https://graphql-markdown.dev/raw/index.md)

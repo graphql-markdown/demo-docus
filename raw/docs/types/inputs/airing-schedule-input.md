@@ -1,3 +1,8 @@
+---
+title: "AiringScheduleInput"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/inputs/airing-schedule-input"
+---
 # AiringScheduleInput
 
 > No description
@@ -14,8 +19,13 @@ input AiringScheduleInput {
 
 ### Fields
 
-#### [`AiringScheduleInput`.`airingAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringScheduleInput`.`airingAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`AiringScheduleInput`.`episode`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringScheduleInput`.`episode`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`AiringScheduleInput`.`timeUntilAiring`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringScheduleInput`.`timeUntilAiring`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

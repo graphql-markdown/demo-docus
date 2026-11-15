@@ -1,3 +1,8 @@
+---
+title: "UpdateFavouriteOrder"
+description: "Update the order favourites are displayed in"
+canonical_url: "https://graphql-markdown.dev/docs/operations/mutations/update-favourite-order"
+---
 # UpdateFavouriteOrder
 
 > Update the order favourites are displayed in
@@ -21,48 +26,53 @@ UpdateFavouriteOrder(
 
 ### Arguments
 
-#### [`UpdateFavouriteOrder`.`animeIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`animeIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the anime to un/favourite
 
-#### [`UpdateFavouriteOrder`.`mangaIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`mangaIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the manga to un/favourite
 
-#### [`UpdateFavouriteOrder`.`characterIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`characterIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the character to un/favourite
 
-#### [`UpdateFavouriteOrder`.`staffIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`staffIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the staff to un/favourite
 
-#### [`UpdateFavouriteOrder`.`studioIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`studioIds`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the studio to un/favourite
 
-#### [`UpdateFavouriteOrder`.`animeOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`animeOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 List of integers which the anime should be ordered by (Asc)
 
-#### [`UpdateFavouriteOrder`.`mangaOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`mangaOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 List of integers which the manga should be ordered by (Asc)
 
-#### [`UpdateFavouriteOrder`.`characterOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`characterOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 List of integers which the character should be ordered by (Asc)
 
-#### [`UpdateFavouriteOrder`.`staffOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`staffOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 List of integers which the staff should be ordered by (Asc)
 
-#### [`UpdateFavouriteOrder`.`studioOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateFavouriteOrder`.`studioOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 List of integers which the studio should be ordered by (Asc)
 
 ### Type
 
-#### [`Favourites`](/docs/types/objects/favourites) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Favourites`](https://graphql-markdown.dev/docs/types/objects/favourites) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 User's favourite anime, manga, characters, staff & studios
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

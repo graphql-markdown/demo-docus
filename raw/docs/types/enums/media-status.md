@@ -1,3 +1,8 @@
+---
+title: "MediaStatus"
+description: "The current releasing status of the media"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-status"
+---
 # MediaStatus
 
 > The current releasing status of the media
@@ -38,7 +43,7 @@ Version 2 only. Is currently paused from releasing and will resume at a later da
 
 ### Member Of
 
-[`Media`](/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/operations/queries/media)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -50,8 +55,13 @@ query
 
 </span>
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

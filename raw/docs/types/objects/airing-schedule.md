@@ -1,3 +1,8 @@
+---
+title: "AiringSchedule"
+description: "Media Airing Schedule. NOTE: We only aim to guarantee that FUTURE airing data is present and accurate."
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/airing-schedule"
+---
 # AiringSchedule
 
 > Media Airing Schedule. NOTE: We only aim to guarantee that FUTURE airing data is present and accurate.
@@ -17,33 +22,33 @@ type AiringSchedule {
 
 ### Fields
 
-#### [`AiringSchedule`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringSchedule`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the airing schedule item
 
-#### [`AiringSchedule`.`airingAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringSchedule`.`airingAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The time the episode airs at
 
-#### [`AiringSchedule`.`timeUntilAiring`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringSchedule`.`timeUntilAiring`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Seconds until episode starts airing
 
-#### [`AiringSchedule`.`episode`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringSchedule`.`episode`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The airing episode number
 
-#### [`AiringSchedule`.`mediaId`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringSchedule`.`mediaId`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The associate media id of the airing episode
 
-#### [`AiringSchedule`.`media`](#)<span className="gqlmd-mdx-bullet">●</span>[`Media`](/docs/types/objects/media) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`AiringSchedule`.`media`](#)<span className="gqlmd-mdx-bullet">●</span>[`Media`](https://graphql-markdown.dev/docs/types/objects/media) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The associate media of the airing episode
 
 ### Returned By
 
-[`AiringSchedule`](/docs/operations/queries/airing-schedule)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringSchedule`](https://graphql-markdown.dev/docs/operations/queries/airing-schedule)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -53,7 +58,7 @@ query
 
 ### Member Of
 
-[`AiringScheduleConnection`](/docs/types/objects/airing-schedule-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringScheduleConnection`](https://graphql-markdown.dev/docs/types/objects/airing-schedule-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -65,7 +70,7 @@ object
 
 </span>
 
-[`AiringScheduleEdge`](/docs/types/objects/airing-schedule-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringScheduleEdge`](https://graphql-markdown.dev/docs/types/objects/airing-schedule-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -77,7 +82,7 @@ object
 
 </span>
 
-[`InternalPage`](/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
+[`InternalPage`](https://graphql-markdown.dev/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -89,7 +94,7 @@ object
 
 </span>
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -101,8 +106,13 @@ object
 
 </span>
 
-[`Page`](/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
+[`Page`](https://graphql-markdown.dev/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

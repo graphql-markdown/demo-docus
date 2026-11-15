@@ -1,3 +1,8 @@
+---
+title: "ListActivityOptionInput"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/inputs/list-activity-option-input"
+---
 # ListActivityOptionInput
 
 > No description
@@ -13,14 +18,19 @@ input ListActivityOptionInput {
 
 ### Fields
 
-#### [`ListActivityOptionInput`.`disabled`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`ListActivityOptionInput`.`disabled`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`ListActivityOptionInput`.`type`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListStatus`](/docs/types/enums/media-list-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`ListActivityOptionInput`.`type`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListStatus`](https://graphql-markdown.dev/docs/types/enums/media-list-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 ### Member Of
 
-[`UpdateUser`](/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateUser`](https://graphql-markdown.dev/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

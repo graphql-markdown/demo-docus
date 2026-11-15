@@ -1,3 +1,8 @@
+---
+title: "LikeableUnion"
+description: "Likeable union type"
+canonical_url: "https://graphql-markdown.dev/docs/types/unions/likeable-union"
+---
 # LikeableUnion
 
 > Likeable union type
@@ -10,34 +15,39 @@ union LikeableUnion = ListActivity | TextActivity | MessageActivity | ActivityRe
 
 ### Possible types
 
-#### [`LikeableUnion`.`ListActivity`](/docs/types/objects/list-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`LikeableUnion`.`ListActivity`](https://graphql-markdown.dev/docs/types/objects/list-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 User list activity (anime & manga updates)
 
-#### [`LikeableUnion`.`TextActivity`](/docs/types/objects/text-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`LikeableUnion`.`TextActivity`](https://graphql-markdown.dev/docs/types/objects/text-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 User text activity
 
-#### [`LikeableUnion`.`MessageActivity`](/docs/types/objects/message-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`LikeableUnion`.`MessageActivity`](https://graphql-markdown.dev/docs/types/objects/message-activity) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 User message activity
 
-#### [`LikeableUnion`.`ActivityReply`](/docs/types/objects/activity-reply) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`LikeableUnion`.`ActivityReply`](https://graphql-markdown.dev/docs/types/objects/activity-reply) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Replay to an activity item
 
-#### [`LikeableUnion`.`Thread`](/docs/types/objects/thread) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`LikeableUnion`.`Thread`](https://graphql-markdown.dev/docs/types/objects/thread) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Forum Thread
 
-#### [`LikeableUnion`.`ThreadComment`](/docs/types/objects/thread-comment) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`LikeableUnion`.`ThreadComment`](https://graphql-markdown.dev/docs/types/objects/thread-comment) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Forum Thread Comment
 
 ### Returned By
 
-[`ToggleLikeV2`](/docs/operations/mutations/toggle-like-v2)  <badge color="neutral" size="sm" variant="subtle">
+[`ToggleLikeV2`](https://graphql-markdown.dev/docs/operations/mutations/toggle-like-v2)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

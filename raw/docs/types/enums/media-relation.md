@@ -1,3 +1,8 @@
+---
+title: "MediaRelation"
+description: "Type of relation media has to its parent."
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-relation"
+---
 # MediaRelation
 
 > Type of relation media has to its parent.
@@ -83,8 +88,13 @@ Version 3 only. The media is set in the same universe as another media
 
 ### Member Of
 
-[`MediaEdge`](/docs/types/objects/media-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaEdge`](https://graphql-markdown.dev/docs/types/objects/media-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "MediaListStatus"
+description: "Media list watching/reading status enum."
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/media-list-status"
+---
 # MediaListStatus
 
 > Media list watching/reading status enum.
@@ -43,7 +48,7 @@ Re-watching/reading
 
 ### Member Of
 
-[`ListActivityOption`](/docs/types/objects/list-activity-option)  <badge color="neutral" size="sm" variant="subtle">
+[`ListActivityOption`](https://graphql-markdown.dev/docs/types/objects/list-activity-option)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -55,7 +60,7 @@ object
 
 </span>
 
-[`ListActivityOptionInput`](/docs/types/inputs/list-activity-option-input)  <badge color="neutral" size="sm" variant="subtle">
+[`ListActivityOptionInput`](https://graphql-markdown.dev/docs/types/inputs/list-activity-option-input)  <badge color="neutral" size="sm" variant="subtle">
 
 input
 
@@ -67,7 +72,7 @@ input
 
 </span>
 
-[`MediaList`](/docs/operations/queries/media-list)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaList`](https://graphql-markdown.dev/docs/operations/queries/media-list)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -79,7 +84,7 @@ query
 
 </span>
 
-[`MediaList`](/docs/types/objects/media-list)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaList`](https://graphql-markdown.dev/docs/types/objects/media-list)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -91,7 +96,7 @@ object
 
 </span>
 
-[`MediaListCollection`](/docs/operations/queries/media-list-collection)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListCollection`](https://graphql-markdown.dev/docs/operations/queries/media-list-collection)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -103,7 +108,7 @@ query
 
 </span>
 
-[`MediaListGroup`](/docs/types/objects/media-list-group)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaListGroup`](https://graphql-markdown.dev/docs/types/objects/media-list-group)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -115,7 +120,7 @@ object
 
 </span>
 
-[`SaveMediaListEntry`](/docs/operations/mutations/save-media-list-entry)  <badge color="neutral" size="sm" variant="subtle">
+[`SaveMediaListEntry`](https://graphql-markdown.dev/docs/operations/mutations/save-media-list-entry)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -127,7 +132,7 @@ mutation
 
 </span>
 
-[`StatusDistribution`](/docs/types/objects/status-distribution)  <badge color="neutral" size="sm" variant="subtle">
+[`StatusDistribution`](https://graphql-markdown.dev/docs/types/objects/status-distribution)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -139,7 +144,7 @@ object
 
 </span>
 
-[`UpdateMediaListEntries`](/docs/operations/mutations/update-media-list-entries)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateMediaListEntries`](https://graphql-markdown.dev/docs/operations/mutations/update-media-list-entries)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -151,8 +156,13 @@ mutation
 
 </span>
 
-[`UserStatusStatistic`](/docs/types/objects/user-status-statistic)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStatusStatistic`](https://graphql-markdown.dev/docs/types/objects/user-status-statistic)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

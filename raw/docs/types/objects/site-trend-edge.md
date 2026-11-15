@@ -1,3 +1,8 @@
+---
+title: "SiteTrendEdge"
+description: "Site trend connection edge"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/site-trend-edge"
+---
 # SiteTrendEdge
 
 > Site trend connection edge
@@ -12,12 +17,17 @@ type SiteTrendEdge {
 
 ### Fields
 
-#### [`SiteTrendEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`SiteTrend`](/docs/types/objects/site-trend) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`SiteTrendEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`SiteTrend`](https://graphql-markdown.dev/docs/types/objects/site-trend) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 ### Member Of
 
-[`SiteTrendConnection`](/docs/types/objects/site-trend-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`SiteTrendConnection`](https://graphql-markdown.dev/docs/types/objects/site-trend-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

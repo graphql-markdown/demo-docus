@@ -1,3 +1,8 @@
+---
+title: "StaffConnection"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/staff-connection"
+---
 # StaffConnection
 
 > No description
@@ -14,17 +19,17 @@ type StaffConnection {
 
 ### Fields
 
-#### [`StaffConnection`.`edges`](#)<span className="gqlmd-mdx-bullet">●</span>[`StaffEdge`](/docs/types/objects/staff-edge) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`StaffConnection`.`edges`](#)<span className="gqlmd-mdx-bullet">●</span>[`StaffEdge`](https://graphql-markdown.dev/docs/types/objects/staff-edge) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`StaffConnection`.`nodes`](#)<span className="gqlmd-mdx-bullet">●</span>[`Staff`](/docs/types/objects/staff) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`StaffConnection`.`nodes`](#)<span className="gqlmd-mdx-bullet">●</span>[`Staff`](https://graphql-markdown.dev/docs/types/objects/staff) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`StaffConnection`.`pageInfo`](#)<span className="gqlmd-mdx-bullet">●</span>[`PageInfo`](/docs/types/objects/page-info) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`StaffConnection`.`pageInfo`](#)<span className="gqlmd-mdx-bullet">●</span>[`PageInfo`](https://graphql-markdown.dev/docs/types/objects/page-info) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The pagination information
 
 ### Member Of
 
-[`Favourites`](/docs/types/objects/favourites)  <badge color="neutral" size="sm" variant="subtle">
+[`Favourites`](https://graphql-markdown.dev/docs/types/objects/favourites)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -36,8 +41,13 @@ object
 
 </span>
 
-[`Media`](/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
+[`Media`](https://graphql-markdown.dev/docs/types/objects/media)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

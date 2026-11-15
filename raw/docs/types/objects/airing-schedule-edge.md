@@ -1,3 +1,8 @@
+---
+title: "AiringScheduleEdge"
+description: "AiringSchedule connection edge"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/airing-schedule-edge"
+---
 # AiringScheduleEdge
 
 > AiringSchedule connection edge
@@ -13,16 +18,21 @@ type AiringScheduleEdge {
 
 ### Fields
 
-#### [`AiringScheduleEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`AiringSchedule`](/docs/types/objects/airing-schedule) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`AiringScheduleEdge`.`node`](#)<span className="gqlmd-mdx-bullet">●</span>[`AiringSchedule`](https://graphql-markdown.dev/docs/types/objects/airing-schedule) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`AiringScheduleEdge`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`AiringScheduleEdge`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the connection
 
 ### Member Of
 
-[`AiringScheduleConnection`](/docs/types/objects/airing-schedule-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`AiringScheduleConnection`](https://graphql-markdown.dev/docs/types/objects/airing-schedule-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

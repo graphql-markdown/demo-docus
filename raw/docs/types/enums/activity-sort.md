@@ -1,3 +1,8 @@
+---
+title: "ActivitySort"
+description: "Activity sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/activity-sort"
+---
 # ActivitySort
 
 > Activity sort enums
@@ -22,8 +27,13 @@ enum ActivitySort {
 
 ### Member Of
 
-[`Activity`](/docs/operations/queries/activity)  <badge color="neutral" size="sm" variant="subtle">
+[`Activity`](https://graphql-markdown.dev/docs/operations/queries/activity)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

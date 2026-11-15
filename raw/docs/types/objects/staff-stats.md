@@ -1,3 +1,8 @@
+---
+title: "StaffStats"
+description: "User's staff statistics"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/staff-stats"
+---
 # StaffStats
 
 > User's staff statistics
@@ -15,20 +20,25 @@ type StaffStats {
 
 ### Fields
 
-#### [`StaffStats`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`Staff`](/docs/types/objects/staff) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`StaffStats`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`Staff`](https://graphql-markdown.dev/docs/types/objects/staff) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`StaffStats`.`amount`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`StaffStats`.`amount`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`StaffStats`.`meanScore`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`StaffStats`.`meanScore`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`StaffStats`.`timeWatched`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`StaffStats`.`timeWatched`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of time in minutes the staff member has been watched by the user
 
 ### Member Of
 
-[`UserStats`](/docs/types/objects/user-stats)  <badge color="neutral" size="sm" variant="subtle">
+[`UserStats`](https://graphql-markdown.dev/docs/types/objects/user-stats)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "ThreadCommentSort"
+description: "Thread comments sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/thread-comment-sort"
+---
 # ThreadCommentSort
 
 > Thread comments sort enums
@@ -19,8 +24,13 @@ enum ThreadCommentSort {
 
 ### Member Of
 
-[`ThreadComment`](/docs/operations/queries/thread-comment)  <badge color="neutral" size="sm" variant="subtle">
+[`ThreadComment`](https://graphql-markdown.dev/docs/operations/queries/thread-comment)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "UpdateUser"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/operations/mutations/update-user"
+---
 # UpdateUser
 
 > No description
@@ -9,6 +14,9 @@ UpdateUser(
   about: String
   titleLanguage: UserTitleLanguage
   displayAdultContent: Boolean
+  includeAdultContentInSearch: Boolean
+  includeAdultContentInQuickSearch: Boolean
+  displayAdultActivities: Boolean
   airingNotifications: Boolean
   scoreFormat: ScoreFormat
   rowOrder: String
@@ -27,70 +35,87 @@ UpdateUser(
 
 ### Arguments
 
-#### [`UpdateUser`.`about`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`about`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 User's about/bio text
 
-#### [`UpdateUser`.`titleLanguage`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserTitleLanguage`](/docs/types/enums/user-title-language) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`UpdateUser`.`titleLanguage`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserTitleLanguage`](https://graphql-markdown.dev/docs/types/enums/user-title-language) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 User's title language
 
-#### [`UpdateUser`.`displayAdultContent`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`displayAdultContent`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 If the user should see media marked as adult-only
 
-#### [`UpdateUser`.`airingNotifications`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`includeAdultContentInSearch`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+
+If the user should see media marked as adult-only in search results
+
+#### [`UpdateUser`.`includeAdultContentInQuickSearch`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+
+If the user should see media marked as adult-only in quick search results
+
+#### [`UpdateUser`.`displayAdultActivities`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+
+If the user should see others' activities for media marked as adult
+
+#### [`UpdateUser`.`airingNotifications`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 If the user should get notifications when a show they are watching aires
 
-#### [`UpdateUser`.`scoreFormat`](#)<span className="gqlmd-mdx-bullet">●</span>[`ScoreFormat`](/docs/types/enums/score-format) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`UpdateUser`.`scoreFormat`](#)<span className="gqlmd-mdx-bullet">●</span>[`ScoreFormat`](https://graphql-markdown.dev/docs/types/enums/score-format) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 The user's list scoring system
 
-#### [`UpdateUser`.`rowOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`rowOrder`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The user's default list order
 
-#### [`UpdateUser`.`profileColor`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`profileColor`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Profile highlight color
 
-#### [`UpdateUser`.`donatorBadge`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`donatorBadge`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-Profile highlight color (Max: 24)
+User's donator badge, only displayed for donators (Max: 24)
 
-#### [`UpdateUser`.`notificationOptions`](#)<span className="gqlmd-mdx-bullet">●</span>[`NotificationOptionInput`](/docs/types/inputs/notification-option-input) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">input</badge>
+#### [`UpdateUser`.`notificationOptions`](#)<span className="gqlmd-mdx-bullet">●</span>[`NotificationOptionInput`](https://graphql-markdown.dev/docs/types/inputs/notification-option-input) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">input</badge>
 
 Notification options
 
-#### [`UpdateUser`.`timezone`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`timezone`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Timezone offset format: -?HH:MM
 
-#### [`UpdateUser`.`activityMergeTime`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`activityMergeTime`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Minutes between activity for them to be merged together. 0 is Never, Above 2 weeks (20160 mins) is Always. (Min: 0)
 
-#### [`UpdateUser`.`animeListOptions`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListOptionsInput`](/docs/types/inputs/media-list-options-input) <badge color="neutral" size="sm" variant="subtle">input</badge>
+#### [`UpdateUser`.`animeListOptions`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListOptionsInput`](https://graphql-markdown.dev/docs/types/inputs/media-list-options-input) <badge color="neutral" size="sm" variant="subtle">input</badge>
 
 The user's anime list options
 
-#### [`UpdateUser`.`mangaListOptions`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListOptionsInput`](/docs/types/inputs/media-list-options-input) <badge color="neutral" size="sm" variant="subtle">input</badge>
+#### [`UpdateUser`.`mangaListOptions`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaListOptionsInput`](https://graphql-markdown.dev/docs/types/inputs/media-list-options-input) <badge color="neutral" size="sm" variant="subtle">input</badge>
 
 The user's anime list options
 
-#### [`UpdateUser`.`staffNameLanguage`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStaffNameLanguage`](/docs/types/enums/user-staff-name-language) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`UpdateUser`.`staffNameLanguage`](#)<span className="gqlmd-mdx-bullet">●</span>[`UserStaffNameLanguage`](https://graphql-markdown.dev/docs/types/enums/user-staff-name-language) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 The language the user wants to see staff and character names in
 
-#### [`UpdateUser`.`restrictMessagesToFollowing`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`UpdateUser`.`restrictMessagesToFollowing`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Only allow messages from other users the user follows
 
-#### [`UpdateUser`.`disabledListActivity`](#)<span className="gqlmd-mdx-bullet">●</span>[`ListActivityOptionInput`](/docs/types/inputs/list-activity-option-input) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">input</badge>
+#### [`UpdateUser`.`disabledListActivity`](#)<span className="gqlmd-mdx-bullet">●</span>[`ListActivityOptionInput`](https://graphql-markdown.dev/docs/types/inputs/list-activity-option-input) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">input</badge>
 
 ### Type
 
-#### [`User`](/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`User`](https://graphql-markdown.dev/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 A user
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

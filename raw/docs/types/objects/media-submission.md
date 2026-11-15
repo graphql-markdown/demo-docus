@@ -1,3 +1,8 @@
+---
+title: "MediaSubmission"
+description: "Media submission"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/media-submission"
+---
 # MediaSubmission
 
 > Media submission
@@ -28,54 +33,59 @@ type MediaSubmission {
 
 ### Fields
 
-#### [`MediaSubmission`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaSubmission`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the submission
 
-#### [`MediaSubmission`.`submitter`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`submitter`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](https://graphql-markdown.dev/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 User submitter of the submission
 
-#### [`MediaSubmission`.`assignee`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`assignee`](#)<span className="gqlmd-mdx-bullet">●</span>[`User`](https://graphql-markdown.dev/docs/types/objects/user) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Data Mod assigned to handle the submission
 
-#### [`MediaSubmission`.`status`](#)<span className="gqlmd-mdx-bullet">●</span>[`SubmissionStatus`](/docs/types/enums/submission-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### [`MediaSubmission`.`status`](#)<span className="gqlmd-mdx-bullet">●</span>[`SubmissionStatus`](https://graphql-markdown.dev/docs/types/enums/submission-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 Status of the submission
 
-#### [`MediaSubmission`.`submitterStats`](#)<span className="gqlmd-mdx-bullet">●</span>[`Json`](/docs/types/scalars/json) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaSubmission`.`submitterStats`](#)<span className="gqlmd-mdx-bullet">●</span>[`Json`](https://graphql-markdown.dev/docs/types/scalars/json) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`MediaSubmission`.`notes`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaSubmission`.`notes`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`MediaSubmission`.`source`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaSubmission`.`source`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`MediaSubmission`.`changes`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaSubmission`.`changes`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-#### [`MediaSubmission`.`locked`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaSubmission`.`locked`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Whether the submission is locked
 
-#### [`MediaSubmission`.`media`](#)<span className="gqlmd-mdx-bullet">●</span>[`Media`](/docs/types/objects/media) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`media`](#)<span className="gqlmd-mdx-bullet">●</span>[`Media`](https://graphql-markdown.dev/docs/types/objects/media) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`MediaSubmission`.`submission`](#)<span className="gqlmd-mdx-bullet">●</span>[`Media`](/docs/types/objects/media) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`submission`](#)<span className="gqlmd-mdx-bullet">●</span>[`Media`](https://graphql-markdown.dev/docs/types/objects/media) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`MediaSubmission`.`characters`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSubmissionComparison`](/docs/types/objects/media-submission-comparison) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`characters`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSubmissionComparison`](https://graphql-markdown.dev/docs/types/objects/media-submission-comparison) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`MediaSubmission`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSubmissionComparison`](/docs/types/objects/media-submission-comparison) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`staff`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSubmissionComparison`](https://graphql-markdown.dev/docs/types/objects/media-submission-comparison) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`MediaSubmission`.`studios`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSubmissionComparison`](/docs/types/objects/media-submission-comparison) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`studios`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSubmissionComparison`](https://graphql-markdown.dev/docs/types/objects/media-submission-comparison) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`MediaSubmission`.`relations`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaEdge`](/docs/types/objects/media-edge) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`relations`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaEdge`](https://graphql-markdown.dev/docs/types/objects/media-edge) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`MediaSubmission`.`externalLinks`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSubmissionComparison`](/docs/types/objects/media-submission-comparison) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`MediaSubmission`.`externalLinks`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSubmissionComparison`](https://graphql-markdown.dev/docs/types/objects/media-submission-comparison) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
-#### [`MediaSubmission`.`createdAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`MediaSubmission`.`createdAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 ### Member Of
 
-[`InternalPage`](/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
+[`InternalPage`](https://graphql-markdown.dev/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

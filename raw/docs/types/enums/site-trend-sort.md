@@ -1,3 +1,8 @@
+---
+title: "SiteTrendSort"
+description: "Site trend sort enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/site-trend-sort"
+---
 # SiteTrendSort
 
 > Site trend sort enums
@@ -28,3 +33,8 @@ enum SiteTrendSort {
 #### [`SiteTrendSort`.`CHANGE`](#)
 
 #### [`SiteTrendSort`.`CHANGE_DESC`](#)
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

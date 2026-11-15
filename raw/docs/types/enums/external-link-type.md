@@ -1,3 +1,8 @@
+---
+title: "ExternalLinkType"
+description: "No description"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/external-link-type"
+---
 # ExternalLinkType
 
 > No description
@@ -22,7 +27,7 @@ enum ExternalLinkType {
 
 ### Member Of
 
-[`ExternalLinkSourceCollection`](/docs/operations/queries/external-link-source-collection)  <badge color="neutral" size="sm" variant="subtle">
+[`ExternalLinkSourceCollection`](https://graphql-markdown.dev/docs/operations/queries/external-link-source-collection)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -34,8 +39,13 @@ query
 
 </span>
 
-[`MediaExternalLink`](/docs/types/objects/media-external-link)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaExternalLink`](https://graphql-markdown.dev/docs/types/objects/media-external-link)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

@@ -1,3 +1,8 @@
+---
+title: "Character"
+description: "A character that features in an anime or manga"
+canonical_url: "https://graphql-markdown.dev/docs/types/objects/character"
+---
 # Character
 
 > A character that features in an anime or manga
@@ -34,73 +39,73 @@ type Character {
 
 ### Fields
 
-#### [`Character`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int!`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The id of the character
 
-#### [`Character`.`name`](#)<span className="gqlmd-mdx-bullet">●</span>[`CharacterName`](/docs/types/objects/character-name) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Character`.`name`](#)<span className="gqlmd-mdx-bullet">●</span>[`CharacterName`](https://graphql-markdown.dev/docs/types/objects/character-name) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The names of the character
 
-#### [`Character`.`image`](#)<span className="gqlmd-mdx-bullet">●</span>[`CharacterImage`](/docs/types/objects/character-image) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Character`.`image`](#)<span className="gqlmd-mdx-bullet">●</span>[`CharacterImage`](https://graphql-markdown.dev/docs/types/objects/character-image) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Character images
 
-#### [`Character`.`description`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`description`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 A general description of the character
 
-##### [`Character.description`.`asHtml`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Character.description`.`asHtml`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Return the string in pre-parsed html instead of markdown
 
-#### [`Character`.`gender`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`gender`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The character's gender. Usually Male, Female, or Non-binary but can be any string.
 
-#### [`Character`.`dateOfBirth`](#)<span className="gqlmd-mdx-bullet">●</span>[`FuzzyDate`](/docs/types/objects/fuzzy-date) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Character`.`dateOfBirth`](#)<span className="gqlmd-mdx-bullet">●</span>[`FuzzyDate`](https://graphql-markdown.dev/docs/types/objects/fuzzy-date) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The character's birth date
 
-#### [`Character`.`age`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`age`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The character's age. Note this is a string, not an int, it may contain further text and additional ages.
 
-#### [`Character`.`bloodType`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`bloodType`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The characters blood type
 
-#### [`Character`.`isFavourite`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`isFavourite`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 If the character is marked as favourite by the currently authenticated user
 
-#### [`Character`.`isFavouriteBlocked`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`isFavouriteBlocked`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 If the character is blocked from being added to favourites
 
-#### [`Character`.`siteUrl`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`siteUrl`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The url for the character page on the AniList website
 
-#### [`Character`.`media`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaConnection`](/docs/types/objects/media-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### [`Character`.`media`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaConnection`](https://graphql-markdown.dev/docs/types/objects/media-connection) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Media that includes the character
 
-##### [`Character.media`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSort`](/docs/types/enums/media-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`Character.media`.`sort`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaSort`](https://graphql-markdown.dev/docs/types/enums/media-sort) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-##### [`Character.media`.`type`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaType`](/docs/types/enums/media-type) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+##### [`Character.media`.`type`](#)<span className="gqlmd-mdx-bullet">●</span>[`MediaType`](https://graphql-markdown.dev/docs/types/enums/media-type) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
-##### [`Character.media`.`onList`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Character.media`.`onList`](#)<span className="gqlmd-mdx-bullet">●</span>[`Boolean`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
-##### [`Character.media`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Character.media`.`page`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The page
 
-##### [`Character.media`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+##### [`Character.media`.`perPage`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of entries per page, max 25
 
-#### [`Character`.`updatedAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="warning" size="sm" variant="subtle">deprecated</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`updatedAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="warning" size="sm" variant="subtle">deprecated</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 <accordion>
 <accordion-item icon="i-lucide-archive" label="Deprecated">
@@ -110,17 +115,17 @@ No data available
 </accordion-item>
 </accordion>
 
-#### [`Character`.`favourites`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`favourites`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The amount of user's who have favourited the character
 
-#### [`Character`.`modNotes`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### [`Character`.`modNotes`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Notes for site moderators
 
 ### Returned By
 
-[`Character`](/docs/operations/queries/character)  <badge color="neutral" size="sm" variant="subtle">
+[`Character`](https://graphql-markdown.dev/docs/operations/queries/character)  <badge color="neutral" size="sm" variant="subtle">
 
 query
 
@@ -130,7 +135,7 @@ query
 
 ### Member Of
 
-[`CharacterConnection`](/docs/types/objects/character-connection)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterConnection`](https://graphql-markdown.dev/docs/types/objects/character-connection)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -142,7 +147,7 @@ object
 
 </span>
 
-[`CharacterEdge`](/docs/types/objects/character-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterEdge`](https://graphql-markdown.dev/docs/types/objects/character-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -154,7 +159,7 @@ object
 
 </span>
 
-[`CharacterSubmission`](/docs/types/objects/character-submission)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterSubmission`](https://graphql-markdown.dev/docs/types/objects/character-submission)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -166,7 +171,7 @@ object
 
 </span>
 
-[`CharacterSubmissionUpdateNotification`](/docs/types/objects/character-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterSubmissionUpdateNotification`](https://graphql-markdown.dev/docs/types/objects/character-submission-update-notification)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -178,7 +183,7 @@ object
 
 </span>
 
-[`InternalPage`](/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
+[`InternalPage`](https://graphql-markdown.dev/docs/types/objects/internal-page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -190,7 +195,7 @@ object
 
 </span>
 
-[`MediaCharacter`](/docs/types/objects/media-character)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaCharacter`](https://graphql-markdown.dev/docs/types/objects/media-character)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -202,7 +207,7 @@ object
 
 </span>
 
-[`MediaEdge`](/docs/types/objects/media-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaEdge`](https://graphql-markdown.dev/docs/types/objects/media-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -214,7 +219,7 @@ object
 
 </span>
 
-[`MediaSubmissionEdge`](/docs/types/objects/media-submission-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmissionEdge`](https://graphql-markdown.dev/docs/types/objects/media-submission-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -226,7 +231,7 @@ object
 
 </span>
 
-[`Page`](/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
+[`Page`](https://graphql-markdown.dev/docs/types/objects/page)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -238,8 +243,13 @@ object
 
 </span>
 
-[`RevisionHistory`](/docs/types/objects/revision-history)  <badge color="neutral" size="sm" variant="subtle">
+[`RevisionHistory`](https://graphql-markdown.dev/docs/types/objects/revision-history)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

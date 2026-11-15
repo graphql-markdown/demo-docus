@@ -1,3 +1,8 @@
+---
+title: "UserTitleLanguage"
+description: "The language the user wants to see media titles in"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/user-title-language"
+---
 # UserTitleLanguage
 
 > The language the user wants to see media titles in
@@ -43,7 +48,7 @@ Official title in it's native language, stylised by media creator
 
 ### Member Of
 
-[`UpdateUser`](/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
+[`UpdateUser`](https://graphql-markdown.dev/docs/operations/mutations/update-user)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -55,8 +60,13 @@ mutation
 
 </span>
 
-[`UserOptions`](/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
+[`UserOptions`](https://graphql-markdown.dev/docs/types/objects/user-options)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

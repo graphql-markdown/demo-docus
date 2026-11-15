@@ -1,3 +1,8 @@
+---
+title: "ReviewRating"
+description: "Review rating enums"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/review-rating"
+---
 # ReviewRating
 
 > Review rating enums
@@ -22,7 +27,7 @@ enum ReviewRating {
 
 ### Member Of
 
-[`RateReview`](/docs/operations/mutations/rate-review)  <badge color="neutral" size="sm" variant="subtle">
+[`RateReview`](https://graphql-markdown.dev/docs/operations/mutations/rate-review)  <badge color="neutral" size="sm" variant="subtle">
 
 mutation
 
@@ -34,8 +39,13 @@ mutation
 
 </span>
 
-[`Review`](/docs/types/objects/review)  <badge color="neutral" size="sm" variant="subtle">
+[`Review`](https://graphql-markdown.dev/docs/types/objects/review)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

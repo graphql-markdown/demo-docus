@@ -1,3 +1,8 @@
+---
+title: "CharacterRole"
+description: "The role the character plays in the media"
+canonical_url: "https://graphql-markdown.dev/docs/types/enums/character-role"
+---
 # CharacterRole
 
 > The role the character plays in the media
@@ -28,7 +33,7 @@ A background character in the media
 
 ### Member Of
 
-[`CharacterEdge`](/docs/types/objects/character-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterEdge`](https://graphql-markdown.dev/docs/types/objects/character-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -40,7 +45,7 @@ object
 
 </span>
 
-[`CharacterSubmissionEdge`](/docs/types/objects/character-submission-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`CharacterSubmissionEdge`](https://graphql-markdown.dev/docs/types/objects/character-submission-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -52,7 +57,7 @@ object
 
 </span>
 
-[`MediaCharacter`](/docs/types/objects/media-character)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaCharacter`](https://graphql-markdown.dev/docs/types/objects/media-character)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -64,7 +69,7 @@ object
 
 </span>
 
-[`MediaEdge`](/docs/types/objects/media-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaEdge`](https://graphql-markdown.dev/docs/types/objects/media-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
@@ -76,8 +81,13 @@ object
 
 </span>
 
-[`MediaSubmissionEdge`](/docs/types/objects/media-submission-edge)  <badge color="neutral" size="sm" variant="subtle">
+[`MediaSubmissionEdge`](https://graphql-markdown.dev/docs/types/objects/media-submission-edge)  <badge color="neutral" size="sm" variant="subtle">
 
 object
 
 </badge>
+
+
+## Sitemap
+
+See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.
