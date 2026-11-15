@@ -11,6 +11,11 @@ updates:
         patterns: ["@graphql-markdown/*"]
       minor-and-patch:
         update-types: [minor, patch]
+    ignore:
+      # docus declares a `better-sqlite3@12.x` peer dependency, so a major bump
+      # breaks `npm ci` (ERESOLVE). Drop this once docus accepts the next major.
+      - dependency-name: "better-sqlite3"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
