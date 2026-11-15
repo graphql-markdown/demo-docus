@@ -14,7 +14,7 @@
   "dependencies": {
     "@graphql-markdown/cli": "^1.2.1",
     "@graphql-markdown/formatters": "^1.2.0",
-    "@graphql-tools/url-loader": "^10.0.8",
+    "@graphql-tools/url-loader": "^10.0.9",
     "better-sqlite3": "^12.11.1",
     "docus": "^5.15.0",
     "graphql": "^17.1.0",
