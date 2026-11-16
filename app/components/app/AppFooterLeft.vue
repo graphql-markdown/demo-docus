@@ -3,7 +3,7 @@
   layer's) to link back to GraphQL-Markdown.
 -->
 <template>
-  <div class="text-sm text-muted">
+  <div class="text-sm text-muted text-center">
     Generated with
     <ULink to="https://graphql-markdown.dev" target="_blank" class="hover:text-primary">
       GraphQL-Markdown
