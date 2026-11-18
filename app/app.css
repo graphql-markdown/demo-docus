@@ -1,3 +1,53 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+  --gqlmd-badge-bg: color-mix(in oklch, var(--ui-color-neutral-500) 15%, transparent);
+  --gqlmd-code-text: #e4e4e7;
+}
+
+/*
+ * Nuxt UI resolves `primary`/`neutral` from app.config.ts (green/zinc). The
+ * reference keeps near-black chrome and a Nuxt green accent, so the semantic
+ * tokens are retuned once and every component consumes them.
+ */
+@theme static {
+  --font-serif: Georgia, "Times New Roman", serif;
+}
+
+@layer theme {
+  .light,
+  :root {
+    --ui-primary: var(--ui-color-primary-700);
+    --ui-bg: #fafafa;
+    --ui-bg-muted: #ffffff;
+    --ui-bg-elevated: #ffffff;
+    --ui-bg-accented: #f4f4f5;
+    --ui-border: #d4d4d8;
+    --ui-border-muted: #e4e4e7;
+    --ui-border-accented: #d4d4d8;
+    --ui-text: #3f3f46;
+    --ui-text-muted: #52525b;
+    --ui-text-dimmed: #52525b;
+    --ui-text-highlighted: #18181b;
+  }
+
+  .dark {
+    --ui-primary: #00dc82;
+    --ui-bg: #0d0d0d;
+    --ui-bg-muted: #0b0b0b;
+    --ui-bg-elevated: #1b1b1b;
+    --ui-bg-accented: #242424;
+    --ui-border: #292929;
+    --ui-border-muted: #262626;
+    --ui-border-accented: #363636;
+    --ui-text: #b3b3b9;
+    --ui-text-muted: #a1a1aa;
+    --ui-text-dimmed: #71717a;
+    --ui-text-highlighted: #fafafa;
+  }
+}
+
 /*
  * Styling for what the GraphQL-Markdown output still emits as plain HTML.
  * Badges and deprecation notices are Nuxt UI components instead — see
@@ -5,27 +55,59 @@
  */
 
 /*
- * The entity heading links to `#`: with `sectionHeaderId` off there is no
- * anchor to jump to, so it is a label rather than a link and must not react to
- * the pointer. Restores what Nuxt UI's `hover:[&>code]:*` prose-link rules
- * change, and leaves the type links beside it — which do navigate — alone.
+ * Entity heading: the whole `Parent.name` link is one chip. Nuxt UI's
+ * ProseCode styles every nested <code>, so those are reset and the link
+ * itself carries the box. It links to `#` (no anchor with `sectionHeaderId`
+ * off), so it is a label: default cursor, no hover underline.
  */
 a[href="#"] {
   cursor: default;
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border: 1px solid var(--ui-border-muted);
+  border-radius: 0.375rem;
+  background: var(--ui-bg-muted);
+  border-bottom-color: var(--ui-border-muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
 }
 
-/* Dashed borders are the theme's marker for a code link; these do not link. */
 a[href="#"] > code {
-  border-style: solid;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  font-size: inherit;
+  color: var(--ui-text-highlighted);
+}
+
+a[href="#"] > code.gqlmd-mdx-entity-parent {
+  color: var(--ui-text-muted);
 }
 
 a[href="#"]:hover {
-  border-bottom-color: transparent;
+  border-color: var(--ui-border-muted);
+  border-bottom-color: var(--ui-border-muted);
 }
 
 a[href="#"]:hover > code {
-  border-color: var(--ui-border-muted);
   color: var(--ui-text-highlighted);
+  border: 0;
+}
+
+/* Type links (`ID!`, "Returned By", "Member Of"): primary-colour text, no box, no underline. */
+main a[href^="/docs"] > code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ui-primary);
+  font-size: 0.875rem;
+}
+
+main a[href^="/docs"]:has(> code),
+main a[href^="/docs"]:hover:has(> code) {
+  border-bottom-color: transparent;
+  text-decoration: none;
 }
 
 .gqlmd-mdx-bullet {
@@ -34,3 +116,42 @@ a[href="#"]:hover > code {
   vertical-align: middle;
 }
 
+
+/* Landing page: the schema preview must not widen the page on mobile. */
+@media (max-width: 768px) {
+  main {
+    overflow-x: clip;
+  }
+}
+
+/* Badges at 12px (Nuxt UI small badge is 10px). */
+main span[data-slot="base"] {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+/* Footer credit links in the accent colour. */
+footer a {
+  text-decoration: none;
+}
+
+/* Compact field rows: tighter spacing around the field heading + description. */
+main h4 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+main h4 + p {
+  margin-top: 0.25rem;
+}
+
+/* Code blocks: border in the theme's muted border colour. */
+main pre {
+  border: 1px solid var(--ui-border-muted);
+}
+
+@media (max-width: 768px) {
+  main h4 {
+    line-height: 2.1;
+  }
+}
