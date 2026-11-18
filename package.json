@@ -9,7 +9,8 @@
     "generate": "nuxt generate",
     "preview": "npx serve .output/public",
     "doc": "gqlmd graphql-to-doc",
-    "gqlmd": "gqlmd"
+    "gqlmd": "gqlmd",
+    "test:visual": "playwright test"
   },
   "dependencies": {
     "@graphql-markdown/cli": "^1.2.2",
@@ -19,5 +20,10 @@
     "docus": "^5.15.0",
     "graphql": "^17.1.0",
     "nuxt": "^4.6.4"
+  },
+  "devDependencies": {
+    "@argos-ci/playwright": "^7.10.0",
+    "@playwright/test": "^1.65.1",
+    "serve": "^14.2.8"
   }
 }
