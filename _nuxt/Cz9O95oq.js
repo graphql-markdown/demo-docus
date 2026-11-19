@@ -1,1 +1,0 @@
-import{r as e}from"./CZMqjSqv.js";import{Et as t,d as n}from"./COlnRzsE.js";function r(r){let i=e({dir:t(`ltr`)});return n(()=>r?.value||i.dir?.value||`ltr`)}export{r as t};

@@ -1,0 +1,1 @@
+import{t as e}from"./Ci2G5-ux.js";import{J as t,Q as n,ht as r,p as i}from"./BPjRvE1P.js";import{k as a}from"#entry";var o={};function s(a,o){let s=e;return t(),i(s,null,{default:r(()=>[n(a.$slots,`default`)]),_:3})}var c=a(o,[[`render`,s]]);export{c as default};

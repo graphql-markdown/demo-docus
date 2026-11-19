@@ -1,1 +1,0 @@
-import{t as e}from"./BaKHFxK8.js";import{Z as t,mt as n,p as r,q as i}from"./COlnRzsE.js";import{k as a}from"#entry";var o={};function s(a,o){let s=e;return i(),r(s,null,{default:n(()=>[t(a.$slots,`default`)]),_:3})}var c=a(o,[[`render`,s]]);export{c as default};
