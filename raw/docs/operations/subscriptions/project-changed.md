@@ -1,11 +1,8 @@
 ---
 title: "projectChanged"
-description: "Receive an event whenever a project changes in the workspace."
 canonical_url: "https://graphql-markdown.dev/docs/operations/subscriptions/project-changed"
 ---
 # projectChanged
-
-> Receive an event whenever a project changes in the workspace.
 
 Receive an event whenever a project changes in the workspace.
 

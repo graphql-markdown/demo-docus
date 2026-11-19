@@ -1,11 +1,8 @@
 ---
 title: "SearchResult"
-description: "A result returned from global workspace search."
 canonical_url: "https://graphql-markdown.dev/docs/types/unions/search-result"
 ---
 # SearchResult
-
-> A result returned from global workspace search.
 
 A result returned from global workspace search.
 

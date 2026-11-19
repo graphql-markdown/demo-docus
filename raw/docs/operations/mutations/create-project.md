@@ -1,11 +1,8 @@
 ---
 title: "createProject"
-description: "Create a project and assign its initial owner."
 canonical_url: "https://graphql-markdown.dev/docs/operations/mutations/create-project"
 ---
 # createProject
-
-> Create a project and assign its initial owner.
 
 Create a project and assign its initial owner.
 

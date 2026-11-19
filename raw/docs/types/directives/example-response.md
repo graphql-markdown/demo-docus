@@ -1,12 +1,8 @@
 ---
 title: "exampleResponse"
-description: "Provides the JSON response returned by the @example operation, rendered\nalongside it in the generated API reference."
 canonical_url: "https://graphql-markdown.dev/docs/types/directives/example-response"
 ---
 # exampleResponse
-
-> Provides the JSON response returned by the @example operation, rendered
-> alongside it in the generated API reference.
 
 Provides the JSON response returned by the `@example` operation, rendered
 alongside it in the generated API reference.

@@ -1,11 +1,8 @@
 ---
 title: "folder"
-description: "Fetch a single folder by its unique identifier."
 canonical_url: "https://graphql-markdown.dev/docs/operations/queries/folder"
 ---
 # folder
-
-> Fetch a single folder by its unique identifier.
 
 Fetch a single folder by its unique identifier.
 

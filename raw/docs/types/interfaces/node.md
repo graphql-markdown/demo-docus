@@ -1,11 +1,8 @@
 ---
 title: "Node"
-description: "A globally unique entity identifier."
 canonical_url: "https://graphql-markdown.dev/docs/types/interfaces/node"
 ---
 # Node
-
-> A globally unique entity identifier.
 
 A globally unique entity identifier.
 

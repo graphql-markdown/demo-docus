@@ -1,11 +1,8 @@
 ---
 title: "ProjectEventType"
-description: "The kind of change that occurred on a project."
 canonical_url: "https://graphql-markdown.dev/docs/types/enums/project-event-type"
 ---
 # ProjectEventType
-
-> The kind of change that occurred on a project.
 
 The kind of change that occurred on a project.
 

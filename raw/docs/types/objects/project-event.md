@@ -1,11 +1,8 @@
 ---
 title: "ProjectEvent"
-description: "A change delivered to subscribers watching a project."
 canonical_url: "https://graphql-markdown.dev/docs/types/objects/project-event"
 ---
 # ProjectEvent
-
-> A change delivered to subscribers watching a project.
 
 A change delivered to subscribers watching a project.
 

@@ -1,11 +1,8 @@
 ---
 title: "createFolder"
-description: "Create a virtual folder in the workspace."
 canonical_url: "https://graphql-markdown.dev/docs/operations/mutations/create-folder"
 ---
 # createFolder
-
-> Create a virtual folder in the workspace.
 
 Create a virtual folder in the workspace.
 

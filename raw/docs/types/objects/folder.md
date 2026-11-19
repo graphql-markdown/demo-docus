@@ -1,11 +1,8 @@
 ---
 title: "Folder"
-description: "A virtual folder used to organize workspace resources."
 canonical_url: "https://graphql-markdown.dev/docs/types/objects/folder"
 ---
 # Folder
-
-> A virtual folder used to organize workspace resources.
 
 A virtual folder used to organize workspace resources.
 

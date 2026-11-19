@@ -1,11 +1,8 @@
 ---
 title: "LegacyProject"
-description: "Use Project instead for active workspace work."
 canonical_url: "https://graphql-markdown.dev/docs/types/objects/legacy-project"
 ---
 # LegacyProject
-
-> Use Project instead for active workspace work.
 
 Use Project instead for active workspace work.
 

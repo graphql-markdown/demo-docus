@@ -1,11 +1,8 @@
 ---
 title: "deprecatedType"
-description: "Marks an object type as superseded when standard @deprecated cannot be applied."
 canonical_url: "https://graphql-markdown.dev/docs/types/directives/deprecated-type"
 ---
 # deprecatedType
-
-> Marks an object type as superseded when standard @deprecated cannot be applied.
 
 Marks an object type as superseded when standard @deprecated cannot be applied.
 

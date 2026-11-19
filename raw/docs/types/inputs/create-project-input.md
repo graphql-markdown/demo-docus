@@ -1,11 +1,8 @@
 ---
 title: "CreateProjectInput"
-description: "Input used to create a project."
 canonical_url: "https://graphql-markdown.dev/docs/types/inputs/create-project-input"
 ---
 # CreateProjectInput
-
-> Input used to create a project.
 
 Input used to create a project.
 

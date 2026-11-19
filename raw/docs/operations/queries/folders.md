@@ -1,11 +1,8 @@
 ---
 title: "folders"
-description: "List folders available in the current workspace."
 canonical_url: "https://graphql-markdown.dev/docs/operations/queries/folders"
 ---
 # folders
-
-> List folders available in the current workspace.
 
 List folders available in the current workspace.
 

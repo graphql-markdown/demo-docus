@@ -1,11 +1,8 @@
 ---
 title: "specifiedBy"
-description: "Exposes a URL that specifies the behavior of this scalar."
 canonical_url: "https://graphql-markdown.dev/docs/types/directives/specified-by"
 ---
 # specifiedBy
-
-> Exposes a URL that specifies the behavior of this scalar.
 
 Exposes a URL that specifies the behavior of this scalar.
 

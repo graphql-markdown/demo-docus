@@ -1,11 +1,8 @@
 ---
 title: "ProjectConnection"
-description: "A paginated project result set."
 canonical_url: "https://graphql-markdown.dev/docs/types/objects/project-connection"
 ---
 # ProjectConnection
-
-> A paginated project result set.
 
 A paginated project result set.
 

@@ -1,11 +1,8 @@
 ---
 title: "search"
-description: "Search folders, projects, and users from a single endpoint."
 canonical_url: "https://graphql-markdown.dev/docs/operations/queries/search"
 ---
 # search
-
-> Search folders, projects, and users from a single endpoint.
 
 Search folders, projects, and users from a single endpoint.
 

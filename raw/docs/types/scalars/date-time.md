@@ -1,11 +1,8 @@
 ---
 title: "DateTime"
-description: "An ISO 8601 timestamp in UTC."
 canonical_url: "https://graphql-markdown.dev/docs/types/scalars/date-time"
 ---
 # DateTime
-
-> An ISO 8601 timestamp in UTC.
 
 An ISO 8601 timestamp in UTC.
 

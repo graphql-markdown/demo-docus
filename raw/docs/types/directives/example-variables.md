@@ -1,12 +1,8 @@
 ---
 title: "exampleVariables"
-description: "Provides the JSON variables sent with the @example operation, rendered\nunder it in the generated API reference."
 canonical_url: "https://graphql-markdown.dev/docs/types/directives/example-variables"
 ---
 # exampleVariables
-
-> Provides the JSON variables sent with the @example operation, rendered
-> under it in the generated API reference.
 
 Provides the JSON variables sent with the `@example` operation, rendered
 under it in the generated API reference.

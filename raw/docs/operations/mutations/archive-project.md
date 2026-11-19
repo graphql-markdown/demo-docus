@@ -1,11 +1,8 @@
 ---
 title: "archiveProject"
-description: "Archive a project that is no longer active."
 canonical_url: "https://graphql-markdown.dev/docs/operations/mutations/archive-project"
 ---
 # archiveProject
-
-> Archive a project that is no longer active.
 
 Archive a project that is no longer active.
 

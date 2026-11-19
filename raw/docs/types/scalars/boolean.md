@@ -1,11 +1,8 @@
 ---
 title: "Boolean"
-description: "The Boolean scalar type represents true or false."
 canonical_url: "https://graphql-markdown.dev/docs/types/scalars/boolean"
 ---
 # Boolean
-
-> The Boolean scalar type represents true or false.
 
 The `Boolean` scalar type represents `true` or `false`.
 

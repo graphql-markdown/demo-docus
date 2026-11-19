@@ -1,11 +1,8 @@
 ---
 title: "Project"
-description: "A unit of work tracked in the workspace."
 canonical_url: "https://graphql-markdown.dev/docs/types/objects/project"
 ---
 # Project
-
-> A unit of work tracked in the workspace.
 
 A unit of work tracked in the workspace.
 

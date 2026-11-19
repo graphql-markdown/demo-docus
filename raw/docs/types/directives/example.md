@@ -1,11 +1,8 @@
 ---
 title: "example"
-description: "Provides a GraphQL example that is rendered in the generated API reference."
 canonical_url: "https://graphql-markdown.dev/docs/types/directives/example"
 ---
 # example
-
-> Provides a GraphQL example that is rendered in the generated API reference.
 
 Provides a GraphQL example that is rendered in the generated API reference.
 

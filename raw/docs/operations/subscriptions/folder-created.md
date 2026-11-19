@@ -1,11 +1,8 @@
 ---
 title: "folderCreated"
-description: "Receive folders as they are created in the workspace."
 canonical_url: "https://graphql-markdown.dev/docs/operations/subscriptions/folder-created"
 ---
 # folderCreated
-
-> Receive folders as they are created in the workspace.
 
 Receive folders as they are created in the workspace.
 

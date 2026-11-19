@@ -9,42 +9,40 @@
 Every page below is available as raw markdown.
 
 - [Schema Documentation](https://graphql-markdown.dev/raw/docs.md): GraphQL schema reference generated with GraphQL-Markdown.
-- [include](https://graphql-markdown.dev/raw/docs/operations/directives/include.md): Directs the executor to include this field or fragment only when the if argument is true.
-- [skip](https://graphql-markdown.dev/raw/docs/operations/directives/skip.md): Directs the executor to skip this field or fragment when the if argument is true.
-- [archiveProject](https://graphql-markdown.dev/raw/docs/operations/mutations/archive-project.md): Archive a project that is no longer active.
-- [createFolder](https://graphql-markdown.dev/raw/docs/operations/mutations/create-folder.md): Create a virtual folder in the workspace.
-- [createProject](https://graphql-markdown.dev/raw/docs/operations/mutations/create-project.md): Create a project and assign its initial owner.
-- [folder](https://graphql-markdown.dev/raw/docs/operations/queries/folder.md): Fetch a single folder by its unique identifier.
-- [folders](https://graphql-markdown.dev/raw/docs/operations/queries/folders.md): List folders available in the current workspace.
-- [projects](https://graphql-markdown.dev/raw/docs/operations/queries/projects.md): List projects, optionally filtered by lifecycle status.
-- [search](https://graphql-markdown.dev/raw/docs/operations/queries/search.md): Search folders, projects, and users from a single endpoint.
-- [folderCreated](https://graphql-markdown.dev/raw/docs/operations/subscriptions/folder-created.md): Receive folders as they are created in the workspace.
-- [projectChanged](https://graphql-markdown.dev/raw/docs/operations/subscriptions/project-changed.md): Receive an event whenever a project changes in the workspace.
-- [deprecated](https://graphql-markdown.dev/raw/docs/types/directives/deprecated.md): Marks an element of a GraphQL schema as no longer supported.
-- [deprecatedType](https://graphql-markdown.dev/raw/docs/types/directives/deprecated-type.md): Marks an object type as superseded when standard @deprecated cannot be applied.
-- [example](https://graphql-markdown.dev/raw/docs/types/directives/example.md): Provides a GraphQL example that is rendered in the generated API reference.
-- [exampleResponse](https://graphql-markdown.dev/raw/docs/types/directives/example-response.md): Provides the JSON response returned by the @example operation, rendered
-alongside it in the generated API reference.
-- [exampleVariables](https://graphql-markdown.dev/raw/docs/types/directives/example-variables.md): Provides the JSON variables sent with the @example operation, rendered
-under it in the generated API reference.
-- [oneOf](https://graphql-markdown.dev/raw/docs/types/directives/one-of.md): Indicates exactly one field must be supplied and this field must not be null.
-- [specifiedBy](https://graphql-markdown.dev/raw/docs/types/directives/specified-by.md): Exposes a URL that specifies the behavior of this scalar.
-- [ProjectEventType](https://graphql-markdown.dev/raw/docs/types/enums/project-event-type.md): The kind of change that occurred on a project.
-- [ProjectStatus](https://graphql-markdown.dev/raw/docs/types/enums/project-status.md): The lifecycle stage of a project.
-- [CreateProjectInput](https://graphql-markdown.dev/raw/docs/types/inputs/create-project-input.md): Input used to create a project.
-- [Node](https://graphql-markdown.dev/raw/docs/types/interfaces/node.md): A globally unique entity identifier.
-- [Folder](https://graphql-markdown.dev/raw/docs/types/objects/folder.md): A virtual folder used to organize workspace resources.
-- [LegacyProject](https://graphql-markdown.dev/raw/docs/types/objects/legacy-project.md): Use Project instead for active workspace work.
-- [Project](https://graphql-markdown.dev/raw/docs/types/objects/project.md): A unit of work tracked in the workspace.
-- [ProjectConnection](https://graphql-markdown.dev/raw/docs/types/objects/project-connection.md): A paginated project result set.
-- [ProjectEvent](https://graphql-markdown.dev/raw/docs/types/objects/project-event.md): A change delivered to subscribers watching a project.
-- [User](https://graphql-markdown.dev/raw/docs/types/objects/user.md): A workspace member who owns and collaborates on projects.
-- [Boolean](https://graphql-markdown.dev/raw/docs/types/scalars/boolean.md): The Boolean scalar type represents true or false.
-- [DateTime](https://graphql-markdown.dev/raw/docs/types/scalars/date-time.md): An ISO 8601 timestamp in UTC.
-- [ID](https://graphql-markdown.dev/raw/docs/types/scalars/id.md): The ID scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as "4") or integer (such as 4) input value will be accepted as an ID.
-- [Int](https://graphql-markdown.dev/raw/docs/types/scalars/int.md): The Int scalar type represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1.
-- [String](https://graphql-markdown.dev/raw/docs/types/scalars/string.md): The String scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.
-- [SearchResult](https://graphql-markdown.dev/raw/docs/types/unions/search-result.md): A result returned from global workspace search.
+- [include](https://graphql-markdown.dev/raw/docs/operations/directives/include.md)
+- [skip](https://graphql-markdown.dev/raw/docs/operations/directives/skip.md)
+- [archiveProject](https://graphql-markdown.dev/raw/docs/operations/mutations/archive-project.md)
+- [createFolder](https://graphql-markdown.dev/raw/docs/operations/mutations/create-folder.md)
+- [createProject](https://graphql-markdown.dev/raw/docs/operations/mutations/create-project.md)
+- [folder](https://graphql-markdown.dev/raw/docs/operations/queries/folder.md)
+- [folders](https://graphql-markdown.dev/raw/docs/operations/queries/folders.md)
+- [projects](https://graphql-markdown.dev/raw/docs/operations/queries/projects.md)
+- [search](https://graphql-markdown.dev/raw/docs/operations/queries/search.md)
+- [folderCreated](https://graphql-markdown.dev/raw/docs/operations/subscriptions/folder-created.md)
+- [projectChanged](https://graphql-markdown.dev/raw/docs/operations/subscriptions/project-changed.md)
+- [deprecated](https://graphql-markdown.dev/raw/docs/types/directives/deprecated.md)
+- [deprecatedType](https://graphql-markdown.dev/raw/docs/types/directives/deprecated-type.md)
+- [example](https://graphql-markdown.dev/raw/docs/types/directives/example.md)
+- [exampleResponse](https://graphql-markdown.dev/raw/docs/types/directives/example-response.md)
+- [exampleVariables](https://graphql-markdown.dev/raw/docs/types/directives/example-variables.md)
+- [oneOf](https://graphql-markdown.dev/raw/docs/types/directives/one-of.md)
+- [specifiedBy](https://graphql-markdown.dev/raw/docs/types/directives/specified-by.md)
+- [ProjectEventType](https://graphql-markdown.dev/raw/docs/types/enums/project-event-type.md)
+- [ProjectStatus](https://graphql-markdown.dev/raw/docs/types/enums/project-status.md)
+- [CreateProjectInput](https://graphql-markdown.dev/raw/docs/types/inputs/create-project-input.md)
+- [Node](https://graphql-markdown.dev/raw/docs/types/interfaces/node.md)
+- [Folder](https://graphql-markdown.dev/raw/docs/types/objects/folder.md)
+- [LegacyProject](https://graphql-markdown.dev/raw/docs/types/objects/legacy-project.md)
+- [Project](https://graphql-markdown.dev/raw/docs/types/objects/project.md)
+- [ProjectConnection](https://graphql-markdown.dev/raw/docs/types/objects/project-connection.md)
+- [ProjectEvent](https://graphql-markdown.dev/raw/docs/types/objects/project-event.md)
+- [User](https://graphql-markdown.dev/raw/docs/types/objects/user.md)
+- [Boolean](https://graphql-markdown.dev/raw/docs/types/scalars/boolean.md)
+- [DateTime](https://graphql-markdown.dev/raw/docs/types/scalars/date-time.md)
+- [ID](https://graphql-markdown.dev/raw/docs/types/scalars/id.md)
+- [Int](https://graphql-markdown.dev/raw/docs/types/scalars/int.md)
+- [String](https://graphql-markdown.dev/raw/docs/types/scalars/string.md)
+- [SearchResult](https://graphql-markdown.dev/raw/docs/types/unions/search-result.md)
 
 ## Landing
 

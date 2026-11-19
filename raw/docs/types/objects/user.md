@@ -1,11 +1,8 @@
 ---
 title: "User"
-description: "A workspace member who owns and collaborates on projects."
 canonical_url: "https://graphql-markdown.dev/docs/types/objects/user"
 ---
 # User
-
-> A workspace member who owns and collaborates on projects.
 
 A workspace member who owns and collaborates on projects.
 

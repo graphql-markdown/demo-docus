@@ -1,11 +1,8 @@
 ---
 title: "ProjectStatus"
-description: "The lifecycle stage of a project."
 canonical_url: "https://graphql-markdown.dev/docs/types/enums/project-status"
 ---
 # ProjectStatus
-
-> The lifecycle stage of a project.
 
 The lifecycle stage of a project.
 

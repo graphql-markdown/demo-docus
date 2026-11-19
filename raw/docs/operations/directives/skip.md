@@ -1,11 +1,8 @@
 ---
 title: "skip"
-description: "Directs the executor to skip this field or fragment when the if argument is true."
 canonical_url: "https://graphql-markdown.dev/docs/operations/directives/skip"
 ---
 # skip
-
-> Directs the executor to skip this field or fragment when the if argument is true.
 
 Directs the executor to skip this field or fragment when the `if` argument is true.
 

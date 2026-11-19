@@ -1,11 +1,8 @@
 ---
 title: "deprecated"
-description: "Marks an element of a GraphQL schema as no longer supported."
 canonical_url: "https://graphql-markdown.dev/docs/types/directives/deprecated"
 ---
 # deprecated
-
-> Marks an element of a GraphQL schema as no longer supported.
 
 Marks an element of a GraphQL schema as no longer supported.
 

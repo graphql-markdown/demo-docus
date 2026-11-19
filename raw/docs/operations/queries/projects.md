@@ -1,11 +1,8 @@
 ---
 title: "projects"
-description: "List projects, optionally filtered by lifecycle status."
 canonical_url: "https://graphql-markdown.dev/docs/operations/queries/projects"
 ---
 # projects
-
-> List projects, optionally filtered by lifecycle status.
 
 List projects, optionally filtered by lifecycle status.
 
