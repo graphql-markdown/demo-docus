@@ -5,14 +5,14 @@
 <template>
   <div class="text-sm text-muted text-center">
     Generated with
-    <ULink to="https://graphql-markdown.dev" target="_blank" class="hover:text-primary">
+    <ULink to="https://graphql-markdown.dev" target="_blank" class="text-primary">
       GraphQL-Markdown
     </ULink>
     ·
     <ULink
       to="https://github.com/graphql-markdown/graphql-markdown"
       target="_blank"
-      class="hover:text-primary"
+      class="text-primary"
     >
       ⭐ Star on GitHub
     </ULink>
