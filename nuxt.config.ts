@@ -19,6 +19,17 @@ export default defineNuxtConfig({
   robots: {
     robotsTxt: false,
   },
+  hooks: {
+    // Nuxt Content lifts a page's first paragraph into `description`, which
+    // Docus prints as the page lead, so a type description showed up twice.
+    // Pages that set `description` in their frontmatter are not affected.
+    "content:file:beforeParse"(ctx) {
+      ctx.parserOptions = {
+        ...ctx.parserOptions,
+        markdown: { ...ctx.parserOptions?.markdown, contentHeading: false },
+      }
+    },
+  },
   content: {
     build: {
       markdown: {
