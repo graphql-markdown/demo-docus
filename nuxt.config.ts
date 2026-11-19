@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   // public origin to prerender.
   site: {
     url: "https://graphql-markdown.dev",
+    name: "GraphQL-Markdown",
   },
   // The demo is served from a subpath (NUXT_APP_BASE_URL), where a robots.txt
   // has no effect: crawlers only read it at the domain root.
