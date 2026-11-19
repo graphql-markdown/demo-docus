@@ -3,6 +3,12 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL ?? "/",
   },
+  // Every demo shares the graphql-markdown.dev origin, so each one needs its
+  // own localStorage key or toggling the theme in one changes them all.
+  colorMode: {
+    preference: "system",
+    storageKey: "gqlmd-demo-docus-color-mode",
+  },
   // Docus ships @nuxt/sitemap and @nuxt/robots. The sitemap needs the site's
   // public origin to prerender.
   site: {
