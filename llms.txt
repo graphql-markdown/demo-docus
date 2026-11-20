@@ -1,8 +1,8 @@
-# demo-docus
+# GraphQL-Markdown
 
 ## Documentation Sets
 
-- [demo-docus](https://graphql-markdown.dev/llms-full.txt)
+- [GraphQL-Markdown](https://graphql-markdown.dev/llms-full.txt)
 
 ## Docs
 

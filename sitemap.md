@@ -1,4 +1,4 @@
-# demo-docus Sitemap
+# GraphQL-Markdown Sitemap
 
 > Markdown index of every page on graphql-markdown.dev. Links point at the raw markdown; append `.md` to any page URL (or set `Accept: text/markdown`) to get it from the page URL instead.
 
