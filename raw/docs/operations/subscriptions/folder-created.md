@@ -14,7 +14,7 @@ folderCreated(
 
 ### Arguments
 
-#### [`folderCreated`.`parentId`](#)<span className="gqlmd-mdx-bullet">●</span>[`ID`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `folderCreated`.`parentId`<span className="gqlmd-mdx-bullet">●</span>[`ID`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Limit events to folders created under this parent.
 

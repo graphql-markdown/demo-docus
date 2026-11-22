@@ -17,19 +17,19 @@ type Folder implements Node {
 
 ### Fields
 
-#### [`Folder`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`ID!`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `Folder`.`id`<span className="gqlmd-mdx-bullet">●</span>[`ID!`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The unique identifier of the folder.
 
-#### [`Folder`.`name`](#)<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `Folder`.`name`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The human-readable folder name.
 
-#### [`Folder`.`parent`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `Folder`.`parent`<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The identifier of the parent folder, when nested.
 
-#### [`Folder`.`createdAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`DateTime!`](https://graphql-markdown.dev/docs/types/scalars/date-time) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `Folder`.`createdAt`<span className="gqlmd-mdx-bullet">●</span>[`DateTime!`](https://graphql-markdown.dev/docs/types/scalars/date-time) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 When the folder was created.
 

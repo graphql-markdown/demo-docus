@@ -15,11 +15,11 @@ projects(
 
 ### Arguments
 
-#### [`projects`.`status`](#)<span className="gqlmd-mdx-bullet">●</span>[`ProjectStatus`](https://graphql-markdown.dev/docs/types/enums/project-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### `projects`.`status`<span className="gqlmd-mdx-bullet">●</span>[`ProjectStatus`](https://graphql-markdown.dev/docs/types/enums/project-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 Limit results to projects in this lifecycle stage.
 
-#### [`projects`.`limit`](#)<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `projects`.`limit`<span className="gqlmd-mdx-bullet">●</span>[`Int`](https://graphql-markdown.dev/docs/types/scalars/int) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Maximum number of projects to return. Defaults to 20.
 

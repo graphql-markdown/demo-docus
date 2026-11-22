@@ -16,15 +16,15 @@ enum ProjectEventType {
 
 ### Values
 
-#### [`ProjectEventType`.`CREATED`](#)
+#### `ProjectEventType`.`CREATED`
 
 The project was created.
 
-#### [`ProjectEventType`.`UPDATED`](#)
+#### `ProjectEventType`.`UPDATED`
 
 One or more project fields were updated.
 
-#### [`ProjectEventType`.`ARCHIVED`](#)
+#### `ProjectEventType`.`ARCHIVED`
 
 The project was archived.
 

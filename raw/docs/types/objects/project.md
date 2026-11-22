@@ -20,31 +20,31 @@ type Project implements Node {
 
 ### Fields
 
-#### [`Project`.`id`](#)<span className="gqlmd-mdx-bullet">●</span>[`ID!`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `Project`.`id`<span className="gqlmd-mdx-bullet">●</span>[`ID!`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The unique identifier of the project.
 
-#### [`Project`.`name`](#)<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `Project`.`name`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The project name shown to collaborators.
 
-#### [`Project`.`status`](#)<span className="gqlmd-mdx-bullet">●</span>[`ProjectStatus!`](https://graphql-markdown.dev/docs/types/enums/project-status) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### `Project`.`status`<span className="gqlmd-mdx-bullet">●</span>[`ProjectStatus!`](https://graphql-markdown.dev/docs/types/enums/project-status) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 The current lifecycle stage of the project.
 
-#### [`Project`.`owner`](#)<span className="gqlmd-mdx-bullet">●</span>[`User!`](https://graphql-markdown.dev/docs/types/objects/user) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### `Project`.`owner`<span className="gqlmd-mdx-bullet">●</span>[`User!`](https://graphql-markdown.dev/docs/types/objects/user) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The user responsible for the project.
 
-#### [`Project`.`folder`](#)<span className="gqlmd-mdx-bullet">●</span>[`Folder`](https://graphql-markdown.dev/docs/types/objects/folder) <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### `Project`.`folder`<span className="gqlmd-mdx-bullet">●</span>[`Folder`](https://graphql-markdown.dev/docs/types/objects/folder) <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 The folder containing this project, when assigned.
 
-#### [`Project`.`updatedAt`](#)<span className="gqlmd-mdx-bullet">●</span>[`DateTime!`](https://graphql-markdown.dev/docs/types/scalars/date-time) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `Project`.`updatedAt`<span className="gqlmd-mdx-bullet">●</span>[`DateTime!`](https://graphql-markdown.dev/docs/types/scalars/date-time) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 When the project was last updated.
 
-#### [`Project`.`state`](#)<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="warning" size="sm" variant="subtle">deprecated</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `Project`.`state`<span className="gqlmd-mdx-bullet">●</span>[`String`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="warning" size="sm" variant="subtle">deprecated</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 <accordion>
 <accordion-item icon="i-lucide-archive" label="Deprecated">

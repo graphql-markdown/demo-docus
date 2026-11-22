@@ -17,19 +17,19 @@ input CreateProjectInput {
 
 ### Fields
 
-#### [`CreateProjectInput`.`name`](#)<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `CreateProjectInput`.`name`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The name for the new project.
 
-#### [`CreateProjectInput`.`ownerId`](#)<span className="gqlmd-mdx-bullet">●</span>[`ID!`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `CreateProjectInput`.`ownerId`<span className="gqlmd-mdx-bullet">●</span>[`ID!`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The identifier of the user who will own the project.
 
-#### [`CreateProjectInput`.`folderId`](#)<span className="gqlmd-mdx-bullet">●</span>[`ID`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+#### `CreateProjectInput`.`folderId`<span className="gqlmd-mdx-bullet">●</span>[`ID`](https://graphql-markdown.dev/docs/types/scalars/id) <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The optional folder that will contain the project.
 
-#### [`CreateProjectInput`.`status`](#)<span className="gqlmd-mdx-bullet">●</span>[`ProjectStatus`](https://graphql-markdown.dev/docs/types/enums/project-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### `CreateProjectInput`.`status`<span className="gqlmd-mdx-bullet">●</span>[`ProjectStatus`](https://graphql-markdown.dev/docs/types/enums/project-status) <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 The initial lifecycle stage for the project.
 

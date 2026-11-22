@@ -14,7 +14,7 @@ createProject(
 
 ### Arguments
 
-#### [`createProject`.`input`](#)<span className="gqlmd-mdx-bullet">●</span>[`CreateProjectInput!`](https://graphql-markdown.dev/docs/types/inputs/create-project-input) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">input</badge>
+#### `createProject`.`input`<span className="gqlmd-mdx-bullet">●</span>[`CreateProjectInput!`](https://graphql-markdown.dev/docs/types/inputs/create-project-input) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">input</badge>
 
 The project attributes to create.
 
