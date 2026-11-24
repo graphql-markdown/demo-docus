@@ -19,7 +19,7 @@ projectChanged(
 
 Limit events to a single project.
 
-#### `projectChanged`.`types`<span className="gqlmd-mdx-bullet">●</span>[`ProjectEventType!`](https://graphql-markdown.dev/docs/types/enums/project-event-type) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
+#### `projectChanged`.`types`<span className="gqlmd-mdx-bullet">●</span>[`[ProjectEventType!]`](https://graphql-markdown.dev/docs/types/enums/project-event-type) <badge color="neutral" size="sm" variant="subtle">list</badge> <badge color="neutral" size="sm" variant="subtle">enum</badge>
 
 Limit events to these change kinds.
 

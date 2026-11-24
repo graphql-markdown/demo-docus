@@ -15,7 +15,7 @@ type ProjectConnection {
 
 ### Fields
 
-#### `ProjectConnection`.`nodes`<span className="gqlmd-mdx-bullet">●</span>[`Project!!`](https://graphql-markdown.dev/docs/types/objects/project) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
+#### `ProjectConnection`.`nodes`<span className="gqlmd-mdx-bullet">●</span>[`[Project!]!`](https://graphql-markdown.dev/docs/types/objects/project) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">object</badge>
 
 Projects in the current result page.
 
