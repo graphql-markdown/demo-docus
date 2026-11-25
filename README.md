@@ -40,7 +40,7 @@ The GraphQL schema documentation is generated into `content/docs`, which [Nuxt C
 
 ### Linked deprecation reasons and Markdown copies
 
-`lib/docus-formatter.mjs` also links type names written as inline code in deprecation reasons to their pages (the ["Link entities in deprecation reasons"](https://graphql-markdown.dev/docs/customize/hooks#link-entities-in-deprecation-reasons) recipe, using `toLink` from `@graphql-markdown/printer-legacy`).
+`lib/docus-formatter.mjs` also links type names written as inline code in deprecation reasons to their pages (the ["Link entities in deprecation reasons"](https://graphql-markdown.dev/docs/customize/hooks#link-entities-in-deprecation-reasons) recipe, using `toLink` from `@graphql-markdown/printer-legacy`). `lib/decorators.mjs` adds a "deprecated" badge and a "Deprecated" notice for the schema's type-level `@deprecatedType` directive, in both outputs.
 
 Each page is also published as plain Markdown at `/docs/<slug>.md` and ends with a "View as Markdown" link, following the [Markdown copies](https://graphql-markdown.dev/docs/guides/markdown-copies) guide:
 

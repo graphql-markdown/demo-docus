@@ -1,3 +1,5 @@
+import { decorators } from "./lib/decorators.mjs";
+
 // Formatter paths must be absolute: a relative path is not resolved from the project folder
 const local = (path) => new URL(path, import.meta.url).href;
 
@@ -25,6 +27,7 @@ export default {
           linkRoot: "/",
           loaders,
           printTypeOptions,
+          decorators,
           formatter: local("./lib/docus-formatter.mjs"),
           docOptions: {
             sectionHeaderId: false,
@@ -43,6 +46,7 @@ export default {
           baseURL: "docs",
           loaders,
           printTypeOptions,
+          decorators,
           formatter: local("./lib/markdown-copy.mjs"),
           homepage: false,
           docOptions: {
