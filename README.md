@@ -37,6 +37,16 @@ The GraphQL schema documentation is generated into `content/docs`, which [Nuxt C
 
 `nuxt.config.ts` adds `graphql` to the Shiki languages Docus preloads — without it the schema code blocks render unhighlighted — and reads the site base URL from `NUXT_APP_BASE_URL`.
 
+
+### Linked deprecation reasons and Markdown copies
+
+`lib/docus-formatter.mjs` also links type names written as inline code in deprecation reasons to their pages (the ["Link entities in deprecation reasons"](https://graphql-markdown.dev/docs/customize/hooks#link-entities-in-deprecation-reasons) recipe, using `toLink` from `@graphql-markdown/printer-legacy`). `lib/decorators.mjs` adds a "deprecated" badge and a "Deprecated" notice for the schema's type-level `@deprecatedType` directive, in both outputs.
+
+Each page is also published as plain Markdown at `/docs/<slug>.md` and ends with a "View as Markdown" link, following the [Markdown copies](https://graphql-markdown.dev/docs/guides/markdown-copies) guide:
+
+- `graphql.config.mjs` defines a `markdown` project that renders the schema with `lib/markdown-copy.mjs` into `.markdown-copies/`.
+- The `copies` script generates them and copies `.markdown-copies/` into `public/` before `dev`, `build` and `generate`, because Nuxt serves `public/` as-is.
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:

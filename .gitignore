@@ -42,3 +42,7 @@ content/docs
 # Playwright
 test-results
 playwright-report
+
+# Markdown copies (generated)
+.markdown-copies/
+/public/docs/
