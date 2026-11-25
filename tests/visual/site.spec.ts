@@ -40,6 +40,24 @@ for (const [kind, url, title] of pages) {
   });
 }
 
+test("markdown copy", async ({ page }) => {
+  const response = await page.request.get("/docs/types/objects/project.md");
+  expect(response.status()).toBe(200);
+  const body = await response.text();
+  expect(body.startsWith("# ")).toBe(true);
+  expect(body).not.toContain("<span");
+});
+
+// Backticked type names in deprecation reasons link to their page.
+test("deprecation reason links to a type page", async ({ page }) => {
+  await page.goto("/docs/types/objects/project");
+  const link = page
+    .locator("div", { hasText: "Replaced by" })
+    .locator("a", { hasText: "ProjectStatus" })
+    .first();
+  await expect(link).toHaveAttribute("href", /\/types\/enums\/project-status$/);
+});
+
 test.describe("dark mode", () => {
   test.use({ colorScheme: "dark" });
 
