@@ -37,6 +37,8 @@ mutation ArchiveProject($id: ID!) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/mutations/archive-project.md)
+
 
 ## Sitemap
 

@@ -10,6 +10,8 @@ Indicates exactly one field must be supplied and this field must not be `null`.
 directive @oneOf on INPUT_OBJECT
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/one-of.md)
+
 
 ## Sitemap
 

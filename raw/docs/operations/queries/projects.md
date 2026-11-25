@@ -47,6 +47,8 @@ query ListActiveProjects($status: ProjectStatus) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/queries/projects.md)
+
 
 ## Sitemap
 

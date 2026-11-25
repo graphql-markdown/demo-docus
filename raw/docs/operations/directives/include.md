@@ -21,6 +21,8 @@ directive @include(
 
 Included when true.
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/directives/include.md)
+
 
 ## Sitemap
 

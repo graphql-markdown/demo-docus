@@ -16,6 +16,8 @@ directive @deprecatedType(
 
 #### `deprecatedType`.`reason`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/deprecated-type.md)
+
 
 ## Sitemap
 

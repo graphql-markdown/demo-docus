@@ -48,6 +48,8 @@ subscription WatchProject($projectId: ID, $types: [ProjectEventType!]) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/subscriptions/project-changed.md)
+
 
 ## Sitemap
 

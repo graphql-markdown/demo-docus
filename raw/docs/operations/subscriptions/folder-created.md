@@ -37,6 +37,8 @@ subscription WatchFolders($parentId: ID) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/subscriptions/folder-created.md)
+
 
 ## Sitemap
 

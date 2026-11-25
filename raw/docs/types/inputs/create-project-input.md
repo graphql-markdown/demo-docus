@@ -48,6 +48,10 @@ mutation
 </badge>
 
 
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/inputs/create-project-input.md)
+
+
 ## Sitemap
 
 See the full [sitemap](https://graphql-markdown.dev/sitemap.md) for all pages.

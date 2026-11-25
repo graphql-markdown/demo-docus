@@ -4,7 +4,21 @@ canonical_url: "https://graphql-markdown.dev/docs/types/objects/legacy-project"
 ---
 # LegacyProject
 
+<badge color="warning" size="sm" variant="subtle">
+
+deprecated
+
+</badge>
+
 Use Project instead for active workspace work.
+
+<accordion>
+<accordion-item icon="i-lucide-archive" label="Deprecated">
+
+Replaced by [`Project`](https://graphql-markdown.dev/docs/types/objects/project) to support ownership and lifecycle status.
+
+</accordion-item>
+</accordion>
 
 ```graphql
 type LegacyProject {
@@ -28,6 +42,8 @@ The legacy project name.
 ```graphql
 {}
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/objects/legacy-project.md)
 
 
 ## Sitemap

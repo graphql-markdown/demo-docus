@@ -23,6 +23,8 @@ directive @deprecated(
 
 Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted using the Markdown syntax, as specified by [CommonMark](https://commonmark.org/).
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/deprecated.md)
+
 
 ## Sitemap
 

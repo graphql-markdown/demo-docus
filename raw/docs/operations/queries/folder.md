@@ -37,6 +37,8 @@ query GetFolder($id: ID!) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/queries/folder.md)
+
 
 ## Sitemap
 

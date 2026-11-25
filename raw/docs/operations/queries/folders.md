@@ -42,6 +42,8 @@ query ListFolders {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/queries/folders.md)
+
 
 ## Sitemap
 

@@ -29,6 +29,8 @@ directive @include(
 
 Included when true.
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/directives/include.md)
+
 
 # skip
 
@@ -48,6 +50,8 @@ directive @skip(
 #### `skip`.`if`<span className="gqlmd-mdx-bullet">●</span>[`Boolean!`](https://graphql-markdown.dev/docs/types/scalars/boolean) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 Skipped when true.
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/directives/skip.md)
 
 
 # archiveProject
@@ -84,6 +88,8 @@ mutation ArchiveProject($id: ID!) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/mutations/archive-project.md)
 
 
 # createFolder
@@ -124,6 +130,8 @@ mutation CreateFolder($name: String!, $parentId: ID) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/mutations/create-folder.md)
+
 
 # createProject
 
@@ -163,6 +171,8 @@ mutation CreateProject($input: CreateProjectInput!) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/mutations/create-project.md)
+
 
 # folder
 
@@ -198,6 +208,8 @@ query GetFolder($id: ID!) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/queries/folder.md)
 
 
 # folders
@@ -239,6 +251,8 @@ query ListFolders {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/queries/folders.md)
 
 
 # projects
@@ -285,6 +299,8 @@ query ListActiveProjects($status: ProjectStatus) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/queries/projects.md)
 
 
 # search
@@ -333,6 +349,8 @@ query SearchWorkspace($query: String!) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/queries/search.md)
+
 
 # folderCreated
 
@@ -368,6 +386,8 @@ subscription WatchFolders($parentId: ID) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/subscriptions/folder-created.md)
 
 
 # projectChanged
@@ -416,6 +436,8 @@ subscription WatchProject($projectId: ID, $types: [ProjectEventType!]) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/subscriptions/project-changed.md)
+
 
 # deprecated
 
@@ -438,6 +460,8 @@ directive @deprecated(
 
 Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted using the Markdown syntax, as specified by [CommonMark](https://commonmark.org/).
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/deprecated.md)
+
 
 # deprecatedType
 
@@ -452,6 +476,8 @@ directive @deprecatedType(
 ### Arguments
 
 #### `deprecatedType`.`reason`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/deprecated-type.md)
 
 
 # example
@@ -470,6 +496,8 @@ directive @example(
 
 #### `example`.`value`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/example.md)
+
 
 # exampleResponse
 
@@ -485,6 +513,8 @@ directive @exampleResponse(
 ### Arguments
 
 #### `exampleResponse`.`value`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/example-response.md)
 
 
 # exampleVariables
@@ -502,6 +532,8 @@ directive @exampleVariables(
 
 #### `exampleVariables`.`value`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/example-variables.md)
+
 
 # oneOf
 
@@ -510,6 +542,8 @@ Indicates exactly one field must be supplied and this field must not be `null`.
 ```graphql
 directive @oneOf on INPUT_OBJECT
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/one-of.md)
 
 
 # specifiedBy
@@ -527,6 +561,8 @@ directive @specifiedBy(
 #### `specifiedBy`.`url`<span className="gqlmd-mdx-bullet">●</span>[`String!`](https://graphql-markdown.dev/docs/types/scalars/string) <badge color="primary" size="sm" variant="subtle">non-null</badge> <badge color="neutral" size="sm" variant="subtle">scalar</badge>
 
 The URL that specifies the behavior of this scalar.
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/specified-by.md)
 
 
 # ProjectEventType
@@ -574,6 +610,10 @@ subscription
 object
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/enums/project-event-type.md)
 
 
 # ProjectStatus
@@ -635,6 +675,10 @@ query
 </badge>
 
 
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/enums/project-status.md)
+
+
 # CreateProjectInput
 
 Input used to create a project.
@@ -679,6 +723,10 @@ The initial lifecycle stage for the project.
 mutation
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/inputs/create-project-input.md)
 
 
 # Node
@@ -734,6 +782,10 @@ object
 object
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/interfaces/node.md)
 
 
 # Folder
@@ -849,9 +901,27 @@ union
 </badge>
 
 
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/objects/folder.md)
+
+
 # LegacyProject
 
+<badge color="warning" size="sm" variant="subtle">
+
+deprecated
+
+</badge>
+
 Use Project instead for active workspace work.
+
+<accordion>
+<accordion-item icon="i-lucide-archive" label="Deprecated">
+
+Replaced by [`Project`](https://graphql-markdown.dev/docs/types/objects/project) to support ownership and lifecycle status.
+
+</accordion-item>
+</accordion>
 
 ```graphql
 type LegacyProject {
@@ -875,6 +945,8 @@ The legacy project name.
 ```graphql
 {}
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/objects/legacy-project.md)
 
 
 # Project
@@ -924,7 +996,7 @@ When the project was last updated.
 <accordion>
 <accordion-item icon="i-lucide-archive" label="Deprecated">
 
-Replaced by the `ProjectStatus` enum on status.
+Replaced by the [`ProjectStatus`](https://graphql-markdown.dev/docs/types/enums/project-status) enum on status.
 
 </accordion-item>
 </accordion>
@@ -1005,6 +1077,10 @@ union
 </badge>
 
 
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/objects/project.md)
+
+
 # ProjectConnection
 
 A paginated project result set.
@@ -1052,6 +1128,10 @@ The total number of projects matching the query.
 query
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/objects/project-connection.md)
 
 
 # ProjectEvent
@@ -1106,6 +1186,10 @@ When the change occurred.
 subscription
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/objects/project-event.md)
 
 
 # User
@@ -1187,6 +1271,10 @@ union
 </badge>
 
 
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/objects/user.md)
+
+
 # Boolean
 
 The `Boolean` scalar type represents `true` or `false`.
@@ -1214,6 +1302,10 @@ directive
 directive
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/scalars/boolean.md)
 
 
 # DateTime
@@ -1255,6 +1347,10 @@ object
 object
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/scalars/date-time.md)
 
 
 # ID
@@ -1394,6 +1490,10 @@ object
 </badge>
 
 
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/scalars/id.md)
+
+
 # Int
 
 The `Int` scalar type represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1.
@@ -1433,6 +1533,10 @@ object
 query
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/scalars/int.md)
 
 
 # String
@@ -1596,6 +1700,10 @@ object
 </badge>
 
 
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/scalars/string.md)
+
+
 # SearchResult
 
 A result returned from global workspace search.
@@ -1625,6 +1733,10 @@ A workspace member who owns and collaborates on projects.
 query
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/unions/search-result.md)
 
 
 <u-page-hero :ui="{"container":"max-w-6xl px-6 gap-14 pb-24 pt-16 lg:pt-24 lg:grid-cols-[1.05fr_0.95fr]","headline":"mb-6 font-mono text-sm text-primary","title":"max-w-xl font-serif text-5xl sm:text-5xl md:text-6xl font-semibold leading-tight","description":"mt-7 max-w-lg text-lg sm:text-lg/8 leading-8","links":"mt-10 gap-4"}" orientation="horizontal">

@@ -21,6 +21,8 @@ directive @skip(
 
 Skipped when true.
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/directives/skip.md)
+
 
 ## Sitemap
 

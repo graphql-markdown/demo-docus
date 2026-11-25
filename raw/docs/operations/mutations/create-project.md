@@ -40,6 +40,8 @@ mutation CreateProject($input: CreateProjectInput!) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/operations/mutations/create-project.md)
+
 
 ## Sitemap
 

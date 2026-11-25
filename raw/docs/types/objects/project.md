@@ -49,7 +49,7 @@ When the project was last updated.
 <accordion>
 <accordion-item icon="i-lucide-archive" label="Deprecated">
 
-Replaced by the `ProjectStatus` enum on status.
+Replaced by the [`ProjectStatus`](https://graphql-markdown.dev/docs/types/enums/project-status) enum on status.
 
 </accordion-item>
 </accordion>
@@ -128,6 +128,10 @@ object
 union
 
 </badge>
+
+
+
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/objects/project.md)
 
 
 ## Sitemap

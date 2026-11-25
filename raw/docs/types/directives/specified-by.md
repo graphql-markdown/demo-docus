@@ -18,6 +18,8 @@ directive @specifiedBy(
 
 The URL that specifies the behavior of this scalar.
 
+[View as Markdown](https://graphql-markdown.dev/demo-docus/docs/types/directives/specified-by.md)
+
 
 ## Sitemap
 
